@@ -1,14 +1,16 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title class="eduyot-title">
+      עדויות שואה
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div *ngFor="let folder of folders" 
+      class="folder"
+      (click)="openFolder(folder)">
+    {{folder}}
+  </div>
+
 </ion-content>

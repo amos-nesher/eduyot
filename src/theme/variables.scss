@@ -9,7 +9,7 @@ $font-path: "../assets/fonts";
 // The app direction is used to include
 // rtl styles in your app. For more info, please see:
 // http://ionicframework.com/docs/theming/rtl-support/
-$app-direction: ltr;
+$app-direction: "rtl";
 
 
 @import "ionic.globals";
@@ -22,7 +22,10 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-
+$font-family-base: 'OpenSans Hebrew';
+$font-family-ios-base: 'OpenSans Hebrew';
+$font-family-md-base: 'OpenSans Hebrew';
+$font-family-wp-base: 'OpenSans Hebrew';
 
 
 // Named Color Variables
@@ -53,8 +56,9 @@ $colors: (
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 
-
-
+$toolbar-md-title-text-color: #fff;
+$toolbar-ios-title-text-color: #fff;
+$toolbar-wp-title-text-color: #fff;
 
 // App Windows Variables
 // --------------------------------------------------
@@ -84,5 +88,6 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
-@import "noto-sans";
+//@import "roboto";
+//@import "noto-sans";
+//@import "open-sans-hebrew";

@@ -1,3 +1,16 @@
 page-home {
-
+    .eduyot-title {
+        height: 120px;
+        background-color: #232326;
+        background-image: url(../../assets/imgs/title.png);
+        background-repeat: no-repeat;
+    }
+    .folder {
+        font-size: 18px;
+        padding: 8px;
+        background-color: #ccc;
+        text-align: center;
+        margin: 8px;
+        border-radius: 12px;
+    }
 }

@@ -14,3 +14,36 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+@font-face {
+    font-family: heb-regular;
+    src: url(../assets/fonts/OpenSansHebrew-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: heb-bold;
+    src: url(../assets/fonts/OpenSansHebrew-Bold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: heb-light;
+    src: url(../assets/fonts/OpenSansHebrew-Light.ttf) format("ttf");
+}
+
+.heb-font {
+    font-family: heb-regular;
+}
+
+.heb-bold-font {
+    font-family: heb-bold;
+}
+
+.heb-light-font {
+    font-family: heb-light;
+}
+
+
+.toolbar-background {
+    background-color: #232326;
+}
