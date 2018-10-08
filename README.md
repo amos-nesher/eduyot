@@ -1,5 +1,9 @@
 # eduyot
 
+## About project
+Ziv, please fill up
+
+
 ## Get Started
 
 ### Clone the project from github
