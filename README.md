@@ -1,4 +1,4 @@
-# eduyot
+# Eduyot
 
 ## About project
 Ziv, please fill up
