@@ -26,3 +26,13 @@ cd eduyot
 
 npm install
 ```
+
+### Run project in local browser (development mode)
+```
+ionic start
+```
+
+### Build project for deploy on Android device
+```
+ionic cordova run android --device
+```
