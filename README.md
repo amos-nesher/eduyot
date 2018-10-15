@@ -7,7 +7,7 @@ Ziv, please fill up
 ## Get Started
 
 ### Prerequisites
-This project is based on Ionic framework on NodeJS platform. 
+This project is based on Ionic framework which depend on NodeJS platform. 
 
 - NodeJS (8.9.4)
 - NPM (5.6.0)
