@@ -15,35 +15,47 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+@import "../assets/fonts/open-sans-hebrew.scss";
 
-@font-face {
-    font-family: heb-regular;
-    src: url(../assets/fonts/OpenSansHebrew-Regular.ttf) format("ttf");
-}
+// @font-face {
+//     font-family: "heb-regular";
+//     src: url(../../assets/fonts/OpenSansHebrew-Regular.ttf) format("ttf");
+// }
 
-@font-face {
-    font-family: heb-bold;
-    src: url(../assets/fonts/OpenSansHebrew-Bold.ttf) format("ttf");
-}
+// @font-face {
+//     font-family: "heb-bold";
+//     src: url(../assets/fonts/OpenSansHebrew-Bold.ttf) format("ttf");
+// }
 
-@font-face {
-    font-family: heb-light;
-    src: url(../assets/fonts/OpenSansHebrew-Light.ttf) format("ttf");
-}
+// @font-face {
+//     font-family: "heb-light";
+//     src: url(../assets/fonts/OpenSansHebrew-Light.ttf) format("ttf");
+// }
 
 .heb-font {
-    font-family: heb-regular;
+    font-family: "OpenSansHebrew-Regular";
 }
 
 .heb-bold-font {
-    font-family: heb-bold;
+    font-family: "OpenSansHebrew-Bold";
 }
 
 .heb-light-font {
-    font-family: heb-light;
+    font-family: "OpenSansHebrew-Light";
 }
 
 
 .toolbar-background {
-    background-color: #232326;
+    background-color: $eduyot-dark;
+}
+
+ion-title {
+    height: 120px;
+        background-color: $eduyot-dark;
+        background-image: url(../../assets/imgs/title.png);
+        background-repeat: no-repeat;
+}
+
+.eduyot-bg {
+    background-color: $eduyot-dart2;
 }

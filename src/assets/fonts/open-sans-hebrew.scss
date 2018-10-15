@@ -1,0 +1,27 @@
+// OpenSans Hebrew Font
+// Google
+// Apache License, version 2.0
+// http://www.apache.org/licenses/LICENSE-2.0.html
+
+$opensans-hebrew-font-path: $font-path !default;
+
+@font-face {
+  font-family: "OpenSans Hebrew";
+  font-style: normal;
+  font-weight: 300;
+  src: local("OpenSans Hebrew Light"), local("OpenSansHebrew-Light"), url("#{$opensans-hebrew-font-path}/OpenSansHebrew-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans Hebrew";
+    font-style: normal;
+    font-weight: 400;
+    src: local("OpenSans Hebrew Regular"), local("OpenSansHebrew-Regular"), url("#{$opensans-hebrew-font-path}/OpenSansHebrew-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "OpenSans Hebrew";
+    font-style: normal;
+    font-weight: 500;
+    src: local("OpenSans Hebrew Bold"), local("OpenSansHebrew-Bold"), url("#{$opensans-hebrew-font-path}/OpenSansHebrew-Bold.ttf") format("truetype");
+  }

@@ -22,4 +22,8 @@ export class HomePage {
   openFolder(folder: string) {
     this.navCtrl.push(PlayFolderPage, {folder: folder});
   }
+
+  folderCount(folder: string) {
+    return this.recordsService.getFolderCount(folder);
+  }
 }

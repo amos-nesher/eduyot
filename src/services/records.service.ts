@@ -15,6 +15,10 @@ export class RecordsService {
             .map(name => this.getFilePath(folder, name));
     }
 
+    getFolderCount(folder: string): number {
+        return recordsData.filter(record => record.title === folder)[0].list.length;
+    }
+
     getFilePath(folder: string, filename: string) {
         return "assets/records/" + folder + "/" + filename + ".mp3";
     }

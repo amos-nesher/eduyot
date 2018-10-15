@@ -1,16 +1,26 @@
 page-home {
-    .eduyot-title {
-        height: 120px;
-        background-color: #232326;
-        background-image: url(../../assets/imgs/title.png);
-        background-repeat: no-repeat;
+    
+    ion-content.home-content {
+        padding: 0;
+        margin: 0;
+
+        div.scroll-content {
+            padding: 0;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
     }
+
     .folder {
-        font-size: 18px;
-        padding: 8px;
-        background-color: #ccc;
+        font-size: 22px;
+        padding: 16px;
         text-align: center;
-        margin: 8px;
-        border-radius: 12px;
+        color: $eduyot-light;
+        border-bottom: 1px solid $eduyot-dark3;
+    }
+
+    .folder-count {
+        font-size: 16px;
+        padding-top: 6px;
     }
 }
