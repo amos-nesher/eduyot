@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 import { recordsData } from "./records-data";
+import { RecordFolder } from "./records-data.1";
 
 @Injectable()
 export class RecordsService {
@@ -10,13 +11,21 @@ export class RecordsService {
         });
     }
 
+    getFolder(name: string): RecordFolder {
+        return recordsData.filter(record => record.title === name)[0]; 
+    }
+
     getFolderList(folder: string): string[] {
-        return recordsData.filter(record => record.title === folder)[0].list
-            .map(name => this.getFilePath(folder, name));
+        return this.getFolder(folder)
+            .list.map(name => this.getFilePath(folder, name));
     }
 
     getFolderCount(folder: string): number {
-        return recordsData.filter(record => record.title === folder)[0].list.length;
+        return this.getFolder(folder).list.length;
+    }
+
+    getFolderDescription(folder: string): string {
+        return this.getFolder(folder).description;
     }
 
     getFilePath(folder: string, filename: string) {

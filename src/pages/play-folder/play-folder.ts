@@ -15,6 +15,7 @@ import { RecordsService } from '../../services/records.service';
 })
 export class PlayFolderPage {
   public folder: string;
+  public showDescription: boolean = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private recordsService: RecordsService) {
     this.folder = navParams.get("folder");
@@ -24,8 +25,20 @@ export class PlayFolderPage {
     console.log('ionViewDidLoad PlayFolderPage');
   }
 
+  showHideDescription() {
+    this.showDescription = !this.showDescription;
+  }
+
   get filesList(): string[] {
     return this.recordsService.getFolderList(this.folder);
+  }
+
+  get folderDescription(): string {
+    return this.recordsService.getFolderDescription(this.folder);
+  }
+
+  get descriptionButtonTitle(): string {
+    return this.showDescription ? "סגור הסבר" : "הצג הסבר";
   }
 
 }

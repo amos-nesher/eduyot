@@ -10,4 +10,24 @@ page-play-folder {
         padding-right: 0;
         margin-right: -18px;
     }
+
+    .show-description-btn {
+        color: $eduyot-light;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .folder-description {
+        display: none;
+        color: $eduyot-light;
+        text-align: justify;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $eduyot-dark3;
+
+        &.show-description {
+            display: block;
+        }
+    }
+    
 }

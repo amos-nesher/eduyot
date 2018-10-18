@@ -14,6 +14,11 @@
 
 
 <ion-content padding class="eduyot-bg">
+    <div class="show-description-btn" (click)="showHideDescription()">{{descriptionButtonTitle}}</div>
+    <div class="folder-description" [class.show-description]="showDescription" [innerHTML]="folderDescription" >
+      
+    </div>
+
     <play-audio *ngFor="let fp of filesList" 
       [filePath]="fp">
     </play-audio>
