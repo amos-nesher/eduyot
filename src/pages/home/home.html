@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
+    <ion-title class="home-title">
       עדויות שואה
     </ion-title>
   </ion-navbar>
@@ -8,9 +8,9 @@
 
 <ion-content padding class="eduyot-bg home-content">
   <div *ngFor="let folder of folders" 
-      class="folder heb-bold-font"
+      class="folder"
       (click)="openFolder(folder)">
-    <div>{{folder}}</div>
+    <div class='folder-name heb-bold-font'>{{folder}}</div>
     <div class='folder-count heb-light-font'>{{folderCount(folder)}} עדויות</div>
   </div>
 
