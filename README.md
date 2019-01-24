@@ -1,7 +1,7 @@
 # Eduyot
 
 ## About project
-Ziv, please fill up
+Provide summary of testemonies from Greece related to the Hollacost
 
 
 ## Get Started
