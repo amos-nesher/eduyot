@@ -12,7 +12,6 @@ import { Playback, Person } from '../../services/model';
   templateUrl: 'play-audio.html'
 })
 export class PlayAudioComponent {
-  @Input() folder: string;
   @Input() playback: Playback;
   @Input() person: Person;
   @Output() showPerson: EventEmitter<Person> = new EventEmitter<Person>();
@@ -21,7 +20,7 @@ export class PlayAudioComponent {
   }
 
   get mp3FileName(): string {
-    return "assets/records/" + this.folder + "/" + this.playback.playbackFile + ".mp3";
+    return "assets/records/" + this.playback.playbackFile + ".mp3";
   }
 
   gotoPerson() {

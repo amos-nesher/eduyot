@@ -17,7 +17,6 @@
   <community-description [description]="community.description"></community-description>
 
   <play-list *ngFor="let subtitle of community.subtitles"
-    [folder]="community.playbackFolder"
     [subtitle]="subtitle"
     (showPerson)="gotoPerson($event)">
 

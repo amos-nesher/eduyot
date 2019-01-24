@@ -21,7 +21,6 @@ export interface Subtitle {
 export interface Community {
     name: string;
     description: string; // The description for this community
-    playbackFolder: string;
     subtitles: Array<Subtitle>;
 }
 

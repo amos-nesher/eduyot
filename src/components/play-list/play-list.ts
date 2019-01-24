@@ -13,7 +13,6 @@ import { EduyotService } from '../../services/eduyot.service';
   templateUrl: 'play-list.html'
 })
 export class PlayListComponent {
-  @Input() folder: string;
   @Input() subtitle: Subtitle;
   @Output() showPerson: EventEmitter<Person> = new EventEmitter<Person>();
   

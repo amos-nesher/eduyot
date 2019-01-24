@@ -10,7 +10,6 @@ const AFTER_RELEASE = 'אחרי השחרור';
 const SALONIKY: Community = {
     name: 'סלוניקי',
     description: SALONIKY_DESCRIPTION_DATA,
-    playbackFolder: 'זכרונות ילדות מסלוניקי',
     subtitles: [
         {
             title: BEFORE_HA_KIBUSH, 
@@ -134,7 +133,6 @@ const SALONIKY: Community = {
 const YANINA: Community = {
     name: 'יאנינה',
     description: YANINA_DESCRIPTION_DATA,
-    playbackFolder: 'יאנינה',
     subtitles: [
         {
             title: BEFORE_HA_KIBUSH, 
