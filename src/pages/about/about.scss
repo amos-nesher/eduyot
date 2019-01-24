@@ -1,0 +1,17 @@
+page-about {
+    ion-checkbox {
+        margin-left: 10px;
+    }
+
+    .remove-ion-item {
+        color: $eduyot-light;
+
+        &.item.item-md .checkbox-md {
+            margin-left: 10px;
+        }
+
+        &.item-md.item-block .item-inner {
+            border: none;
+        }
+    }
+}

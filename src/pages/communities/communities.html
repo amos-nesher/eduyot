@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="communities-title">
+      קהילות יוון
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="eduyot-bg communities-content">
+  <div *ngFor="let community of communities" 
+      class="community"
+      (click)="openCommunity(community)">
+    <div class='community-name heb-bold-font'>{{community.name}}</div>
+  </div>
+
+</ion-content>

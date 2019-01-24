@@ -1,7 +1,10 @@
 
 <div class="container">
-  <div class="title">{{fileName}}</div>
+  <div class="title">
+    {{playback.title}} / 
+    <span (click)="gotoPerson()" class="personLink">{{person.name}}</span>
+  </div>
   <audio controls>
-    <source [src]="filePath" type="audio/mpeg">
+    <source [src]="mp3FileName" type="audio/mpeg">
   </audio>
 </div>

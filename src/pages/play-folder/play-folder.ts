@@ -32,7 +32,7 @@ export class PlayFolderPage {
   get filesList(): string[] {
     return this.recordsService.getFolderList(this.folder);
   }
-
+ 
   get folderDescription(): string {
     return this.recordsService.getFolderDescription(this.folder);
   }

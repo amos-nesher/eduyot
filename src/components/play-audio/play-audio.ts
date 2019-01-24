@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Playback, Person } from '../../services/model';
 
 /**
  * Generated class for the PlayAudioComponent component.
@@ -11,15 +12,20 @@ import { Component, Input } from '@angular/core';
   templateUrl: 'play-audio.html'
 })
 export class PlayAudioComponent {
-  @Input() filePath: string;
+  @Input() folder: string;
+  @Input() playback: Playback;
+  @Input() person: Person;
+  @Output() showPerson: EventEmitter<Person> = new EventEmitter<Person>();
   
   constructor() {
   }
 
-  get fileName(): string {
-    const arr: string[] = this.filePath.split("/");
-    const name: string = arr[arr.length-1];
-    return name.substring(0, name.length-4);
+  get mp3FileName(): string {
+    return "assets/records/" + this.folder + "/" + this.playback.playbackFile + ".mp3";
+  }
+
+  gotoPerson() {
+    this.showPerson.emit(this.person);
   }
 
 }

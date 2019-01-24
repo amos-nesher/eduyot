@@ -1,0 +1,11 @@
+<div>
+  <div class="playback-list-title">{{subtitle.title}}</div>
+
+  <play-audio *ngFor="let playback of subtitle.playbacks" 
+        [folder]="folder"
+        [playback]="playback"
+        [person]="getPerson(playback.personId)"
+        (showPerson)="gotoPerson($event)">
+  </play-audio>
+  
+</div>

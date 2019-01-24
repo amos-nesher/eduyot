@@ -59,3 +59,46 @@ ion-title {
 .eduyot-bg {
     background-color: $eduyot-dart2;
 }
+
+.subpage-back-btn {
+    .back-button {
+        padding-top: 51px;
+    }
+}
+
+.subpage-title {
+    padding-top: 50px;
+    padding-right: 0;
+    margin-right: -18px;
+}
+
+.title-center {
+    text-align: center;
+    .toolbar-title-md {
+        padding-top: 48px;
+        font-size: 24px;
+    }
+}
+
+ion-content.eduyot-content {
+    padding: 0;
+    margin: 0;
+    color: $eduyot-light;
+
+    div.scroll-content {
+        padding: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.bottom-pos {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+}
