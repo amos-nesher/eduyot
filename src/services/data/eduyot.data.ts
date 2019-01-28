@@ -138,21 +138,282 @@ const YANINA: Community = {
             title: BEFORE_HA_KIBUSH, 
             playbacks: [
                 {
-                    personId: 'yoav', 
+                    personId: 'tzadokmaza', 
                     playbackFile: 'החיים בינינה שביוון לפני השואה ובמהלכה עדויות של ניצולי שואה',
-                    title: 'החיים בינינה'
+                    title: 'החיים ביאנינה ערב המלחמה'
                 }
+
             ]
         },
         {
             title: IN_THE_KIBUSH, 
             playbacks: [
                 {
-                    personId: 'mano', 
-                    playbackFile: 'Mano5 הישרדות 41-43',
-                    title: 'הישרדות'
+                    personId: 'tzadokmaza', 
+                    playbackFile: 'פלישת הגרמנים לינינה - עדויות של ניצולי שואה',
+                    title: 'פלישת הגרמנים ליאנינה'
+                },
+                {
+                    personId: 'tzadokmaza', 
+                    playbackFile: 'גירוש יהודי ינינה - עדויות של ניצולי שואה',
+                    title: 'הגירוש מיאנינה'
                 }
+            ]
+        }
+    ]
+}
 
+const OSHVITZ: Community = {
+    name: 'אושוויץ',
+    description: YANINA_DESCRIPTION_DATA,
+    subtitles: [
+        {
+            title: IN_THE_CAMPS, 
+            playbacks: [
+				{
+					personId: 'alizabaruch',
+					playbackFile: 'ALIZA BARUCH3',
+					title: 'תהליך הקליטה במחנה'
+				},
+
+				{
+					personId: 'alizabaruch',
+					playbackFile: 'ALIZA BARUCH4',
+					title: 'ההכרה באובדן ההורים'
+				},
+
+				{
+					personId: 'alizabaruch',
+					playbackFile: 'ALIZA BARUCH5',
+					title: 'ניסויים בבלוק 10'
+				},
+
+				{
+					personId: 'ovadiyabaruch',
+					playbackFile: 'OVADIA2',
+					title: 'קארנטנה- מחנה ההסגר'
+				},
+
+				{
+					personId: 'ovadiyabaruch',
+					playbackFile: 'OVADIA3',
+					title: 'מפגש עם יעקב מאסטרו'
+				},
+
+				{
+					personId: 'ovadiyabaruch',
+					playbackFile: 'OVADIA4',
+					title: 'בלוק 6 אושוויץ'
+				},
+
+				{
+					personId: 'ovadiyabaruch',
+					playbackFile: 'OVADIA_1',
+					title: 'לבדוק שלא כפול'
+				},
+
+				{
+					personId: 'haimrefael',
+					playbackFile: 'REFAEL2',
+					title: 'הגעה לרמפה בבירקנאו'
+				},
+
+				{
+					personId: 'haimrefael',
+					playbackFile: 'REFAEL4',
+					title: 'קומנדו קנדה'
+				},
+
+				{
+					personId: 'renebibas',
+					playbackFile: 'RENE BIVAS4',
+					title: 'ההפלה'
+				},
+
+				{
+					personId: 'renebibas',
+					playbackFile: 'RENE BIVAS5',
+					title: 'הכרה באובדן ומשמעות הקרמטוריום'
+				},
+
+				{
+					personId: 'renebibas',
+					playbackFile: 'RENE BIVAS6',
+					title: 'מספר על היד'
+				},
+
+				{
+					personId: 'yaakovgabay',
+					playbackFile: 'YAAKOV GABAI 1',
+					title: 'מבנה הקרמטוריום'
+				}				
+            ]
+        }
+    ]
+}
+
+const ATUNA: Community = {
+    name: 'אתונה',
+    description: YANINA_DESCRIPTION_DATA,
+    subtitles: [
+        {
+            title: IN_THE_KIBUSH, 
+            playbacks: [
+				{
+					personId: 'fortisbinyamin',
+					playbackFile: 'Fortis2 כרזות בגרמנית',
+					title: 'סנסקציות ראשונות באתונה'
+				},
+
+				{
+					personId: 'fortisbinyamin',
+					playbackFile: 'Fortis1 גודל האסון',
+					title: 'הכרה בגודל האסון של יהודי סלוניקי'
+				},
+
+				{
+					personId: 'yaakovgabay',
+					playbackFile: 'Gabay3 הגירוש מאתונה',
+					title: 'הגירוש מאתונה'
+				},
+
+				{
+					personId: 'yaakovgabay',
+					playbackFile: 'Gabay2 ידיעות על סלוניקי',
+					title: 'ידיעות על רצח קהילת סלוניקי'
+				}
+			
+            ]
+        }
+    ]
+}
+
+const BIRKINAU: Community = {
+    name: 'בירקנאו',
+    description: YANINA_DESCRIPTION_DATA,
+    subtitles: [
+        {
+            title: IN_THE_CAMPS, 
+            playbacks: [
+				{
+					personId: 'alizabaruch',
+					playbackFile: 'ALIZA1',
+					title: 'הגעה לרמפה'
+				},
+
+				{
+					personId: 'alizabaruch',
+					playbackFile: 'ALIZA_2',
+					title: 'נסויים ההקרנות בבירקנאו'
+				},
+
+				{
+					personId: 'renebibas',
+					playbackFile: 'BIVAS RENE_2',
+					title: 'מחראות '
+				},
+
+				{
+					personId: 'renebibas',
+					playbackFile: 'BIVAS_1',
+					title: 'הכניסה לבלוק'
+				},
+
+				{
+					personId: 'darioandalbertolevi',
+					playbackFile: 'DARIO2',
+					title: 'לשאלת האמונה באל'
+				},
+
+				{
+					personId: 'esterinamaestro',
+					playbackFile: 'ESTER MAESTRO_2',
+					title: 'יתרון השפה הגרמנית'
+				},
+
+				{
+					personId: 'esterrefael',
+					playbackFile: 'ESTER REFAEL2',
+					title: 'התעללות בבלוק'
+				},
+
+				{
+					personId: 'esterrefael',
+					playbackFile: 'ESTER REFAEL3',
+					title: 'סלקציה בבלוק'
+				},
+
+				{
+					personId: 'esterrefael',
+					playbackFile: 'ESTER REFAEL_1',
+					title: 'קרנטינה- מחנה ההסגר'
+				},
+
+				{
+					personId: 'yaakovgabay',
+					playbackFile: 'GABAI2',
+					title: 'זונדר קומנדו'
+				},
+
+				{
+					personId: 'frida',
+					playbackFile: 'KOBO FRIDA1',
+					title: 'קנדה- מחסני המיון'
+				},
+
+				{
+					personId: 'frida',
+					playbackFile: 'KOBO FRIDA2',
+					title: 'קשר עם קרובי המשפחה'
+				},
+
+				{
+					personId: 'esterinamaestro',
+					playbackFile: 'MAESTRO_E',
+					title: 'ההגעה לבירקנאו'
+				},
+
+				{
+					personId: 'ovadiyabaruch',
+					playbackFile: 'OVADIA1',
+					title: 'שבעה ימים ברכבת'
+				},
+
+				{
+					personId: 'haimrefael',
+					playbackFile: 'REFAEL_3 A',
+					title: 'אובדן המשפחה'
+				},
+
+				{
+					personId: 'renebibas',
+					playbackFile: 'RENE BIVAS3',
+					title: 'המכתב מסלומון- אהבה במחנה'
+				},
+
+				{
+					personId: 'itzhakstrumza',
+					playbackFile: 'STROMZA ZAK1',
+					title: 'בירקנאו מבחינה פילוסופית'
+				},
+
+            ]
+        }
+    ]
+}
+
+const VOLOS: Community = {
+    name: 'וולס',
+    description: YANINA_DESCRIPTION_DATA,
+    subtitles: [
+        {
+            title: IN_THE_KIBUSH, 
+            playbacks: [
+                {
+                    personId: 'yaakovgabay', 
+                    playbackFile: 'Gabay4 סיפור וולוס',
+                    title: 'הצלתה קהילת וולוס'
+                }
             ]
         }
     ]
@@ -160,7 +421,11 @@ const YANINA: Community = {
 
 
 export const EDUYOT_DATA: Array<Community> = [
+	ATUNA,
+	OSHVITZ,
+	BIRKINAU,
     SALONIKY,
-    YANINA
+    YANINA,
+	VOLOS
 ];
 
