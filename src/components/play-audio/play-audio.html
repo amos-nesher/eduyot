@@ -2,7 +2,7 @@
 <div class="container">
   <div class="title">
     {{playback.title}} / 
-    <span (click)="gotoPerson()" class="personLink">{{person.name}}</span>
+    <span (click)="gotoPerson()" class="personLink">{{person.first}} {{person.last}}</span>
   </div>
   <audio controls>
     <source [src]="mp3FileName" type="audio/mpeg">

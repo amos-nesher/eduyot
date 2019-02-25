@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar class="subpage-back-btn">
-    <ion-title class="subpage-title">{{person.name}}</ion-title>
+    <ion-title class="subpage-title">{{person.last}} {{person.first}}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -24,14 +24,14 @@
     </tr>
     <tr>
       <td class="detail-label">תאריך פטירה:</td>
-      <td>{{person.died}}</td>
+      <td>N/A</td>
     </tr>
     <tr>
-      <td class="detail-label">עיסוק בזמן המלחמה:</td>
-      <td>{{person.occupationOnWar}}</td>
+      <td class="detail-label">מחנות שהיה בהם:</td>
+      <td>{{person.camps}}</td>
     </tr>
   </table>
 
-  <div class="description">{{person.description}}</div>
+  <!-- <div class="description">{{person.description}}</div> -->
 
 </ion-content>
