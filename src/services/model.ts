@@ -1,9 +1,20 @@
 export interface Person {
-    name: string;
-    born: string;
-    died: string;
-    description: string;
-    occupationOnWar: string;
+    first: string;
+	last: string;
+	born: string;
+	born_country: string;
+	born_city: string;
+	mother: string;
+	father: string;
+	before_war: string;
+	after_war: string;
+	sent: string;
+	number: string;
+	camps: string;
+	released: string;
+	released_at: string;
+	aliya: string;
+	job: string;
     image: string // Use base64
 }
 
