@@ -14,4 +14,17 @@ page-about {
             border: none;
         }
     }
+
+    .about-content {
+        padding-bottom: 100px;
+    }
+
+    .bottom-pos {
+        position: fixed;
+        bottom: -1px;
+        right: 16px;
+        left: 16px;
+        padding-bottom: 2px;
+        border-top: 1px solid $eduyot-dark3;
+    }
 }

@@ -14,7 +14,7 @@
 
 
 <ion-content padding class="eduyot-bg eduyot-content relative">
-  <div>
+  <div class="about-content">
 
 בשנת 1988 ראה אור במסגרת פרסומו המכון לחקר יהדות שאלוניקי הספר "בנתיבי שְאול: יהודי יוון בשואה – פרקי עדות", ובו עדויות ראשוניות של 62 ניצולי שואה, שחיו אז בישראל, ומקום לידתם – המרחב היהודי ביוון, על מבחר קהילותיה. למעלה מ-120 שעות הקלטה פורסמו, בתמציתיות מרובה, במסגרת הספר, שהתפרש על כ-500 עמודים, והביא בפעם הראשונה ריכוז משמעותי של קולות ושל סיפורים שעד לעת ההיא כמעט ולא נשמעו. ממרחק העשורים שחלפו מאז פורסם הספר, ניתן לומר, כי "בנתיבי שאול" שימש זרז והאיץ תהליך, שבמהלכו חלק מהעדים פרסמו את זיכרונותיהם בספרים עצמאיים; חלק אחר תועד בפרויקטים ישראליים ובינלאומיים; אחדים מהעדים מצאו עצמם מתמסרים למלאכת הזיכרון וההנצחה של יהודי יוון בישראל ומחוצה לה. אין ספק, כי "בנתיבי שאול" הנציח את קולותיהם ואת סיפוריהם של אלה שכבר אינם עמנו.
 <br><br>
@@ -38,16 +38,15 @@
     
 
   </div>
-
-  <div class="bottom-pos">
-    <ion-item class="eduyot-bg remove-ion-item">
-      <ion-label>אל תציג דף זה בפתיחת האפליקציה</ion-label>
-      <ion-checkbox [(ngModel)]="initialShow"></ion-checkbox>
-    </ion-item>
-
-    <div>
-      <button ion-button full (click)="continueToApp()">המשך</button>
-    </div>
-  </div>
-
 </ion-content>
+
+<div class="bottom-pos eduyot-bg">
+  <ion-item class="eduyot-bg remove-ion-item">
+    <ion-label>אל תציג דף זה בפתיחת האפליקציה</ion-label>
+    <ion-checkbox [(ngModel)]="initialShow"></ion-checkbox>
+  </ion-item>
+
+  <div>
+    <button ion-button full (click)="continueToApp()">המשך</button>
+  </div>
+</div>
