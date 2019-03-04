@@ -105,7 +105,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
 
     "izidor": {
         first: 'איזידור',
-        last: 'אללוף',
+        last: 'רוזה',
         born: '10.1.1917', //???
         born_country: 'יוון',
         born_city: 'שאלוניקי',
