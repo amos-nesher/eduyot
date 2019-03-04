@@ -220,7 +220,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         released_at: 'לייפציג',
         aliya: '10.12.1946',
         job: 'עקרת בית',
-        image: null,
+        image: 'rene-bivas.jpg',
     },
 
     "frida": {
