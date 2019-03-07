@@ -28,7 +28,7 @@ export class PersonPage {
 
   getImage() {
     if (this.person.image) {
-      return "../assets/persons-imgs/" + this.person.image;
+      return "assets/persons-imgs/" + this.person.image;
     }
     else {
       return "data:image/png;base64," + NO_PERSON_IMAGE;
