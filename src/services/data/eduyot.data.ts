@@ -403,7 +403,7 @@ const BIRKINAU: Community = {
 }
 
 const VOLOS: Community = {
-    name: 'וולס',
+    name: 'וולוס',
     description: YANINA_DESCRIPTION_DATA,
     subtitles: [
         {
