@@ -1,6 +1,7 @@
 import { Community } from "../model";
 import { SALONIKY_DESCRIPTION_DATA } from "./saloniky.description.data";
 import { YANINA_DESCRIPTION_DATA } from "./yanina.description.data";
+import { KORFU_DESCRIPTION_DATA } from "./korfu.description.data";
 
 const BEFORE_HA_KIBUSH = 'לפני הכיבוש'; 
 const IN_THE_KIBUSH = 'בזמן הכיבוש'; 
@@ -420,12 +421,131 @@ const VOLOS: Community = {
 }
 
 
+const KORFU: Community = {
+    name: 'קורפו',
+    description: KORFU_DESCRIPTION_DATA,
+    subtitles: [
+        {
+            title: BEFORE_HA_KIBUSH, 
+            playbacks: [
+				{
+					personId: 'rivkabaleli',
+					playbackFile: 'רבקה בללי- זכרונות ילדות _ קורפו היתה ירושלים הקטנה_',
+					title: 'קורפו היתה ירושלים הקטנה'
+				},
+				{
+					personId: 'esterrefael',
+					playbackFile: 'אסתר רפאל- זכרונות ילדות _הרובע היהודי ביום כיפור_',
+					title: 'הרובע היהודי ביום כיפור'
+				},
+				{
+					personId: 'esterrefael',
+					playbackFile: 'אסתר רפאל- זכרונות ילדות _ השפות המדוברות בקורפו_',
+					title: 'השפות המדוברות בקורפו'
+				},
+				{
+					personId: 'esterrefael',
+					playbackFile: 'אסתר רפאל- זכרונות ילדות _ בעלי תפקידים בקהילה',
+					title: 'בעלי תפקידים בקהילה'
+				},
+				{
+					personId: 'esterrefael',
+					playbackFile: 'אסתר רפאל - זכרונות ילדות _ שבתות וחגים_',
+					title: 'שבתות וחגים'
+				},
+				{
+					personId: 'annagershwin',
+					playbackFile: 'אנה גרשווין- זכרונות ילדות ובית _ זכרונות בית הספר והרחוב_',
+					title: 'זכרונות בית הספר והרחוב'
+				},
+				{
+					personId: 'annagershwin',
+					playbackFile: 'אנה גרשווין קורפו6',
+					title: 'מאפייני קהילת קורפו'
+				},
+			]
+		},
+        {            title: IN_THE_KIBUSH, 
+            playbacks: [
+                {
+                    personId: 'rivkabaleli', 
+                    playbackFile: 'רבקה בללי -תקופת הכיבוש הגרמני- _ יום יום תחת הכיבוש הגרמני_',
+                    title: 'יום יום תחת הכיבוש הגרמני'
+                },
+                {
+                    personId: 'sardesaliki', 
+                    playbackFile: 'סרדס אליקי- הגרוש למחנות _ הגירוש מקורפו_',
+                    title: 'הגירוש מקורפו'
+                },
+                {
+                    personId: 'esterrefael', 
+                    playbackFile: 'אסתר רפאל -תקופת הכיבוש הגרמני _ פרוץ המלחמה והכיבוש האיטלקי',
+                    title: 'פרוץ המלחמה והכיבוש האיטלקי'
+                },
+                {
+                    personId: 'esterrefael', 
+                    playbackFile: 'אסתר רפאל - תקופת הכיבוש הגרמני _ איסורים וסנקציות על הקהילה היהודית_',
+                    title: 'איסורים וסנקציות על הקהילה היהודית'
+                },
+                {
+                    personId: 'esterrefael', 
+                    playbackFile: 'אסתר רפאל הגרוש למחנות _ מה יהיה גורלנו _',
+                    title: 'מה יהיה גורלנו'
+                },
+                {
+                    personId: 'annagershwin', 
+                    playbackFile: 'אנה גרשווין- הגרוש למחנות _ פקודת גירוש_',
+                    title: 'פקודת גירוש'
+                },
+                {
+                    personId: 'annagershwin', 
+                    playbackFile: 'אנה גרשווין- הגירוש למחנות _ הכניסה למבצר_',
+                    title: 'הכניסה למבצר'
+                },
+                {
+                    personId: 'annagershwin', 
+                    playbackFile: 'אנה גרשווין - בכיבוש הגרמני _ הקורבן הראשון מקורפו_',
+                    title: 'הקורבן הראשון מקורפו'
+                },
+            ]
+        },
+        {
+            title: IN_THE_CAMPS, 
+            playbacks: [
+				{
+					personId: 'sardesaliki',
+					playbackFile: 'אליקי סרדס- הגירוש למחנות _ מחנה חיידרי והגרוש לבירקנאו_',
+					title: 'מחנה חיידרי והגרוש לבירקנאו'
+				},
+				{
+					personId: 'annagershwin',
+					playbackFile: 'אנה גרשווין קורפו7',
+					title: 'פגישה עם אחותי במחנה'
+				},
+			]
+		},
+        {
+            title: AFTER_RELEASE, 
+            playbacks: [
+				{
+					personId: 'annagershwin',
+					playbackFile: 'אנה גרשווין קורפו5',
+					title: 'מפגש עם כומר בבית לחם'
+				},
+			]
+		},
+
+    ]
+}
+
+
 export const EDUYOT_DATA: Array<Community> = [
 	ATUNA,
 	OSHVITZ,
 	BIRKINAU,
     SALONIKY,
     YANINA,
-	VOLOS
+	VOLOS,
+	KORFU
 ];
 
