@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="eduyot.amosnesher" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>עדויות</name>
-    <description>עדויות שואה</description>
+<widget id="routes-of-hell.amosnesher" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>בנתיבי שאול</name>
+    <description>עדויות יהודי יוון בשואה</description>
     <author email="amos@amosnesher.com" href="https://amosnesher.com/">Amos Nesher</author>
     <content src="index.html" />
     <access origin="*" />
