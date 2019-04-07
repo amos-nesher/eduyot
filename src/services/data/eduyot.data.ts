@@ -13,7 +13,8 @@ const SALONIKY: Community = {
     description: SALONIKY_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: BEFORE_HA_KIBUSH, 
+			title: BEFORE_HA_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'nahman',
@@ -67,7 +68,8 @@ const SALONIKY: Community = {
             ]
         },
         {
-            title: IN_THE_KIBUSH, 
+			title: IN_THE_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'mano',
@@ -101,7 +103,8 @@ const SALONIKY: Community = {
             ]
         },
         {
-            title: IN_THE_CAMPS, 
+			title: IN_THE_CAMPS, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'ovadiyabaruch',
@@ -115,7 +118,8 @@ const SALONIKY: Community = {
 			]
 		},
         {
-            title: AFTER_RELEASE, 
+			title: AFTER_RELEASE, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'mano',
@@ -136,7 +140,8 @@ const YANINA: Community = {
     description: YANINA_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: BEFORE_HA_KIBUSH, 
+			title: BEFORE_HA_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
                 {
                     personId: 'tzadokmaza', 
@@ -147,7 +152,8 @@ const YANINA: Community = {
             ]
         },
         {
-            title: IN_THE_KIBUSH, 
+			title: IN_THE_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
                 {
                     personId: 'tzadokmaza', 
@@ -169,7 +175,8 @@ const OSHVITZ: Community = {
     description: YANINA_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: IN_THE_CAMPS, 
+			title: IN_THE_CAMPS, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'alizabaruch',
@@ -258,7 +265,8 @@ const ATUNA: Community = {
     description: YANINA_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: IN_THE_KIBUSH, 
+			title: IN_THE_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'fortisbinyamin',
@@ -294,7 +302,8 @@ const BIRKINAU: Community = {
     description: YANINA_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: IN_THE_CAMPS, 
+			title: IN_THE_CAMPS, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'alizabaruch',
@@ -408,7 +417,8 @@ const VOLOS: Community = {
     description: YANINA_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: IN_THE_KIBUSH, 
+			title: IN_THE_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
                 {
                     personId: 'yaakovgabay', 
@@ -426,7 +436,8 @@ const KORFU: Community = {
     description: KORFU_DESCRIPTION_DATA,
     subtitles: [
         {
-            title: BEFORE_HA_KIBUSH, 
+			title: BEFORE_HA_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'rivkabaleli',
@@ -465,7 +476,9 @@ const KORFU: Community = {
 				},
 			]
 		},
-        {            title: IN_THE_KIBUSH, 
+		{   
+			title: IN_THE_KIBUSH, 
+			image: "יאנינה.jpg",
             playbacks: [
                 {
                     personId: 'rivkabaleli', 
@@ -510,7 +523,8 @@ const KORFU: Community = {
             ]
         },
         {
-            title: IN_THE_CAMPS, 
+			title: IN_THE_CAMPS, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'sardesaliki',
@@ -525,7 +539,8 @@ const KORFU: Community = {
 			]
 		},
         {
-            title: AFTER_RELEASE, 
+			title: AFTER_RELEASE, 
+			image: "יאנינה.jpg",
             playbacks: [
 				{
 					personId: 'annagershwin',
@@ -539,13 +554,16 @@ const KORFU: Community = {
 }
 
 
-export const EDUYOT_DATA: Array<Community> = [
+export const KEHILOT_DATA: Array<Community> = [
 	ATUNA,
-	OSHVITZ,
-	BIRKINAU,
     SALONIKY,
     YANINA,
 	VOLOS,
 	KORFU
+];
+
+export const CAMPS_DATA: Array<Community> = [
+	OSHVITZ,
+	BIRKINAU,
 ];
 

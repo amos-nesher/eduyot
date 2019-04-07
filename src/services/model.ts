@@ -25,7 +25,8 @@ export interface Playback {
 }
 
 export interface Subtitle {
-    title: string;
+	title: string;
+	image: string;
     playbacks: Array<Playback>;
 }
 

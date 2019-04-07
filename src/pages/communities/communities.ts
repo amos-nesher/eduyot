@@ -3,6 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { EduyotService } from '../../services/eduyot.service';
 import { Community } from '../../services/model';
 import { CommunityPage } from '../community/community';
+import { CommunityPlacePage } from '../community-place/community-place';
 
 /**
  * Generated class for the CommunitiesPage page.
@@ -28,7 +29,11 @@ export class CommunitiesPage {
     return this.eduyotService.getCommunities();
   }
 
+  get camps(): Array<Community> {
+    return this.eduyotService.getCamps();
+  }
+
   openCommunity(community: Community) {
-    this.navCtrl.push(CommunityPage, {community: community});
+    this.navCtrl.push(CommunityPlacePage, {community: community});
   }
 }

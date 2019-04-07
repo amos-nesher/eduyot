@@ -3,11 +3,13 @@ import { PlayAudioComponent } from './play-audio/play-audio';
 import { CommunityDescriptionComponent } from './community-description/community-description';
 import { PlayListComponent } from './play-list/play-list';
 import { BrowserModule } from '@angular/platform-browser';
+import { ImageTitleComponent } from './image-title/image-title';
 @NgModule({
 	declarations: [
         PlayAudioComponent,
         CommunityDescriptionComponent,
-        PlayListComponent
+        PlayListComponent,
+    ImageTitleComponent
     ],
 	imports: [
         BrowserModule
@@ -15,7 +17,8 @@ import { BrowserModule } from '@angular/platform-browser';
 	exports: [
         PlayAudioComponent,
         CommunityDescriptionComponent,
-        PlayListComponent
+        PlayListComponent,
+    ImageTitleComponent
     ]
 })
 export class ComponentsModule {}

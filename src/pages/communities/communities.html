@@ -7,6 +7,14 @@
 </ion-header>
 
 <ion-content padding class="eduyot-bg communities-content">
+  <div class="title">מחנות</div>
+  <div *ngFor="let camp of camps" 
+      class="community"
+      (click)="openCommunity(camp)">
+    <div class='community-name heb-bold-font'>{{camp.name}}</div>
+  </div>
+
+  <div class="title">קהילות</div>
   <div *ngFor="let community of communities" 
       class="community"
       (click)="openCommunity(community)">
