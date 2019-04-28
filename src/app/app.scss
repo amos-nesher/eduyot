@@ -15,33 +15,22 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-@import "../assets/fonts/open-sans-hebrew.scss";
-
-// @font-face {
-//     font-family: "heb-regular";
-//     src: url(../../assets/fonts/OpenSansHebrew-Regular.ttf) format("ttf");
-// }
-
-// @font-face {
-//     font-family: "heb-bold";
-//     src: url(../assets/fonts/OpenSansHebrew-Bold.ttf) format("ttf");
-// }
-
-// @font-face {
-//     font-family: "heb-light";
-//     src: url(../assets/fonts/OpenSansHebrew-Light.ttf) format("ttf");
-// }
+@import "../assets/fonts/next-exit-hebrew.scss";
 
 .heb-font {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: "NextExitRegular";
 }
 
 .heb-bold-font {
-    font-family: "OpenSansHebrew-Bold";
+    font-family: "NextExitBold";
+}
+
+.heb-extra-bold-font {
+    font-family: "NextExitExtraBold";
 }
 
 .heb-light-font {
-    font-family: "OpenSansHebrew-Light";
+    font-family: "NextExitLight";
 }
 
 

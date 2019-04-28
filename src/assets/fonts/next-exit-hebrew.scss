@@ -1,0 +1,31 @@
+// NextExit Hebrew Font
+
+$nextexit-hebrew-font-path: $font-path !default;
+
+@font-face {
+  font-family: "NextExit Hebrew";
+  font-style: normal;
+  font-weight: 300;
+  src: local("NextExit Hebrew Light"), local("NextExitLight"), url("#{$nextexit-hebrew-font-path}/NextExitLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NextExit Hebrew";
+    font-style: normal;
+    font-weight: 400;
+    src: local("NextExit Hebrew Regular"), local("NextExitRegular"), url("#{$nextexit-hebrew-font-path}/NextExitRegular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "NextExit Hebrew";
+    font-style: normal;
+    font-weight: 500;
+    src: local("NextExit Hebrew Bold"), local("NextExitBold"), url("#{$nextexit-hebrew-font-path}/NextExitBold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "NextExit Hebrew";
+    font-style: normal;
+    font-weight: 600;
+    src: local("NextExit Hebrew Extra Bold"), local("NextExitExtraBold"), url("#{$nextexit-hebrew-font-path}/NextExitExtraBold.ttf") format("truetype");
+  }

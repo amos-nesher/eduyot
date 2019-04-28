@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Community, Subtitle } from '../../services/model';
+import { PlayListPage } from '../play-list/play-list';
 
 /**
  * Generated class for the CommunityPlacePage page.
@@ -28,6 +29,9 @@ export class CommunityPlacePage {
 
 
   gotoPlaylist(subtitle: Subtitle) {
-    alert(subtitle.title);
+    this.navCtrl.push(PlayListPage, {
+      community: this.community,
+      subtitle: subtitle
+    });
   }
 }

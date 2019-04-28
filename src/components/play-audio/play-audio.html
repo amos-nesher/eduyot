@@ -1,8 +1,10 @@
 
 <div class="container">
-  <div class="title">
-    {{playback.title}} / 
-    <span (click)="gotoPerson()" class="personLink">{{person.first}} {{person.last}}</span>
+  <div class="person personLink" (click)="gotoPerson()">
+      {{person.first}} {{person.last}}
+  </div>
+  <div class="title heb-bold-font">
+    {{playback.title}}
   </div>
   <audio controls>
     <source [src]="mp3FileName" type="audio/mpeg">
