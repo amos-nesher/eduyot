@@ -131,56 +131,7 @@ const SALONIKY: Community = {
 					title: 'השריפה 1917'
                 }
             ]
-        },
-        {
-			title: BEFORE_HA_KIBUSH, 
-			image: "יאנינה.jpg",
-            playbacks: [
-				{
-					personId: 'ovadiya',
-					playbackFile: 'ovadia 5- בית הספר',
-					title: 'בית הספר בסלוניקי'
-				}, {
-					personId: 'zak',
-					playbackFile: 'Handali1 זיכרונות',
-					title: 'פערים כלכליים בקהילה היהודית'
-				}, {
-					personId: 'yitzhakcohen',
-					playbackFile: 'Cohen5 עלייה לארץ',
-					title: 'עליה לארץ בשנות ה - 30'
-				}, {
-					personId: 'yitzhakcohen',
-					playbackFile: 'Cohen2 זכרונות ילדות',
-					title: 'אנטישמיות ואלימות , מהומות קמפבל'
-				}
-            ]
-        },
-        {
-			title: IN_THE_CAMPS, 
-			image: "יאנינה.jpg",
-            playbacks: [
-				{
-					personId: 'yaakovgabay',
-					playbackFile: 'Gabay1 מחנות העבודה',
-					title: 'מחנות עבודה בפרך'
-				}
-			]
-		},
-        {
-			title: AFTER_RELEASE, 
-			image: "יאנינה.jpg",
-            playbacks: [
-				{
-					personId: 'mano',
-					playbackFile: 'Mano3 צוואה',
-					title: 'צוואה'
-				}, {
-					personId: 'izidor',
-					playbackFile: 'Izidor1 סלוניקי זכרונות',
-					title: 'העליה לארץ והגרוש לקפריסין'
-				}
-			]
-		}
+        }
     ]
 }
 
