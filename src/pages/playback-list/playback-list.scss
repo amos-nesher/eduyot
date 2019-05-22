@@ -1,0 +1,23 @@
+page-playback-list {
+    .scroll-content {
+        padding: 0 !important;
+    }
+    
+    .page-title {
+        font-size: 40px;
+        font-weight: 800;
+        color: #fff;
+        position: relative;
+        top: -20px;
+        right: -20px;
+    }
+
+    .subtitle-title {
+        height: 58px;
+        line-height: 58px;
+        background-color: #f0f1f4;
+        color: #000;
+        font-size: 20px;
+        padding-right: 28px;
+    }
+}

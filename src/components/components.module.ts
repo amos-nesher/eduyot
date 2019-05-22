@@ -1,24 +1,26 @@
 import { NgModule } from '@angular/core';
 import { PlayAudioComponent } from './play-audio/play-audio';
 import { CommunityDescriptionComponent } from './community-description/community-description';
-import { PlayListComponent } from './play-list/play-list';
 import { BrowserModule } from '@angular/platform-browser';
 import { ImageTitleComponent } from './image-title/image-title';
+import { EduyotGroupComponent } from './eduyot-group/eduyot-group';
+import { IonicModule } from 'ionic-angular';
 @NgModule({
 	declarations: [
         PlayAudioComponent,
         CommunityDescriptionComponent,
-        PlayListComponent,
-    ImageTitleComponent
+        ImageTitleComponent,
+        EduyotGroupComponent
     ],
 	imports: [
-        BrowserModule
+        BrowserModule,
+        IonicModule
     ],
 	exports: [
         PlayAudioComponent,
         CommunityDescriptionComponent,
-        PlayListComponent,
-    ImageTitleComponent
+        ImageTitleComponent,
+        EduyotGroupComponent
     ]
 })
 export class ComponentsModule {}

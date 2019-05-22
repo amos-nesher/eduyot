@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { EduyotService } from '../../services/eduyot.service';
 import { Community } from '../../services/model';
-import { CommunityPage } from '../community/community';
-import { CommunityPlacePage } from '../community-place/community-place';
+import { PlaybackListPage } from '../playback-list/playback-list';
+import { ABOUT } from '../../services/data/about.data';
 
 /**
  * Generated class for the CommunitiesPage page.
@@ -17,12 +17,13 @@ import { CommunityPlacePage } from '../community-place/community-place';
   templateUrl: 'communities.html',
 })
 export class CommunitiesPage {
-  
+  public readMore = false;
+  public about = ABOUT;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, private eduyotService: EduyotService) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CommunitiesPage');
   }
 
   get communities(): Array<Community> {
@@ -34,6 +35,10 @@ export class CommunitiesPage {
   }
 
   openCommunity(community: Community) {
-    this.navCtrl.push(CommunityPlacePage, {community: community});
+    this.navCtrl.push(PlaybackListPage, {community: community});
+  }
+
+  doReadMore() {
+    this.readMore = !this.readMore;
   }
 }

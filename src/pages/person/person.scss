@@ -2,11 +2,11 @@ page-person {
     .imageContainer {
         display: inline-block;
         padding: 5px;
-        border: 1px solid $eduyot-light;
+        border: 1px solid $eduyot-dark;
     }
 
     .details {
-        color: $eduyot-light;
+        color: $eduyot-dark;
 
         tr td {
             padding-top: 16px;
@@ -18,7 +18,7 @@ page-person {
     }
 
     .description {
-        color: $eduyot-light;
+        color: $eduyot-dark;
         padding-top: 16px;
     }
 }

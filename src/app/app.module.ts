@@ -6,30 +6,22 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 import { ComponentsModule } from '../components/components.module';
 import { RecordsService } from '../services/records.service';
-import { PlayFolderPage } from '../pages/play-folder/play-folder';
 import { EduyotService } from '../services/eduyot.service';
 import { CommunitiesPage } from '../pages/communities/communities';
-import { CommunityPage } from '../pages/community/community';
 import { PersonPage } from '../pages/person/person';
 import { AboutPage } from '../pages/about/about';
 import { AppStateService } from '../services/app-service.service';
-import { CommunityPlacePage } from '../pages/community-place/community-place';
-import { PlayListPage } from '../pages/play-list/play-list';
+import { PlaybackListPage } from '../pages/playback-list/playback-list';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
-    HomePage,
     CommunitiesPage,
-    CommunityPage,
     PersonPage,
-    PlayFolderPage,
-    CommunityPlacePage,
-    PlayListPage
+    PlaybackListPage
   ],
   imports: [
     BrowserModule,
@@ -41,13 +33,9 @@ import { PlayListPage } from '../pages/play-list/play-list';
   entryComponents: [
     MyApp,
     AboutPage,
-    HomePage,
     CommunitiesPage,
-    CommunityPage,
     PersonPage,
-    PlayFolderPage,
-    CommunityPlacePage,
-    PlayListPage
+    PlaybackListPage
   ],
   providers: [
     StatusBar,

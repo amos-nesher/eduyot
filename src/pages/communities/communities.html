@@ -1,24 +1,29 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar class="relative">
     <ion-title class="communities-title">
-      למען הישמע קולם – בנתיבי שאול
+      בנתיבי שאול
     </ion-title>
+    <div class="read-more-button" (click)="doReadMore()">
+      קרא עוד
+    </div>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding class="eduyot-bg communities-content">
-  <div class="title">מחנות</div>
-  <div *ngFor="let camp of camps" 
-      class="community"
-      (click)="openCommunity(camp)">
-    <div class='community-name heb-bold-font'>{{camp.name}}</div>
+  <div class="read-more" 
+       [class.read-more-open]="readMore" 
+       [innerHTML]="about">
   </div>
 
-  <div class="title">קהילות</div>
-  <div *ngFor="let community of communities" 
-      class="community"
-      (click)="openCommunity(community)">
-    <div class='community-name heb-bold-font'>{{community.name}}</div>
-  </div>
-
+  <div class="community-title">מחנות</div>
+  <eduyot-group *ngFor="let camp of camps"
+    [community]="camp"
+    (click)="openCommunity(camp)">
+  </eduyot-group>
+  
+  <div class="community-title">קהילות</div>
+  <eduyot-group *ngFor="let community of communities"
+    [community]="community"
+    (click)="openCommunity(community)">
+  </eduyot-group>
 </ion-content>

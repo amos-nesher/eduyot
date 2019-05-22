@@ -1,19 +1,45 @@
 play-audio {
 
     .container {
-        padding-bottom: 16px;
-    }
-
-    .title {
         padding-top: 16px;
-        padding-bottom: 6px;
-        color: $eduyot-light
+        padding-bottom: 16px;
+        padding-right: 28px;
+        border-bottom: 1px solid #c7c7c7;
     }
 
-    .personLink {
-        color: white;
-        text-decoration: underline;
-        cursor: pointer;
-        font-size: 16px;
+    .info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .image {
+            padding-left: 10px;
+            img {
+                width: 43px;
+                height: 43px;
+                border-radius: 50%;
+            }  
+            
+            .no-image {
+                font-size: 36px;
+                padding-right: 10px;
+            }
+        }
+
+        .personLink {
+            color: $eduyot-dark;
+            font-size: 20px;
+            position: relative;
+            top: 2px;
+        }
+        
+        .title {
+            color: $eduyot-dark;
+            font-size: 24px;
+            font-weight: 800;
+            position: relative;
+            top: -4px;
+        }
     }
+    
 }

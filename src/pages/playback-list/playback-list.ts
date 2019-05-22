@@ -1,34 +1,31 @@
-import { Component, Output, EventEmitter } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Community, Subtitle, Person } from '../../services/model';
+import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
+import { Community, Person } from '../../services/model';
 import { EduyotService } from '../../services/eduyot.service';
 import { PersonPage } from '../person/person';
 
 /**
- * Generated class for the PlayListPage page.
+ * Generated class for the PlaybackListPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-play-list',
-  templateUrl: 'play-list.html',
+  selector: 'page-playback-list',
+  templateUrl: 'playback-list.html',
 })
-export class PlayListPage {
-  //@Output() showPerson: EventEmitter<Person> = new EventEmitter<Person>();
-  
+export class PlaybackListPage {
   public community: Community;
-  public subtitle: Subtitle;
+  public showDescription: boolean = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
     private eduyotService: EduyotService) {
     this.community = navParams.get("community");
-    this.subtitle = navParams.get("subtitle");
   }
 
   ionViewDidLoad() {
-    
+
   }
 
   getPerson(personId) {
@@ -38,4 +35,9 @@ export class PlayListPage {
   gotoPerson(person: Person) {
     this.navCtrl.push(PersonPage, {person: person});
   }
+
+  doBack() {
+    this.navCtrl.pop();
+  }
+
 }

@@ -27,4 +27,14 @@ export class PlayAudioComponent {
     this.showPerson.emit(this.person);
   }
 
+  getImage() {
+    if (this.person.image) {
+      return "assets/persons-imgs/" + this.person.image;
+    }
+  }
+
+  get imageExists(): boolean {
+    return !!this.person.image;
+  }
+ 
 }
