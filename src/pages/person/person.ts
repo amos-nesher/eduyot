@@ -17,6 +17,7 @@ const NO_PERSON_IMAGE = "iVBORw0KGgoAAAANSUhEUgAAAGQAAABoCAMAAAAw/qUdAAAAvVBMVEV
 })
 export class PersonPage {
   public person: Person;
+  public eduyotCount = 0;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.person = navParams.get("person");

@@ -2,11 +2,22 @@ eduyot-group {
 
     .container {
         position: relative;
-        height: 126px;
-        padding: 16px;
-        border: 5px solid #f0f1f4;
-        background-color: $eduyot-dark3;
+        height: 80px;
         color: #fff;
+
+        &.link-box {
+            height: 126px;
+            padding: 16px;
+            border: 5px solid #f0f1f4;
+            background-color: $eduyot-dark3;
+        }
+
+        &.page-header {
+            position: absolute;
+            width: 100%;
+            top: 56px;
+            right: 52px;
+        }
     }
 
     .group-name {

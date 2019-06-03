@@ -12,27 +12,8 @@ import { Community } from '../../services/model';
   templateUrl: 'eduyot-group.html'
 })
 export class EduyotGroupComponent {
-  _community: Community;
-  personCount = 0;
-  eduyotCount = 0;
-
-  private persons = {};
-
-  @Input() 
-  set community(community: Community) {
-    this._community = community;
-
-    community.subtitles.forEach((subtitle) => {
-      subtitle.playbacks.forEach((playback) => {
-        if (! this.persons[playback.personId]) {
-          this.persons[playback.personId] = 1;
-          this.personCount++;
-        }
-
-        this.eduyotCount++;
-      });  
-    });
-  }
+  @Input() header: boolean = false;
+  @Input() community: Community; 
 
   constructor() {
   }

@@ -7,16 +7,27 @@
 <ion-header>
 
   <ion-navbar class="subpage-back-btn">
-    <ion-title class="subpage-title">{{person.last}} {{person.first}}</ion-title>
+    <ion-title class="subpage-title">חזור</ion-title>
   </ion-navbar>
 
-</ion-header>
-
-<ion-content padding class="eduyot-bg">
   <div class="imageContainer">
     <img [src]="getImage()" alt="טוען תמונה..."/>
   </div>
-  
+
+</ion-header>
+
+<ion-content padding class="eduyot-bg">  
+  <div>
+    <div class="person-name heb-bold-font">{{person.last}} {{person.first}}</div>
+    <div class="person-playback-count">
+        <ion-icon name="md-microphone" class="microphone-custom"></ion-icon>
+        <span>{{person.playbackCount}}</span>
+        עדויות
+    </div>
+  </div>
+
+  <div class="seperator"></div>
+
   <table class="details">
     <tr>
       <td class="detail-label">תאריך לידה:</td>

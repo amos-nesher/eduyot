@@ -15,7 +15,9 @@ export interface Person {
 	released_at: string;
 	aliya: string;
 	job: string;
-    image: string // Use base64
+	image: string // Use base64
+	
+	playbackCount?: number;
 }
 
 export interface Playback {
@@ -33,6 +35,8 @@ export interface Subtitle {
 export interface Community {
     name: string;
     description: string; // The description for this community
-    subtitles: Array<Subtitle>;
+	subtitles: Array<Subtitle>;
+	playbackCount?: number;
+	personCount?: number;
 }
 
