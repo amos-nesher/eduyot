@@ -14,6 +14,7 @@ import { PersonPage } from '../pages/person/person';
 import { AboutPage } from '../pages/about/about';
 import { AppStateService } from '../services/app-service.service';
 import { PlaybackListPage } from '../pages/playback-list/playback-list';
+import { CommunityInfoPage } from '../pages/community-info/community-info';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PlaybackListPage } from '../pages/playback-list/playback-list';
     AboutPage,
     CommunitiesPage,
     PersonPage,
-    PlaybackListPage
+    PlaybackListPage,
+    CommunityInfoPage,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { PlaybackListPage } from '../pages/playback-list/playback-list';
     AboutPage,
     CommunitiesPage,
     PersonPage,
-    PlaybackListPage
+    PlaybackListPage,
+    CommunityInfoPage
   ],
   providers: [
     StatusBar,

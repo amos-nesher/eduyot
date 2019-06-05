@@ -3,6 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { Community, Person } from '../../services/model';
 import { EduyotService } from '../../services/eduyot.service';
 import { PersonPage } from '../person/person';
+import { CommunityInfoPage } from '../community-info/community-info';
 
 /**
  * Generated class for the PlaybackListPage page.
@@ -34,6 +35,10 @@ export class PlaybackListPage {
 
   gotoPerson(person: Person) {
     this.navCtrl.push(PersonPage, {person: person});
+  }
+
+  gotoMoreInfoPage() {
+    this.navCtrl.push(CommunityInfoPage, {community: this.community});
   }
 
   doBack() {

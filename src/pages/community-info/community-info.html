@@ -1,0 +1,18 @@
+
+<ion-header>
+
+  <ion-navbar class="subpage-back-btn">
+    <ion-title class="subpage-title">חזור</ion-title>
+    <div class='community-title heb-bold-font'>
+      <div>{{community.name}}</div>
+      <div class='addition-info'>מידע נוסף</div>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="eduyot-bg eduyot-content relative">
+  <div class="content" [innerHTML]="community.description">
+  </div>
+</ion-content>

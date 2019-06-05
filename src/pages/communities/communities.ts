@@ -4,6 +4,7 @@ import { EduyotService } from '../../services/eduyot.service';
 import { Community } from '../../services/model';
 import { PlaybackListPage } from '../playback-list/playback-list';
 import { ABOUT } from '../../services/data/about.data';
+import { CommunityInfoPage } from '../community-info/community-info';
 
 /**
  * Generated class for the CommunitiesPage page.
@@ -35,7 +36,13 @@ export class CommunitiesPage {
   }
 
   openCommunity(community: Community) {
-    this.navCtrl.push(PlaybackListPage, {community: community});
+    if (community.subtitles.length > 0) {
+      this.navCtrl.push(PlaybackListPage, {community: community});
+    }
+    else {
+      this.navCtrl.push(CommunityInfoPage, {community: community});
+    }
+    
   }
 
   doReadMore() {
