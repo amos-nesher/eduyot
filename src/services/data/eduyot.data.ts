@@ -2,6 +2,7 @@ import { Community } from "../model";
 import { SALONIKY_DESCRIPTION_DATA } from "./saloniky.description.data";
 import { YANINA_DESCRIPTION_DATA } from "./yanina.description.data";
 import { KORFU_DESCRIPTION_DATA } from "./korfu.description.data";
+import { ATUNA_DESCRIPTION_DATA } from "./atuna.description.data";
 
 const BEFORE_HA_KIBUSH = 'לפני הכיבוש'; 
 const IN_THE_KIBUSH = 'בזמן הכיבוש'; 
@@ -262,7 +263,7 @@ const OSHVITZ: Community = {
 
 const ATUNA: Community = {
     name: 'אתונה',
-    description: YANINA_DESCRIPTION_DATA,
+    description: ATUNA_DESCRIPTION_DATA,
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
