@@ -15,7 +15,7 @@ const SALONIKY: Community = {
     subtitles: [
         {
 			title: 'המוזיאון היהודי',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - המוזיאון היהודי.jpg",
             playbacks: [
                 {
 					personId: 'nahman',
@@ -37,7 +37,7 @@ const SALONIKY: Community = {
 //        },
         {
 			title: 'מתנות לאביונים',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - מתנות לאביונים.jpg",
             playbacks: [
                 {
 					personId: 'frida',
@@ -56,7 +56,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'בית הכנסת מונסטירליס',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - בית הכנסת המונסטירליס.jpg",
             playbacks: [
                 {
 					personId: 'yitzhakcohen',
@@ -71,7 +71,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'בית העלמין החדש',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - בית העלמין החדש.jpg",
             playbacks: [
                 {
 					personId: 'mano',
@@ -82,7 +82,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'שכונת הברון הירש',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - בית החולים הברון הירש.jpg",
             playbacks: [
 				{
 					personId: 'haimrefael',
@@ -101,7 +101,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תחנת הרכבת',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - תחנת הרכבת הברון הירש.jpg",
             playbacks: [
                 {
 					personId: 'mano',
@@ -124,7 +124,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תצפית מידי קולה',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - תצפית מידי קולה.jpg",
             playbacks: [
 				{
 					personId: 'yitzhakcohen',
