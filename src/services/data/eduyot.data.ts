@@ -1,5 +1,5 @@
 import { Community } from "../model";
-import { SALONIKY_DESCRIPTION_DATA } from "./saloniky.description.data";
+import { SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON } from "./saloniky.description.data";
 import { YANINA_DESCRIPTION_DATA } from "./yanina.description.data";
 import { KORFU_DESCRIPTION_DATA } from "./korfu.description.data";
 
@@ -10,11 +10,13 @@ const AFTER_RELEASE = 'אחרי השחרור';
 
 const SALONIKY: Community = {
     name: 'סלוניקי',
-    description: SALONIKY_DESCRIPTION_DATA,
+	description: SALONIKY_DESCRIPTION_DATA,
+	titleImage: 'saloniki-title.png',
     subtitles: [
         {
 			title: 'המוזיאון היהודי',
 			image: "יאנינה.jpg",
+			description: SALONIKY_MOSEON,
             playbacks: [
                 {
 					personId: 'nahman',
@@ -137,7 +139,8 @@ const SALONIKY: Community = {
 
 const YANINA: Community = {
     name: 'יאנינה',
-    description: YANINA_DESCRIPTION_DATA,
+	description: YANINA_DESCRIPTION_DATA,
+	titleImage: 'ioannina-title.png',
     subtitles: [
         {
 			title: BEFORE_HA_KIBUSH, 
@@ -172,7 +175,8 @@ const YANINA: Community = {
 
 const OSHVITZ: Community = {
     name: 'אושוויץ',
-    description: YANINA_DESCRIPTION_DATA,
+	description: YANINA_DESCRIPTION_DATA,
+	titleImage: 'auschwitz-title.png',
     subtitles: [
         {
 			title: IN_THE_CAMPS, 
@@ -262,7 +266,8 @@ const OSHVITZ: Community = {
 
 const ATUNA: Community = {
     name: 'אתונה',
-    description: YANINA_DESCRIPTION_DATA,
+	description: YANINA_DESCRIPTION_DATA,
+	titleImage: 'athenes-title.png',
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
@@ -299,7 +304,8 @@ const ATUNA: Community = {
 
 const BIRKINAU: Community = {
     name: 'בירקנאו',
-    description: YANINA_DESCRIPTION_DATA,
+	description: YANINA_DESCRIPTION_DATA,
+	titleImage: 'auschwitz-title.png',
     subtitles: [
         {
 			title: IN_THE_CAMPS, 
@@ -414,7 +420,8 @@ const BIRKINAU: Community = {
 
 const VOLOS: Community = {
     name: 'וולוס',
-    description: YANINA_DESCRIPTION_DATA,
+	description: YANINA_DESCRIPTION_DATA,
+	titleImage: '',
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
@@ -433,7 +440,8 @@ const VOLOS: Community = {
 
 const KORFU: Community = {
     name: 'קורפו',
-    description: KORFU_DESCRIPTION_DATA,
+	description: KORFU_DESCRIPTION_DATA,
+	titleImage: '',
     subtitles: [
         {
 			title: BEFORE_HA_KIBUSH, 
@@ -555,7 +563,8 @@ const KORFU: Community = {
 
 const TEST_NO_DATA: Community = {
 	name: 'מקום בלי עדויות',
-    description: KORFU_DESCRIPTION_DATA,
+	description: KORFU_DESCRIPTION_DATA,
+	titleImage: '',
     subtitles: []
 }
 

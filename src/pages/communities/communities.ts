@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, NavParams, Content } from 'ionic-angular';
 import { EduyotService } from '../../services/eduyot.service';
 import { Community } from '../../services/model';
 import { PlaybackListPage } from '../playback-list/playback-list';
@@ -18,6 +18,8 @@ import { CommunityInfoPage } from '../community-info/community-info';
   templateUrl: 'communities.html',
 })
 export class CommunitiesPage {
+  @ViewChild("content") content: ViewChild;
+
   public readMore = false;
   public about = ABOUT;
 
@@ -47,5 +49,8 @@ export class CommunitiesPage {
 
   doReadMore() {
     this.readMore = !this.readMore;
+
+    // @ts-ignore
+    this.content.scrollToTop();
   }
 }

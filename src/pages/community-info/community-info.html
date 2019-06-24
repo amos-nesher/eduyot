@@ -4,7 +4,7 @@
   <ion-navbar class="subpage-back-btn">
     <ion-title class="subpage-title">חזור</ion-title>
     <div class='community-title heb-bold-font'>
-      <div>{{community.name}}</div>
+      <div>{{title}}</div>
       <div class='addition-info'>מידע נוסף</div>
     </div>
   </ion-navbar>
@@ -13,6 +13,6 @@
 
 
 <ion-content padding class="eduyot-bg eduyot-content relative">
-  <div class="content" [innerHTML]="community.description">
+  <div class="content" [innerHTML]="infoHtml">
   </div>
 </ion-content>

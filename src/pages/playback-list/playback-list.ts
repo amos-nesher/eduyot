@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Community, Person } from '../../services/model';
+import { Community, Person, Subtitle } from '../../services/model';
 import { EduyotService } from '../../services/eduyot.service';
 import { PersonPage } from '../person/person';
 import { CommunityInfoPage } from '../community-info/community-info';
@@ -41,8 +41,30 @@ export class PlaybackListPage {
     this.navCtrl.push(CommunityInfoPage, {community: this.community});
   }
 
-  doBack() {
-    this.navCtrl.pop();
+  gotoSubtitleInfo(subtitle: Subtitle) {
+    if (subtitle.description) {
+      this.navCtrl.push(CommunityInfoPage, {subtitle: subtitle});
+    }
   }
 
+  // doBack() {
+  //   this.navCtrl.pop();
+  // }
+
+  imageLink(): string {
+    if (this.community.titleImage) {
+      return 'assets/imgs/' + this.community.titleImage;
+    }
+
+    return '';
+  }
+
+  subTitleImageLink(image: String): string {
+    if (image) {
+      return 'assets/imgs/' + image;
+    }
+      
+    return '';
+  }
+  
 }

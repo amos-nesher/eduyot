@@ -12,12 +12,18 @@ import { Community } from '../../services/model';
   templateUrl: 'eduyot-group.html'
 })
 export class EduyotGroupComponent {
-  @Input() header: boolean = false;
   @Input() community: Community; 
 
   constructor() {
   }
 
+  get imageLink(): string {
+    if (this.community.titleImage) {
+      return 'assets/imgs/' + this.community.titleImage;
+    }
+
+    return '';
+  }
   
 
 }

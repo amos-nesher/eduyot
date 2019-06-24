@@ -29,12 +29,14 @@ export interface Playback {
 export interface Subtitle {
 	title: string;
 	image: string;
-    playbacks: Array<Playback>;
+	playbacks: Array<Playback>;
+	description?: string;
 }
 
 export interface Community {
     name: string;
-    description: string; // The description for this community
+	description: string; // The description for this community
+	titleImage: string; 
 	subtitles: Array<Subtitle>;
 	playbackCount?: number;
 	personCount?: number;

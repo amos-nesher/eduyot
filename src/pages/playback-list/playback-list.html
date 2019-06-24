@@ -1,17 +1,28 @@
 
 <ion-header>
+    <img *ngIf="imageLink()" [src]="imageLink()" class="title-image" />
 
-    <ion-navbar class="subpage-back-btn">
-        <ion-title class="subpage-title">חזור לראשי</ion-title>
-        <eduyot-group [community]="community" [header]="true"> </eduyot-group>
-        <div class="addition-info" (click)="gotoMoreInfoPage()">מידע נוסף</div>
+    <ion-navbar class="playback-navbar subpage-back-btn">    
+        <ion-title class="">חזור לראשי</ion-title>
+        <div class="community-title heb-bold-font">{{community.name}}</div>
+        <community-counter [community]="community" class="community-counter"></community-counter>
+        <div class="addition-info" (click)="gotoMoreInfoPage()">
+            <ion-icon name="custom-info" class="info-icon"></ion-icon> 
+            מידע נוסף
+        </div>
     </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
   <div *ngFor="let subtitle of community.subtitles">
-    <div class="subtitle-title">{{subtitle.title}}</div>
+    <div class="subtitle-title" (click)="gotoSubtitleInfo(subtitle)">
+      {{subtitle.title}}
+      <ion-icon *ngIf="subtitle.description" name="custom-info" class="info-icon"></ion-icon>
+    </div>
+    <div *ngIf="subtitle.image"  (click)="gotoSubtitleInfo(subtitle)">
+      <img [src]="subTitleImageLink(subtitle.image)" class="subtitle-image"/>
+    </div>
 
     <play-audio *ngFor="let playback of subtitle.playbacks" 
       [playback]="playback"

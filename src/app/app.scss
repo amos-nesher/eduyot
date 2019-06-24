@@ -88,3 +88,24 @@ ion-content.eduyot-content {
     position: relative;
 }
 
+ion-icon {
+    &[class*="custom-"] {
+      mask-size: contain;
+      mask-position: 50% 50%;
+      mask-repeat: no-repeat;
+      background: currentColor;
+      width: 1em;
+      height: 1em;
+    }
+  
+    &[class*="custom-info"] {
+      mask-image: url(../assets/svg/info.svg);
+    }
+    &[class*="custom-playback"] {
+      mask-image: url(../assets/svg/playback.svg);
+    }
+    &[class*="custom-profile"] {
+      mask-image: url(../assets/svg/profile.svg);
+    }
+  
+  }

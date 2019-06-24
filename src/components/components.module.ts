@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ImageTitleComponent } from './image-title/image-title';
 import { EduyotGroupComponent } from './eduyot-group/eduyot-group';
 import { IonicModule } from 'ionic-angular';
+import { CommunityCounterComponent } from './community-counter/community-counter';
 @NgModule({
 	declarations: [
         PlayAudioComponent,
         CommunityDescriptionComponent,
         ImageTitleComponent,
-        EduyotGroupComponent
+        EduyotGroupComponent,
+    CommunityCounterComponent
     ],
 	imports: [
         BrowserModule,
@@ -20,7 +22,8 @@ import { IonicModule } from 'ionic-angular';
         PlayAudioComponent,
         CommunityDescriptionComponent,
         ImageTitleComponent,
-        EduyotGroupComponent
+        EduyotGroupComponent,
+    CommunityCounterComponent
     ]
 })
 export class ComponentsModule {}
