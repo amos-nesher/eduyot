@@ -58,7 +58,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'בית הכנסת מונסטירליס',
-			image: "סלוניקי - בית הכנסת המונסטירליס.jpg",
+			image: "saloniky_monastir_synagogue.jpg",
             playbacks: [
                 {
 					personId: 'yitzhakcohen',
