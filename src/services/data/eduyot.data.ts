@@ -105,6 +105,11 @@ const SALONIKY: Community = {
 			title: 'תחנת הרכבת',
 			image: 'saloniky_train_station_baron_hirsh.jpg',
             playbacks: [
+			{
+					personId: 'frida',
+					playbackFile: 'saloniky_kobo_frida_train_station_baron_hirsh_news_on_deportation',
+					title: 'ידיעות על הגירוש קובו פרידה'
+			},
                 {
 					personId: 'mano',
 					playbackFile: 'Mano6 נאום קורץ',
