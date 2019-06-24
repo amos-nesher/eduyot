@@ -39,7 +39,7 @@ const SALONIKY: Community = {
 //        },
         {
 			title: 'מתנות לאביונים',
-			image: "סלוניקי - מתנות לאביונים.jpg",
+			image: 'saloniky_matanot_laevyonim.jpg',
             playbacks: [
                 {
 					personId: 'frida',
@@ -73,7 +73,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'בית העלמין החדש',
-			image: "סלוניקי - בית העלמין החדש.jpg",
+			image: 'saloniky_new_cemetery.jpg',
             playbacks: [
                 {
 					personId: 'mano',
@@ -103,7 +103,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תחנת הרכבת',
-			image: "סלוניקי - saloniky_train_station_baron_hirsh2.jpg",
+			image: 'saloniky_train_station_baron_hirsh.jpg',
             playbacks: [
                 {
 					personId: 'mano',
@@ -126,7 +126,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תצפית מידי קולה',
-			image: "סלוניקי - תצפית מידי קולה.jpg",
+			image: 'saloniky_yad_kula_view.jpg',
             playbacks: [
 				{
 					personId: 'yitzhakcohen',
