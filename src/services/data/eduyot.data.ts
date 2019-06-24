@@ -2,6 +2,7 @@ import { Community } from "../model";
 import { SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON } from "./saloniky.description.data";
 import { YANINA_DESCRIPTION_DATA } from "./yanina.description.data";
 import { KORFU_DESCRIPTION_DATA } from "./korfu.description.data";
+import { ATUNA_DESCRIPTION_DATA } from "./atuna.description.data";
 
 const BEFORE_HA_KIBUSH = 'לפני הכיבוש'; 
 const IN_THE_KIBUSH = 'בזמן הכיבוש'; 
@@ -15,8 +16,8 @@ const SALONIKY: Community = {
     subtitles: [
         {
 			title: 'המוזיאון היהודי',
-			image: "יאנינה.jpg",
 			description: SALONIKY_MOSEON,
+			image: "סלוניקי - המוזיאון היהודי.jpg",
             playbacks: [
                 {
 					personId: 'nahman',
@@ -38,7 +39,7 @@ const SALONIKY: Community = {
 //        },
         {
 			title: 'מתנות לאביונים',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - מתנות לאביונים.jpg",
             playbacks: [
                 {
 					personId: 'frida',
@@ -57,7 +58,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'בית הכנסת מונסטירליס',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - בית הכנסת המונסטירליס.jpg",
             playbacks: [
                 {
 					personId: 'yitzhakcohen',
@@ -72,7 +73,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'בית העלמין החדש',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - בית העלמין החדש.jpg",
             playbacks: [
                 {
 					personId: 'mano',
@@ -83,7 +84,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'שכונת הברון הירש',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - בית החולים הברון הירש.jpg",
             playbacks: [
 				{
 					personId: 'haimrefael',
@@ -102,7 +103,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תחנת הרכבת',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - תחנת הרכבת הברון הירש.jpg",
             playbacks: [
                 {
 					personId: 'mano',
@@ -125,7 +126,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תצפית מידי קולה',
-			image: "יאנינה.jpg",
+			image: "סלוניקי - תצפית מידי קולה.jpg",
             playbacks: [
 				{
 					personId: 'yitzhakcohen',
@@ -266,8 +267,8 @@ const OSHVITZ: Community = {
 
 const ATUNA: Community = {
     name: 'אתונה',
-	description: YANINA_DESCRIPTION_DATA,
 	titleImage: 'athenes-title.png',
+    description: ATUNA_DESCRIPTION_DATA,
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
