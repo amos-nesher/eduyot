@@ -103,7 +103,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'תחנת הרכבת',
-			image: "סלוניקי - תחנת הרכבת הברון הירש.jpg",
+			image: "סלוניקי - saloniky_train_station_baron_hirsh2.jpg",
             playbacks: [
                 {
 					personId: 'mano',
