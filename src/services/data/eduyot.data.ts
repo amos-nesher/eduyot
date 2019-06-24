@@ -84,7 +84,7 @@ const SALONIKY: Community = {
         },
         {
 			title: 'שכונת הברון הירש',
-			image: "סלוניקי - בית החולים הברון הירש.jpg",
+			image: "saloniky_hospital_baron_hirsh.jpg",
             playbacks: [
 				{
 					personId: 'haimrefael',
