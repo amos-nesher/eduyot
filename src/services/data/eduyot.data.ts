@@ -145,7 +145,7 @@ const YANINA: Community = {
     subtitles: [
         {
 			title: BEFORE_HA_KIBUSH, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
                 {
                     personId: 'tzadokmaza', 
@@ -157,7 +157,7 @@ const YANINA: Community = {
         },
         {
 			title: IN_THE_KIBUSH, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
                 {
                     personId: 'tzadokmaza', 
@@ -181,7 +181,7 @@ const OSHVITZ: Community = {
     subtitles: [
         {
 			title: IN_THE_CAMPS, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
 				{
 					personId: 'alizabaruch',
@@ -272,7 +272,7 @@ const ATUNA: Community = {
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
 				{
 					personId: 'fortisbinyamin',
@@ -310,7 +310,7 @@ const BIRKINAU: Community = {
     subtitles: [
         {
 			title: IN_THE_CAMPS, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
 				{
 					personId: 'alizabaruch',
@@ -426,7 +426,7 @@ const VOLOS: Community = {
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
                 {
                     personId: 'yaakovgabay', 
@@ -446,7 +446,7 @@ const KORFU: Community = {
     subtitles: [
         {
 			title: BEFORE_HA_KIBUSH, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
 				{
 					personId: 'rivkabaleli',
@@ -487,7 +487,7 @@ const KORFU: Community = {
 		},
 		{   
 			title: IN_THE_KIBUSH, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
                 {
                     personId: 'rivkabaleli', 
@@ -533,7 +533,7 @@ const KORFU: Community = {
         },
         {
 			title: IN_THE_CAMPS, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
 				{
 					personId: 'sardesaliki',
@@ -549,7 +549,7 @@ const KORFU: Community = {
 		},
         {
 			title: AFTER_RELEASE, 
-			image: "יאנינה.jpg",
+			image: "yanina.jpg",
             playbacks: [
 				{
 					personId: 'annagershwin',
