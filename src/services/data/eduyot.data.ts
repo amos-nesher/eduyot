@@ -92,7 +92,7 @@ const SALONIKY: Community = {
 					title: 'חיסול גטו הברון הירש'
                 }, {
 					personId: 'renebibas',
-					playbackFile: 'Bivas1 הרב קורץ',
+					playbackFile: 'Bivas1_rav_kurtz',
 					title: 'נאום הרב קורץ בבית הכנסת'
 				}, { // didn't appear in Liat's list
 					personId: 'mano',
@@ -115,11 +115,11 @@ const SALONIKY: Community = {
 					title: 'בתחנת הרכבת לפני הגרוש'
 				}, {
 					personId: 'renebibas',
-					playbackFile: 'Bivas2 הערכות לנסיעה',
+					playbackFile: 'Bivas2_prepare_for_travel',
 					title: 'הערכות לגרוש'
                 }, { // don't appear in Liat's list
 					personId: 'renebibas',
-					playbackFile: 'Bivas3 ברכבת',
+					playbackFile: 'Bivas3_in_train',
 					title: 'הנסיעה ברכבת לבירקנאו'
 				}
             ]
