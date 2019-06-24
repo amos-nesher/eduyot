@@ -17,7 +17,7 @@ const SALONIKY: Community = {
         {
 			title: 'המוזיאון היהודי',
 			description: SALONIKY_MOSEON,
-			image: "סלוניקי - המוזיאון היהודי.jpg",
+			image: "saloniky_jewish_musium.jpg",
             playbacks: [
                 {
 					personId: 'nahman',
@@ -272,7 +272,7 @@ const ATUNA: Community = {
     subtitles: [
         {
 			title: IN_THE_KIBUSH, 
-			image: "yanina.jpg",
+			image: null,
             playbacks: [
 				{
 					personId: 'fortisbinyamin',
