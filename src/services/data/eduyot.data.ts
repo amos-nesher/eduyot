@@ -126,6 +126,18 @@ const SALONIKY: Community = {
 					personId: 'mano',
 					playbackFile: 'Mano7 ברון הירש',
 					title: 'מעבר מהשכונות לברון הירש'
+				}, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael6',
+					title: 'התנגדות'
+				}, {
+					personId: 'ovadia',
+					playbackFile: 'Ovadia7',
+					title: 'סגירת הגטו'
+				}, {
+					personId: 'razon',
+					playbackFile: 'Razon4',
+					title: 'על חסון'
 				}
             ]
         },
@@ -166,7 +178,7 @@ const SALONIKY: Community = {
             ]
         },
         {
-			title: 'תצפית מידי קולה',
+			title: 'ידי קולה',
 			image: 'saloniky_yad_kula_view.jpg',
             playbacks: [
 				{
@@ -174,6 +186,25 @@ const SALONIKY: Community = {
 					playbackFile: 'Cohen1 השריפה 1917',
 					title: 'השריפה 1917'
                 }
+            ]
+        },
+        {
+			title: 'כיכר החרות',
+			image: null,
+            playbacks: [
+				{
+					personId: 'haimrefael',
+					playbackFile: 'Refael5',
+					title: 'ימי הכיבוש'
+                }, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael7',
+					title: 'שמועות על הקמת הגטו'
+                }, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael8',
+					title: 'שבת השחורה'
+                },
             ]
         }
     ]
