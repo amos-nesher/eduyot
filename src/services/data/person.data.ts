@@ -480,7 +480,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
 		released_at: '',
 		aliya: '',
 		job: '',
-        image: null
-    }, 
+      image: null
+    }
 
 }
