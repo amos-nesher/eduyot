@@ -140,72 +140,72 @@ const SALONIKY: Community = {
         }
       ]
     },
-    // {
-    //   title: 'תחנת הרכבת',
-    //   image: 'saloniky_train_station_baron_hirsh.jpg',
-    //   playbacks: [
-    //     {
-    //       personId: 'frida',
-    //       playbackFile: 'saloniky_kobo_frida_train_station_baron_hirsh_news_on_deportation',
-    //       title: 'ידיעות על הגירוש קובו פרידה'
-    //     },
-    //     {
-    //       personId: 'mano',
-    //       playbackFile: 'Mano6 נאום קורץ',
-    //       title: 'נאום קורץ לפני הגרוש'
-    //     }, {
-    //       personId: 'ovadiyabaruch',
-    //       playbackFile: 'ovadia 8 -משלוחים',
-    //       title: 'בתחנת הרכבת לפני הגרוש'
-    //     }, {
-    //       personId: 'renebibas',
-    //       playbackFile: 'Bivas2_prepare_for_travel',
-    //       title: 'הערכות לגרוש'
-    //     }, {
-    //       personId: 'renebibas',
-    //       playbackFile: 'Bivas3_in_train',
-    //       title: 'הנסיעה ברכבת לבירקנאו'
-    //     }, {
-    //       personId: 'haimrefael',
-    //       playbackFile: 'Refael9',
-    //       title: 'חיים רפאל9'
-    //     }, {
-    //       personId: 'haimrefael',
-    //       playbackFile: 'Refael10',
-    //       title: 'חיים רפאל10'
-    //     }
-    //   ]
-    // },
-    // {
-    //   title: 'ידי קולה',
-    //   image: 'saloniky_yad_kula_view.jpg',
-    //   playbacks: [
-    //     {
-    //       personId: 'yitzhakcohen',
-    //       playbackFile: 'Cohen1 השריפה 1917',
-    //       title: 'השריפה 1917'
-    //     }
-    //   ]
-    // },
-    // {
-    //   title: 'כיכר החרות',
-    //   image: null,
-    //   playbacks: [
-    //     {
-    //       personId: 'haimrefael',
-    //       playbackFile: 'Refael5',
-    //       title: 'ימי הכיבוש'
-    //     }, {
-    //       personId: 'haimrefael',
-    //       playbackFile: 'Refael7',
-    //       title: 'שמועות על הקמת הגטו'
-    //     }, {
-    //       personId: 'haimrefael',
-    //       playbackFile: 'Refael8',
-    //       title: 'שבת השחורה'
-    //     },
-    //   ]
-    // }
+    {
+      title: 'תחנת הרכבת',
+      image: 'saloniky_train_station_baron_hirsh.jpg',
+      playbacks: [
+        {
+          personId: 'frida',
+          playbackFile: 'saloniky_kobo_frida_train_station_baron_hirsh_news_on_deportation',
+          title: 'ידיעות על הגירוש קובו פרידה'
+        },
+        {
+          personId: 'mano',
+          playbackFile: 'Mano6 נאום קורץ',
+          title: 'נאום קורץ לפני הגרוש'
+        }, {
+          personId: 'ovadiyabaruch',
+          playbackFile: 'ovadia 8 -משלוחים',
+          title: 'בתחנת הרכבת לפני הגרוש'
+        }, {
+          personId: 'renebibas',
+          playbackFile: 'Bivas2_prepare_for_travel',
+          title: 'הערכות לגרוש'
+        }, {
+          personId: 'renebibas',
+          playbackFile: 'Bivas3_in_train',
+          title: 'הנסיעה ברכבת לבירקנאו'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael9',
+          title: 'חיים רפאל9'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael10',
+          title: 'חיים רפאל10'
+        }
+      ]
+    },
+    {
+      title: 'ידי קולה',
+      image: 'saloniky_yad_kula_view.jpg',
+      playbacks: [
+        {
+          personId: 'yitzhakcohen',
+          playbackFile: 'Cohen1 השריפה 1917',
+          title: 'השריפה 1917'
+        }
+      ]
+    },
+    {
+      title: 'כיכר החרות',
+      image: null,
+      playbacks: [
+        {
+          personId: 'haimrefael',
+          playbackFile: 'Refael5',
+          title: 'ימי הכיבוש'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael7',
+          title: 'שמועות על הקמת הגטו'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael8',
+          title: 'שבת השחורה'
+        },
+      ]
+    }
   ]
 }
 
