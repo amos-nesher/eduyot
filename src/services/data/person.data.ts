@@ -423,12 +423,52 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         image: null
     }, 
 
+    "elyakim_bachar": {
+        first: "אליקים",
+		last: 'בכר',
+		born: '',
+		born_country: '',
+		born_city: '',
+		mother: '',
+		father: '',
+		before_war: '',
+		after_war: '',
+		sent: '',
+		number: '',
+		camps: '',
+		released: '',
+		released_at: '',
+		aliya: '',
+		job: '',
+        image: null
+    }, 
+
     "annagershwin": {
         first: "אנה",
 		last: 'גרשווין',
 		born: '',
 		born_country: 'יוון',
 		born_city: 'קורפו',
+		mother: '',
+		father: '',
+		before_war: '',
+		after_war: '',
+		sent: '',
+		number: '',
+		camps: '',
+		released: '',
+		released_at: '',
+		aliya: '',
+		job: '',
+        image: null
+    }, 
+
+    "razon": {
+        first: "רזון",
+		last: '',
+		born: '',
+		born_country: 'יוון',
+		born_city: '',
 		mother: '',
 		father: '',
 		before_war: '',

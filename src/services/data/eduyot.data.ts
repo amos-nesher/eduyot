@@ -27,6 +27,10 @@ const SALONIKY: Community = {
 					personId: 'mano',
 					playbackFile: 'Mano2 רומנסות',
 					title: 'רומאנסות'
+				}, {
+					personId: 'elyakim_bachar',
+					playbackFile: 'Elyakim Bachar1',
+					title: 'אליקים בכר 1'
 				}
             ]
         },
@@ -52,7 +56,23 @@ const SALONIKY: Community = {
 				}, {
 					personId: 'mano',
 					playbackFile: 'Mano1 מתנות לאביונים',
-					title: 'מתנות לאביונים'
+					title: 'מנו1'
+                }, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael3',
+					title: 'על הלימודים'
+                }, {
+					personId: 'razon',
+					playbackFile: 'Razon1',
+					title: 'פעילות חברתית וספורט מכבי'
+                }, {
+					personId: 'ovadiya',
+					playbackFile: 'Ovadia5',
+					title: 'בית הספר'
+                }, {
+					personId: 'ovadiya',
+					playbackFile: 'Ovadia6',
+					title: 'תנועות הנוער'
                 }
             ]
         },
@@ -79,6 +99,14 @@ const SALONIKY: Community = {
 					personId: 'mano',
 					playbackFile: 'Mano5 הישרדות 41-43',
 					title: 'הישרדות 1941-43'
+				}, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael3',
+					title: 'פרוץ המלחמה'
+				}, {
+					personId: 'razon',
+					playbackFile: 'Razon2',
+					title: 'קרבות אגרוף כדי לשרוד'
 				}
             ]
         },
@@ -126,7 +154,15 @@ const SALONIKY: Community = {
 					personId: 'renebibas',
 					playbackFile: 'Bivas3_in_train',
 					title: 'הנסיעה ברכבת לבירקנאו'
-				}
+				}, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael9',
+					title: 'חיים רפאל9'
+                }, {
+					personId: 'haimrefael',
+					playbackFile: 'Refael10',
+					title: 'חיים רפאל10'
+                }
             ]
         },
         {
