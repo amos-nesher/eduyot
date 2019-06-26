@@ -633,20 +633,12 @@ const KORFU: Community = {
   ]
 }
 
-const TEST_NO_DATA: Community = {
-  name: 'מקום בלי עדויות',
-  description: KORFU_DESCRIPTION_DATA,
-  titleImage: '',
-  subtitles: []
-}
-
 export const KEHILOT_DATA: Array<Community> = [
   ATUNA,
   SALONIKY,
   YANINA,
   VOLOS,
-  KORFU,
-  TEST_NO_DATA
+  KORFU
 ];
 
 export const CAMPS_DATA: Array<Community> = [
