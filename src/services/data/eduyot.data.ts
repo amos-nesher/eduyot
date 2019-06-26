@@ -216,6 +216,7 @@ const YANINA: Community = {
   subtitles: [
     {
       title: BEFORE_HA_KIBUSH,
+      image: null,
       playbacks: [
         {
           personId: 'tzadokmaza',
@@ -227,6 +228,7 @@ const YANINA: Community = {
     },
     {
       title: IN_THE_KIBUSH,
+      image: null,
       playbacks: [
         {
           personId: 'tzadokmaza',
@@ -495,6 +497,7 @@ const VOLOS: Community = {
   subtitles: [
     {
       title: IN_THE_KIBUSH,
+      image: null,
       playbacks: [
         {
           personId: 'yaakovgabay',
@@ -510,7 +513,7 @@ const VOLOS: Community = {
 const KORFU: Community = {
   name: 'קורפו',
   description: KORFU_DESCRIPTION_DATA,
-  titleImage: '',
+  titleImage: 'corfu-title.jpg',
   subtitles: [
     {
       title: BEFORE_HA_KIBUSH,
