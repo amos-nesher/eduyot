@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, NavParams, Content } from 'ionic-angular';
+//import { NavController, NavParams, Content } from 'ionic-angular';
+import { NavController, NavParams} from 'ionic-angular';
 import { EduyotService } from '../../services/eduyot.service';
 import { Community } from '../../services/model';
 import { PlaybackListPage } from '../playback-list/playback-list';
