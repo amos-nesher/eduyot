@@ -216,7 +216,6 @@ const YANINA: Community = {
   subtitles: [
     {
       title: BEFORE_HA_KIBUSH,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'tzadokmaza',
@@ -228,7 +227,6 @@ const YANINA: Community = {
     },
     {
       title: IN_THE_KIBUSH,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'tzadokmaza',
@@ -497,7 +495,6 @@ const VOLOS: Community = {
   subtitles: [
     {
       title: IN_THE_KIBUSH,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'yaakovgabay',
@@ -517,7 +514,6 @@ const KORFU: Community = {
   subtitles: [
     {
       title: BEFORE_HA_KIBUSH,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'rivkabaleli',
@@ -558,7 +554,6 @@ const KORFU: Community = {
     },
     {
       title: IN_THE_KIBUSH,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'rivkabaleli',
@@ -604,7 +599,6 @@ const KORFU: Community = {
     },
     {
       title: IN_THE_CAMPS,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'sardesaliki',
@@ -620,7 +614,6 @@ const KORFU: Community = {
     },
     {
       title: AFTER_RELEASE,
-      image: "yanina.jpg",
       playbacks: [
         {
           personId: 'annagershwin',
