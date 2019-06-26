@@ -493,7 +493,7 @@ const BIRKINAU: Community = {
 const VOLOS: Community = {
   name: 'וולוס',
   description: YANINA_DESCRIPTION_DATA,
-  titleImage: '',
+  titleImage: 'volos-title.jpg',
   subtitles: [
     {
       title: IN_THE_KIBUSH,
