@@ -517,6 +517,7 @@ const KORFU: Community = {
   subtitles: [
     {
       title: BEFORE_HA_KIBUSH,
+      image: null,
       playbacks: [
         {
           personId: 'rivkabaleli',
@@ -557,6 +558,7 @@ const KORFU: Community = {
     },
     {
       title: IN_THE_KIBUSH,
+      image: null,
       playbacks: [
         {
           personId: 'rivkabaleli',
@@ -602,6 +604,7 @@ const KORFU: Community = {
     },
     {
       title: IN_THE_CAMPS,
+      image: null,
       playbacks: [
         {
           personId: 'sardesaliki',
@@ -617,6 +620,7 @@ const KORFU: Community = {
     },
     {
       title: AFTER_RELEASE,
+      image: null,
       playbacks: [
         {
           personId: 'annagershwin',
