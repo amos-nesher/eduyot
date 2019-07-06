@@ -103,8 +103,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         image: 'dario-levi.jpg', 
     },
 
-    "izidor": {
-        first: 'איזידור',
+    "izidor": { first: 'איזידור',
         last: 'רוזה',
         born: '10.1.1917', //???
         born_country: 'יוון',
@@ -115,13 +114,14 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         after_war: 'מוסר הﬠדות הוא היחיד שניצל',
         sent: '17.4.1943',
         number: '115894',
-        camps: 'אושוויץ, בּונה, גלייביץ, לייפציג, לנדאו, פלופנבּורג, אורנבבורג, טרוסברג',
+        camps: 'אושוויץ, בּונה, גלייביץ, לייפציג, לנדאו, פלופנבּורג, אוריינבורג, טרוסברג',
         released: '2.5.1945',
         released_at: 'טרוסברג',
         aliya: '?.12.1949',
         job: 'צבﬠ',
         image: 'izidor-alaluf.jpg',
     },
+
 
     "yaakovgabay": {
         first: 'יעקב',
