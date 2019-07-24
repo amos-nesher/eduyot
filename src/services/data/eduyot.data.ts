@@ -13,6 +13,7 @@ const SALONIKY: Community = {
   name: 'סלוניקי',
   description: SALONIKY_DESCRIPTION_DATA,
   titleImage: 'saloniki-title.png',
+  categoryView: true,
   subtitles: [
     {
       title: 'המוזיאון היהודי',

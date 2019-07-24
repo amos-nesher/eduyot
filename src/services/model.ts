@@ -40,5 +40,6 @@ export interface Community {
 	subtitles: Array<Subtitle>;
 	playbackCount?: number;
 	personCount?: number;
+	categoryView?: boolean; // If true, than show each subtitle as an image and click on it will drill into its playlist
 }
 

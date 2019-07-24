@@ -15,6 +15,8 @@ import { AboutPage } from '../pages/about/about';
 import { AppStateService } from '../services/app-service.service';
 import { PlaybackListPage } from '../pages/playback-list/playback-list';
 import { CommunityInfoPage } from '../pages/community-info/community-info';
+import { SubtitleCategoryPage } from '../pages/subtitle-category/subtitle-category';
+import { SubtitlePlaylistPage } from '../pages/subtitle-playlist/subtitle-playlist';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { CommunityInfoPage } from '../pages/community-info/community-info';
     PersonPage,
     PlaybackListPage,
     CommunityInfoPage,
+    SubtitleCategoryPage,
+    SubtitlePlaylistPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,9 @@ import { CommunityInfoPage } from '../pages/community-info/community-info';
     CommunitiesPage,
     PersonPage,
     PlaybackListPage,
-    CommunityInfoPage
+    CommunityInfoPage,
+    SubtitleCategoryPage,
+    SubtitlePlaylistPage
   ],
   providers: [
     StatusBar,

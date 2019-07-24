@@ -1,0 +1,105 @@
+$page-title-height: 218px;
+page-subtitle-playlist {
+    .scroll-content {
+        padding: 0 !important;
+        margin-top: $page-title-height;
+    }
+
+    .subpage-back-btn {
+        .back-button {
+            position: relative;
+            top: -80px;
+        }
+
+        &.no-image {
+            .back-button {
+                color: #000;
+            } 
+        }
+    }
+
+    .toolbar-title {
+        position: relative;
+        top: -82px;
+        right: -19px;
+    }
+
+    .playback-navbar {
+        position: absolute;
+        top: 0;
+        height: $page-title-height;
+    }
+
+    .toolbar-background {
+        background-color: transparent !important;
+    }
+    
+    .title-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: $page-title-height;
+    }
+
+    .community-title {
+        position: absolute;
+        bottom: 46px;
+        right: 51px;
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .community-counter {
+        position: absolute;
+        bottom: 16px;
+        right: 51px;
+        color: #fff;
+    }
+
+    .page-title {
+        font-size: 40px;
+        font-weight: 800;
+        color: #fff;
+        position: relative;
+        top: -20px;
+        right: -20px;
+    }
+
+    .no-image {
+        color: #000;
+
+        .toolbar-title-md {
+            color: #000;
+        }
+    }
+
+    .addition-info {
+        position: absolute;
+        bottom: 16px;
+        left: 27px;
+        font-size: 20px;
+        color: #3999b9;
+    }
+
+    .info-icon {
+        font-size: 18px;
+        position: relative;
+        top: 3px;
+    }
+
+    .subtitle-title {
+        height: 58px;
+        line-height: 58px;
+        background-color: #f0f1f4;
+        color: #000;
+        font-size: 20px;
+        padding-right: 28px;
+    }
+
+    .subtitle-image {
+        width: 100%;
+        height: auto;
+    }  
+}

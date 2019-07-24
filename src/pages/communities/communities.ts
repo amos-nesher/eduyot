@@ -6,6 +6,7 @@ import { Community } from '../../services/model';
 import { PlaybackListPage } from '../playback-list/playback-list';
 import { ABOUT } from '../../services/data/about.data';
 import { CommunityInfoPage } from '../community-info/community-info';
+import { SubtitleCategoryPage } from '../subtitle-category/subtitle-category';
 
 /**
  * Generated class for the CommunitiesPage page.
@@ -40,7 +41,13 @@ export class CommunitiesPage {
 
   openCommunity(community: Community) {
     if (community.subtitles.length > 0) {
-      this.navCtrl.push(PlaybackListPage, {community: community});
+      if (community.categoryView) {
+        this.navCtrl.push(SubtitleCategoryPage, {community: community});
+      }
+      else {
+        this.navCtrl.push(PlaybackListPage, {community: community});
+      }
+      
     }
     else {
       this.navCtrl.push(CommunityInfoPage, {community: community});

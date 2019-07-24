@@ -27,12 +27,12 @@
         <icon density="xhdpi" src="resources/android/icon/eduyot-icon-xhdpi.png" />
         <icon density="xxhdpi" src="resources/android/icon/eduyot-icon-xxhdpi.png" />
         <icon density="xxxhdpi" src="resources/android/icon/eduyot-icon-xxxhdpi.png" />
-        <splash density="land-ldpi" src="resources/android/splash/eduyot-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="resources/android/splash/eduyot-land-mdpi-screen.png" />
-        <splash density="land-hdpi" src="resources/android/splash/eduyot-land-hdpi-screen.png" />
-        <splash density="land-xhdpi" src="resources/android/splash/eduyot-land-xhdpi-screen.png" />
-        <splash density="land-xxhdpi" src="resources/android/splash/eduyot-land-xxhdpi-screen.png" />
-        <splash density="land-xxxhdpi" src="resources/android/splash/eduyot-land-xxxhdpi-screen.png" />
+        <splash density="land-ldpi" src="resources/android/splash/eduyot-port-ldpi-screen.png" />
+        <splash density="land-mdpi" src="resources/android/splash/eduyot-port-mdpi-screen.png" />
+        <splash density="land-hdpi" src="resources/android/splash/eduyot-port-hdpi-screen.png" />
+        <splash density="land-xhdpi" src="resources/android/splash/eduyot-port-xhdpi-screen.png" />
+        <splash density="land-xxhdpi" src="resources/android/splash/eduyot-port-xxhdpi-screen.png" />
+        <splash density="land-xxxhdpi" src="resources/android/splash/eduyot-port-xxxhdpi-screen.png" />
         <splash density="port-ldpi" src="resources/android/splash/eduyot-port-ldpi-screen.png" />
         <splash density="port-mdpi" src="resources/android/splash/eduyot-port-mdpi-screen.png" />
         <splash density="port-hdpi" src="resources/android/splash/eduyot-port-hdpi-screen.png" />
