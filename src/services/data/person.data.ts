@@ -35,7 +35,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         after_war: 'אח אחד, מוסרת הסודות',
         sent: '10.4.1943',
         number: '41544',
-        camps: 'אושוויד, בירקנאו, רווכצברוק, מלכוואבויבּרכוינבּורג',
+        camps: 'אושוויץ, בירקנאו, רוונסברוק, מלכוואבויבּרכוינבּורג',
         released: '2.5.1945',
         released_at: 'נויבּרכדבבּורג',
         aliya: '1946',
@@ -74,7 +74,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         before_war: 'אח אחר, מוסרת הﬠרות',
         after_war: 'מוסרת הצרות היא היחידה שניצלה',
         sent: '6.1944',
-        camps: 'בירקנאוּ, אזשווֹיד, שפהאוז, וֹיליבשסארט, טרזיינשׁאדט',
+        camps: 'בירקנאוּ, אושווֹיץ, שפהאוז, וֹיליבשסארט, טרזיינשׁאדט',
         number: '',
         released: '11.15.1945',
         released_at: 'טרזיינשאדט',
@@ -103,8 +103,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         image: 'dario-levi.jpg', 
     },
 
-    "izidor": {
-        first: 'איזידור',
+    "izidor": { first: 'איזידור',
         last: 'רוזה',
         born: '10.1.1917', //???
         born_country: 'יוון',
@@ -115,13 +114,14 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         after_war: 'מוסר הﬠדות הוא היחיד שניצל',
         sent: '17.4.1943',
         number: '115894',
-        camps: 'אושוויץ, בּונה, גלייביץ, לייפציג, לנדאו, פלופנבּורג, אורנבבורג, טרוסברג',
+        camps: 'אושוויץ, בּונה, גלייביץ, לייפציג, לנדאו, פלופנבּורג, אוריינבורג, טרוסברג',
         released: '2.5.1945',
         released_at: 'טרוסברג',
         aliya: '?.12.1949',
         job: 'צבﬠ',
         image: 'izidor-alaluf.jpg',
     },
+
 
     "yaakovgabay": {
         first: 'יעקב',
