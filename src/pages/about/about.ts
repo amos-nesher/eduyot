@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { CommunitiesPage } from '../communities/communities';
 import { AppStateService } from '../../services/app-service.service';
-import { ABOUT } from '../../services/data/about.data';
+import { ABOUT, APP_SHORT_DESCRIPTION } from '../../services/data/about.data';
 
 /**
  * Generated class for the AboutPage page.
@@ -18,6 +18,7 @@ import { ABOUT } from '../../services/data/about.data';
 export class AboutPage {
   public initialShow: boolean = false;
   public about = ABOUT;
+  public appDescr = APP_SHORT_DESCRIPTION;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
     private appStateService: AppStateService) {

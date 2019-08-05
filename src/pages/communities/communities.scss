@@ -2,12 +2,22 @@ page-communities {
     .communities-title {
         position: relative;
         text-align: center;
+        height: 193px;
 
         .toolbar-title-md {
             position: relative;
             top: -20px;
             font-size: 26px;
             font-weight: 800;
+        }
+
+        .app-descr {
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #fff;
+            font-weight: 100;
+            margin-top: 15px;
         }
     }
 
@@ -38,7 +48,6 @@ page-communities {
         transition: max-height 400ms, padding-top 400ms;
 
         font-size: 20px;
-        text-align: justify;
         background-color: #f0f1f4;
 
         padding-left: 20px;

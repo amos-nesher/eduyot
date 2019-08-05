@@ -3,7 +3,10 @@
   <div class="info">
     <div class="image" (click)="gotoPerson()">
         <img *ngIf="imageExists" [src]="getImage()" />
-        <ion-icon *ngIf="!imageExists" name="md-person" class="no-image"></ion-icon>
+        <div *ngIf="!imageExists" class="no-image">
+            <ion-icon  name="custom-profile" class="no-image-icon"></ion-icon>
+        </div>
+        
     </div>
 
     <div>

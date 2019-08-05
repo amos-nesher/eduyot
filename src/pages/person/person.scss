@@ -11,6 +11,20 @@ page-person {
             height: 120px;
             border-radius: 50%;
         }
+
+        .no-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #fff;
+            
+            .no-image-icon {
+                font-size: 72px;
+                position: relative;
+                top: 22px;
+                right: 22px;
+            }
+        }
     }
 
     .person-name {

@@ -27,13 +27,12 @@ export class PersonPage {
     console.log('ionViewDidLoad PersonPage');
   }
 
+  get hasImage(): boolean {
+    return !!this.person.image;
+  }
+
   getImage() {
-    if (this.person.image) {
-      return "assets/persons-imgs/" + this.person.image;
-    }
-    else {
-      return "data:image/png;base64," + NO_PERSON_IMAGE;
-    }
-    
+    return "assets/persons-imgs/" + this.person.image;
+
   }
 }

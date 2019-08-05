@@ -1,10 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
-//import { NavController, NavParams, Content } from 'ionic-angular';
 import { NavController, NavParams} from 'ionic-angular';
 import { EduyotService } from '../../services/eduyot.service';
 import { Community } from '../../services/model';
 import { PlaybackListPage } from '../playback-list/playback-list';
-import { ABOUT } from '../../services/data/about.data';
+import { ABOUT, APP_SHORT_DESCRIPTION } from '../../services/data/about.data';
 import { CommunityInfoPage } from '../community-info/community-info';
 import { SubtitleCategoryPage } from '../subtitle-category/subtitle-category';
 
@@ -24,6 +23,7 @@ export class CommunitiesPage {
 
   public readMore = false;
   public about = ABOUT;
+  public appDescr = APP_SHORT_DESCRIPTION;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private eduyotService: EduyotService) {
   }

@@ -11,7 +11,11 @@
   </ion-navbar>
 
   <div class="imageContainer">
-    <img [src]="getImage()" alt="טוען תמונה..."/>
+    <img *ngIf="hasImage" [src]="getImage()" alt="טוען תמונה..."/>
+    <div *ngIf="!hasImage" class="no-image">
+      <ion-icon name="custom-profile" class="no-image-icon"></ion-icon>
+    </div>
+    
   </div>
 
 </ion-header>

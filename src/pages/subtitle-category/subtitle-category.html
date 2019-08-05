@@ -16,13 +16,13 @@
 
 <ion-content padding>
 <div *ngFor="let subtitle of community.subtitles">
+  <div *ngIf="subtitle.image"  (click)="gotoSubtitle(subtitle)">
+    <img [src]="subTitleImageLink(subtitle.image)" class="subtitle-image"/>
+  </div>
   <div class="subtitle-title" (click)="gotoSubtitle(subtitle)">
     {{subtitle.title}}
     <ion-icon *ngIf="subtitle.description" name="custom-info" class="info-icon"
         (click)="gotoSubtitleInfo(subtitle); $event.stopPropagation();"></ion-icon>
-  </div>
-  <div *ngIf="subtitle.image"  (click)="gotoSubtitle(subtitle)">
-    <img [src]="subTitleImageLink(subtitle.image)" class="subtitle-image"/>
   </div>
 </div>
 </ion-content>

@@ -27,6 +27,7 @@ page-subtitle-category {
     
         .toolbar-background {
             background-color: transparent !important;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.16), #000000);
         }
         
         .title-image {
@@ -83,10 +84,15 @@ page-subtitle-category {
             color: #000;
             font-size: 20px;
             padding-right: 28px;
+            margin-bottom: 5px;
         }
     
         .subtitle-image {
+            background-color: #f0f1f4;
+            padding: 15px;
+            padding-bottom: 0px;
             width: 100%;
             height: auto;
+            margin-bottom: -5px;
         }  
 }

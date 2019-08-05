@@ -2,7 +2,12 @@
   <ion-navbar class="relative">
     <ion-title class="communities-title">
       בנתיבי שאול
+
+      <div class="app-descr">
+        {{appDescr}}
+      </div>
     </ion-title>
+    
     <div class="read-more-button" (click)="doReadMore()">
         {{readMore ? 'סגור' : 'קרא עוד'}}
     </div>
