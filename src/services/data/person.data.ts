@@ -80,7 +80,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
         released_at: 'טרזיינשאדט',
         aliya: '1946',
         job: 'ﬠקרת בית',
-        image: 'ester-refael.png',
+        image: 'ester-refael.jpg',
     },
 
     "darioandalbertolevi": {
@@ -260,7 +260,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
 		released_at: 'ברגן בלזן',
 		aliya: '14.8.1948',
 		job: 'עובד הסוכנות היהודית',
-        image: 'zak-handali.jpeg',
+        image: 'zak-handali.jpg',
     }, 
 
     "ovadiya": {
@@ -400,7 +400,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
       released_at: 'זלצוודר',
       aliya: '1.1.1947',
       job: 'עקרת בית',
-      image: 'rivka-baleli.jpeg'
+      image: 'rivka-baleli.jpg'
     }, 
 
     "sardesaliki": {
@@ -420,7 +420,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
       released_at: 'מלכוף',
       aliya: '?.4.1950',
       job: 'עקרת בית',
-      image: 'eliki-sardes.jpeg'
+      image: 'eliki-sardes.jpg'
     }, 
 
     "elyakim_bachar": {
@@ -460,7 +460,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
       released_at: 'ברגן בלזן',
       aliya: '1.3.1949',
       job: 'עקרת בית',
-      image: 'ana-gershon.jpeg'
+      image: 'ana-gershon.jpg'
     }, 
 
     "razon": {
