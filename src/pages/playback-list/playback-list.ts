@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Community, Person, Subtitle } from '../../services/model';
+import { Community, Person, Subtitle, Playback } from '../../services/model';
 import { EduyotService } from '../../services/eduyot.service';
 import { PersonPage } from '../person/person';
 import { CommunityInfoPage } from '../community-info/community-info';
@@ -65,6 +65,16 @@ export class PlaybackListPage {
     }
       
     return '';
+  }
+
+  onPlay(playback: Playback) {
+    const audioElements = document.getElementsByTagName("audio");
+    for (let i=0; i<audioElements.length; i++) {
+      const audio = audioElements[i];
+      if (audio.currentSrc.indexOf(encodeURI(playback.playbackFile)) === -1) {
+        audio.pause();
+      }
+    }
   }
   
 }

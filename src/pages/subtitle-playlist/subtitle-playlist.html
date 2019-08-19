@@ -14,6 +14,7 @@
   <play-audio *ngFor="let playback of subtitle.playbacks" 
     [playback]="playback"
     [person]="getPerson(playback.personId)"
-    (showPerson)="gotoPerson($event)">
+    (showPerson)="gotoPerson($event)"
+    (play)="onPlay($event)">
   </play-audio> 
 </ion-content>

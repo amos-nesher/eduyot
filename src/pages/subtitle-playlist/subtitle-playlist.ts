@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Subtitle, Community, Person } from '../../services/model';
+import { Subtitle, Community, Person, Playback } from '../../services/model';
 import { EduyotService } from '../../services/eduyot.service';
 import { PersonPage } from '../person/person';
 
@@ -44,5 +44,15 @@ export class SubtitlePlaylistPage {
 
   gotoPerson(person: Person) {
     this.navCtrl.push(PersonPage, {person: person});
+  }
+
+  onPlay(playback: Playback) {
+    const audioElements = document.getElementsByTagName("audio");
+    for (let i=0; i<audioElements.length; i++) {
+      const audio = audioElements[i];
+      if (audio.currentSrc.indexOf(encodeURI(playback.playbackFile)) === -1) {
+        audio.pause();
+      }
+    }
   }
 }

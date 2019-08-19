@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, HostListener } from '@angular/core';
 import { Playback, Person } from '../../services/model';
 
 /**
@@ -15,6 +15,7 @@ export class PlayAudioComponent {
   @Input() playback: Playback;
   @Input() person: Person;
   @Output() showPerson: EventEmitter<Person> = new EventEmitter<Person>();
+  @Output() play: EventEmitter<Playback> = new EventEmitter<Playback>();
   
   constructor() {
   }
@@ -36,5 +37,8 @@ export class PlayAudioComponent {
   get imageExists(): boolean {
     return !!this.person.image;
   }
- 
+
+  doPlay() {
+    this.play.emit(this.playback);
+  }
 }

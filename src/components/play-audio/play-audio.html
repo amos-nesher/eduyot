@@ -19,7 +19,7 @@
     </div>
   </div>
  
-  <audio controls>
-    <source [src]="mp3FileName" type="audio/mpeg">
+  <audio controls (play)="doPlay()">
+    <source [src]="mp3FileName" type="audio/mpeg" >
   </audio>
 </div>
