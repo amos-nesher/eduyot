@@ -15,8 +15,18 @@
 
 <ion-content padding class="eduyot-bg communities-content" #content>
   <div class="read-more" 
-       [class.read-more-open]="readMore" 
-       [innerHTML]="about">
+       [class.read-more-open]="readMore">
+       
+       <div class="about-images">
+          <div *ngFor="let person of personImages" 
+               class="about-image"
+               (click)="gotoPerson(person)"> 
+            <img [src]="getPersonImage(person)" />
+          </div>
+       </div> 
+
+       <div [innerHTML]="about">
+      </div>
   </div>
 
   <div class="community-title">קהילות</div>

@@ -55,10 +55,22 @@ page-communities {
         padding-top: 0;
 
         &.read-more-open {
-            max-height: 1500px;  
+            max-height: 1600px;  
             padding-top: 20px;
             padding-bottom: 40px;
 
+        }
+
+        .about-images {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+
+            .about-image {
+                width: 60px;
+                height:60px;
+                padding: 4px;
+            }
         }
     }
 

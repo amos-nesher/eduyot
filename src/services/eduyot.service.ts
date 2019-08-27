@@ -60,4 +60,26 @@ export class EduyotService {
     getPerson(personId: string): Person {
         return PERSON_DATA[personId] || getAnonymousPerson(personId);
     }
+
+    getRandomPersons(count: number): Array<Person> {
+        const personsArray = Object.keys(PERSON_DATA);
+        const personKeys = [];
+        const result = new Array<Person>();
+        let i = 0;
+
+        while (i < count) {
+            let personKey = personsArray[Math.floor(Math.random()*personsArray.length)];
+            
+            if (! personKeys.includes(personKey) && PERSON_DATA[personKey].image) {
+                personKeys.push(personKey);
+                i++;
+            }
+        }
+
+        personKeys.forEach(pk => {
+            result.push(PERSON_DATA[pk]);
+        });
+
+        return result;
+    }
 }

@@ -31,6 +31,5 @@ export class PersonPage {
 
   getImage() {
     return "assets/persons-imgs/" + this.person.image;
-
   }
 }
