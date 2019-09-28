@@ -3,6 +3,7 @@ import {SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON} from "./saloniky.description
 import {YANINA_DESCRIPTION_DATA} from "./yanina.description.data";
 import {KORFU_DESCRIPTION_DATA} from "./korfu.description.data";
 import {ATUNA_DESCRIPTION_DATA} from "./atuna.description.data";
+import {VOLOS_DESCRIPTION_DATA} from "./volos.description.data";
 
 const BEFORE_HA_KIBUSH = 'לפני הכיבוש';
 const IN_THE_KIBUSH = 'בזמן הכיבוש';
@@ -493,7 +494,7 @@ const BIRKINAU: Community = {
 
 const VOLOS: Community = {
   name: 'וולוס',
-  description: YANINA_DESCRIPTION_DATA,
+  description: VOLOS_DESCRIPTION_DATA,
   titleImage: 'volos-title.jpg',
   subtitles: [
     {
