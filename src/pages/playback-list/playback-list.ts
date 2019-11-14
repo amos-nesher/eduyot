@@ -1,4 +1,5 @@
-import { Component, ElementRef } from '@angular/core';
+//import { Component, ElementRef } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { Community, Person, Subtitle, Playback } from '../../services/model';
 import { EduyotService } from '../../services/eduyot.service';

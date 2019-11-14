@@ -516,10 +516,11 @@ const KORFU: Community = {
   name: 'קורפו',
   description: KORFU_DESCRIPTION_DATA,
   titleImage: 'corfu-title.jpg',
+  categoryView: true,
   subtitles: [
     {
-      title: BEFORE_HA_KIBUSH,
-      image: null,
+      title: 'בית הכנסת',
+      image: "korfu/korfu_synagogue.jpg",
       playbacks: [
         {
           personId: 'rivkabaleli',
@@ -558,20 +559,12 @@ const KORFU: Community = {
         },
       ]
     },
+
+
     {
-      title: IN_THE_KIBUSH,
-      image: null,
+      title: 'הרובע היהודי',
+      image: 'korfu/korfu_monument.jpg',
       playbacks: [
-        {
-          personId: 'rivkabaleli',
-          playbackFile: 'רבקה בללי -תקופת הכיבוש הגרמני- _ יום יום תחת הכיבוש הגרמני_',
-          title: 'יום יום תחת הכיבוש הגרמני'
-        },
-        {
-          personId: 'sardesaliki',
-          playbackFile: 'סרדס אליקי- הגרוש למחנות _ הגירוש מקורפו_',
-          title: 'הגירוש מקורפו'
-        },
         {
           personId: 'esterrefael',
           playbackFile: 'אסתר רפאל -תקופת הכיבוש הגרמני _ פרוץ המלחמה והכיבוש האיטלקי',
@@ -586,6 +579,20 @@ const KORFU: Community = {
           personId: 'esterrefael',
           playbackFile: 'אסתר רפאל הגרוש למחנות _ מה יהיה גורלנו _',
           title: 'מה יהיה גורלנו'
+        }
+      ]
+    },
+
+
+
+    {
+      title: 'מבצר פרוריו',
+      image: 'korfu/korfu_old_fortress.jpg',
+      playbacks: [
+        {
+          personId: 'sardesaliki',
+          playbackFile: 'סרדס אליקי- הגרוש למחנות _ הגירוש מקורפו_',
+          title: 'הגירוש מקורפו'
         },
         {
           personId: 'annagershwin',
@@ -597,13 +604,24 @@ const KORFU: Community = {
           playbackFile: 'אנה גרשווין- הגירוש למחנות _ הכניסה למבצר_',
           title: 'הכניסה למבצר'
         },
+      ]
+    },
+
+
+
+    {
+      title: 'מחנה חיידרי',
+      image: 'korfu/haydari_camp.jpg',
+      playbacks: [
         {
           personId: 'annagershwin',
           playbackFile: 'אנה גרשווין - בכיבוש הגרמני _ הקורבן הראשון מקורפו_',
           title: 'הקורבן הראשון מקורפו'
-        },
+        }
       ]
     },
+
+
     {
       title: IN_THE_CAMPS,
       image: null,
