@@ -108,7 +108,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'שכונת הברון הירש',
-      image: "saloniky_hospital_baron_hirsh.jpg",
+      image: "saloniky_baron_hirsh.jpg",
       playbacks: [
         {
           personId: 'haimrefael',
@@ -139,12 +139,16 @@ const SALONIKY: Community = {
           personId: 'razon',
           playbackFile: 'Razon4',
           title: 'על חסון'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael10',
+          title: 'תאור הגטו'
         }
       ]
     },
     {
       title: 'תחנת הרכבת',
-      image: 'saloniky_train_station_baron_hirsh.jpg',
+      image: 'saloniky_train_station_baron_hirsh3.jpg',
       playbacks: [
         {
           personId: 'frida',
@@ -170,11 +174,7 @@ const SALONIKY: Community = {
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael9',
-          title: 'חיים רפאל9'
-        }, {
-          personId: 'haimrefael',
-          playbackFile: 'Refael10',
-          title: 'חיים רפאל10'
+          title: 'איסוף היהודים'
         }
       ]
     },
@@ -191,7 +191,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'כיכר החרות',
-      image: null,
+      image: 'saloniky_freedon_square.jpg',
       playbacks: [
         {
           personId: 'haimrefael',
