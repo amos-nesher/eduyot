@@ -36,3 +36,7 @@ ionic start
 ```
 ionic cordova run android --device
 ```
+
+### Reduce image size of each added image
+
+https://www.reduceimages.com/
