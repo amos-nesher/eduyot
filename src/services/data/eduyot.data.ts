@@ -342,10 +342,17 @@ const ATUNA: Community = {
   name: 'אתונה',
   titleImage: 'athenes-title.png',
   description: ATUNA_DESCRIPTION_DATA,
+  categoryView: true,
   subtitles: [
     {
-      title: IN_THE_KIBUSH,
-      image: null,
+      title: 'המוזיאון היהודי',
+      image: 'atuna/muzium.jpg',
+      playbacks: [
+      ]
+    },
+    {
+      title: 'בית הכנסת',
+      image: 'atuna/synagogue.jpg',
       playbacks: [
         {
           personId: 'fortisbinyamin',
@@ -357,8 +364,13 @@ const ATUNA: Community = {
           personId: 'fortisbinyamin',
           playbackFile: 'Fortis1 גודל האסון',
           title: 'הכרה בגודל האסון של יהודי סלוניקי'
-        },
-
+        }
+      ]
+    },
+    {
+      title: 'אנדרטת השואה',
+      image: 'atuna/monument.jpg',
+      playbacks: [
         {
           personId: 'yaakovgabay',
           playbackFile: 'Gabay3 הגירוש מאתונה',
@@ -372,7 +384,13 @@ const ATUNA: Community = {
         }
 
       ]
-    }
+    },
+    {
+      title: 'מחנה חיידרי',
+      image: 'atuna/haidari.jpg',
+      playbacks: [
+      ]
+    },
   ]
 }
 
