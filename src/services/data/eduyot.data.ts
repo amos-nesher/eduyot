@@ -581,7 +581,7 @@ const KORFU: Community = {
 
     {
       title: 'הרובע היהודי',
-      image: 'korfu/korfu_monument.jpg',
+      image: 'korfu/korfu_jewish_getto.jpg',
       playbacks: [
         {
           personId: 'esterrefael',
