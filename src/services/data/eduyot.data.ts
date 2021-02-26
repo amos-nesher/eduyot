@@ -179,7 +179,7 @@ const SALONIKY: Community = {
       ]
     },
     {
-      title: 'ידי קולה',
+      title: 'העיר העליונה Ano Poli',
       image: 'saloniky_yad_kula_view.jpg',
       playbacks: [
         {
