@@ -671,6 +671,26 @@ const KORFU: Community = {
   ]
 }
 
+const BUNA: Community = {
+  name: 'בונה',
+  description: YANINA_DESCRIPTION_DATA,
+  titleImage: 'auschwitz-title.png',
+  subtitles: [
+    {
+      title: IN_THE_CAMPS,
+      image: "yanina.jpg",
+      playbacks: [
+        {
+          personId: 'haimrefael',
+          playbackFile: 'REFAEL6_haim_refael_buna_camp',
+          title: 'חיים רפאל'
+        }
+      ]
+    }
+  ]
+}
+
+
 export const KEHILOT_DATA: Array<Community> = [
   ATUNA,
   SALONIKY,
@@ -682,4 +702,5 @@ export const KEHILOT_DATA: Array<Community> = [
 export const CAMPS_DATA: Array<Community> = [
   OSHVITZ,
   BIRKINAU,
+  BUNA
 ];
