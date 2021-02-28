@@ -214,37 +214,7 @@ const SALONIKY: Community = {
 const YANINA: Community = {
   name: 'יאנינה',
   description: YANINA_DESCRIPTION_DATA,
-  titleImage: 'ioannina-title.png',
-  subtitles: [
-    {
-      title: BEFORE_HA_KIBUSH,
-      image: null,
-      playbacks: [
-        {
-          personId: 'tzadokmaza',
-          playbackFile: 'החיים בינינה שביוון לפני השואה ובמהלכה עדויות של ניצולי שואה',
-          title: 'החיים ביאנינה ערב המלחמה'
-        }
-
-      ]
-    },
-    {
-      title: IN_THE_KIBUSH,
-      image: null,
-      playbacks: [
-        {
-          personId: 'tzadokmaza',
-          playbackFile: 'פלישת הגרמנים לינינה - עדויות של ניצולי שואה',
-          title: 'פלישת הגרמנים ליאנינה'
-        },
-        {
-          personId: 'tzadokmaza',
-          playbackFile: 'גירוש יהודי ינינה - עדויות של ניצולי שואה',
-          title: 'הגירוש מיאנינה'
-        }
-      ]
-    }
-  ]
+  titleImage: 'ioannina-title.png'
 }
 
 const OSHVITZ: Community = {
