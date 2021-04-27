@@ -1,0 +1,16 @@
+<div class="container">
+    <img *ngIf="community.titleImage" [src]="imageLink" class="title-image" />
+    <div class='group-name'>{{community.name}}</div>
+    <community-counter *ngIf="community.playbackCount" 
+      class='group-info'
+      [community]="community">
+    </community-counter>
+
+    <div *ngIf="community.playbackCount === 0" 
+         class='group-info no-info'>
+      <div>
+          <ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon>  
+          אין עדויות</div>
+      <div class="goto-info-text">ראה מידע אודות המקום</div>
+    </div>
+  </div>

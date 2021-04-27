@@ -1,0 +1,34 @@
+@import "../../../theme/variables";
+
+$page-title-height: 218px;
+
+ion-header {
+    height: $page-title-height;
+
+    &.no-image {
+        height: 120px;
+        background-color: #000;
+    }
+}
+    
+.title-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $page-title-height;
+}
+
+.community-title {
+    position: absolute;
+    bottom: 46px;
+    right: 51px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+
+    &.no-image {
+        bottom: 20px;
+    }
+}
+

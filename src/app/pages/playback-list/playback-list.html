@@ -1,0 +1,39 @@
+
+<ion-header>
+  <img *ngIf="imageLink()" [src]="imageLink()" class="title-image" />
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button 
+        class="font-16"
+        [text]="'כל הקהילות'" 
+        [icon]="'chevron-forward-outline'"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <div class="community-title ">{{community.name}}</div>
+  <community-counter [community]="community" class="community-counter"></community-counter>
+  <div class="addition-info" (click)="gotoMoreInfoPage()">
+      <ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon> 
+      מידע נוסף
+  </div>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div *ngFor="let subtitle of community.subtitles">
+    <!-- <div class="subtitle-title" (click)="gotoSubtitleInfo(subtitle)">
+      {{subtitle.title}}
+      <ion-icon *ngIf="subtitle.description" src="assets/svg/info.svg" class="info-icon"></ion-icon>
+    </div>
+    <div *ngIf="subtitle.image"  (click)="gotoSubtitleInfo(subtitle)">
+      <img [src]="subTitleImageLink(subtitle.image)" class="subtitle-image"/>
+    </div> -->
+
+    <play-audio *ngFor="let playback of subtitle.playbacks" 
+      [playback]="playback"
+      [person]="getPerson(playback.personId)"
+      (showPerson)="gotoPerson($event)"
+      (play)="onPlay($event)">
+    </play-audio>
+  </div>
+</ion-content>

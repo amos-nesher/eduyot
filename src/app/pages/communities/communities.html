@@ -1,0 +1,43 @@
+<ion-header>
+  
+    <ion-title class="communities-title">
+      בנתיבי שאול
+
+      <div class="app-descr" [innerHTML]="appDescr">
+      </div>
+    </ion-title>
+    
+    <div class="read-more-button" (click)="doReadMore()">
+        {{readMore ? 'סגור' : 'קרא עוד'}}
+    </div>
+
+</ion-header> 
+
+<ion-content class="ion-padding eduyot-bg communities-content" #content>
+  <div class="read-more" 
+       [class.read-more-open]="readMore">
+       
+       <div class="about-images">
+          <div *ngFor="let person of personImages" 
+               class="about-image"
+               (click)="gotoPerson(person)"> 
+            <img [src]="getPersonImage(person)" />
+          </div>
+       </div> 
+
+       <div [innerHTML]="about">
+      </div>
+  </div>
+
+  <div class="community-title">קהילות</div>
+  <eduyot-group *ngFor="let community of communities"
+    [community]="community"
+    (click)="openCommunity(community)">
+  </eduyot-group>
+
+  <div class="community-title">מחנות</div>
+  <eduyot-group *ngFor="let camp of camps"
+    [community]="camp"
+    (click)="openCommunity(camp)">
+  </eduyot-group>
+</ion-content>

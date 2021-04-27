@@ -1,0 +1,100 @@
+@import "../theme/variables";
+
+@import "fonts";
+
+
+
+.toolbar-background {
+    background-color: $eduyot-dark;
+}
+
+ion-toolbar {
+    --color: #fff;
+    --background-color: transparent;
+    --ion-color-base: transparent !important;
+    --background: transparent;
+    --border-color: transparent;
+}
+
+ion-back-button {
+    --icon-font-size: 16 !important;
+}
+
+ion-title {
+    height: 120px;
+    background-color: $eduyot-dark;
+    color: #f0f1f4;
+    /* background-image: url(../assets/imgs/title.png);
+    background-repeat: no-repeat;
+    */
+}
+
+.eduyot-bg {
+    background-color: $eduyot-light;
+}
+
+// .edu-page {
+//     margin-top: 100px;
+// }
+
+// .subpage-back-btn {
+//     .back-button {
+//         position: relative;
+//         top: -29px;
+//     }
+// }
+
+.subpage-title {
+    position: relative;
+    top: -30px;
+    right: -18px;
+    padding-right: 0;
+}
+
+.title-center {
+    text-align: center;
+    height: 180px;
+    .toolbar-title-md {
+        font-size: 24px;
+    }
+}
+
+ion-content.eduyot-content {
+    padding: 0;
+    margin: 0;
+    color: $eduyot-light;
+
+    div.scroll-content {
+        padding: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+ion-icon {
+    &[class*="custom-"] {
+      mask-size: contain;
+      mask-position: 50% 50%;
+      mask-repeat: no-repeat;
+      background: currentColor;
+      width: 1em;
+      height: 1em;
+    }
+  
+    // &[class*="custom-info"] {
+    //   mask-image: url(../assets/svg/info.svg);
+    // }
+    // &[class*="custom-playback"] {
+    //   mask-image: url(../assets/svg/playback.svg);
+    // }
+    // &[class*="custom-profile"] {
+    //   mask-image: url(../assets/svg/profile.svg);
+    // }
+  
+  }
+
+  

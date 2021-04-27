@@ -1,0 +1,25 @@
+
+<div class="container">
+  <div class="info">
+    <div class="image" (click)="gotoPerson()">
+        <img *ngIf="imageExists" [src]="getImage()" />
+        <div *ngIf="!imageExists" class="no-image">
+            <ion-icon  src="assets/svg/profile.svg" class="no-image-icon"></ion-icon>
+        </div>
+        
+    </div>
+
+    <div>
+      <div class="person personLink" (click)="gotoPerson()">
+        {{person.first}} {{person.last}}
+      </div>
+      <div class="title">
+        {{playback.title}}
+      </div>
+    </div>
+  </div>
+ 
+  <audio controls (play)="doPlay()">
+    <source [src]="mp3FileName" type="audio/mpeg" >
+  </audio>
+</div>

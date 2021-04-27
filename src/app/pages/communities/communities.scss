@@ -1,0 +1,87 @@
+@import "../../../theme/variables";
+
+    .communities-title {
+        position: relative;
+        text-align: center;
+        height: 193px;
+        font-size: 30px;
+        font-weight: 600;
+
+        .toolbar-title-md {
+            position: relative;
+            top: -20px;
+            font-size: 26px;
+            font-weight: 800;
+        }
+
+        .app-descr {
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #fff;
+            font-weight: 100;
+            margin-top: 15px;
+        }
+    }
+
+    .read-more-button {
+        color: #3999b9;
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+    }
+
+    ion-content.communities-content {
+        padding: 0;
+        margin: 0;
+
+        div.scroll-content {
+            padding: 0;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+    }
+
+    .read-more {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 400ms, padding-top 400ms;
+
+        font-size: 20px;
+        background-color: #f0f1f4;
+
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0;
+
+        &.read-more-open {
+            max-height: 3200px;  
+            padding-top: 20px;
+            padding-bottom: 40px;
+
+        }
+
+        .about-images {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+
+            .about-image {
+                width: 60px;
+                height:60px;
+                padding: 4px;
+            }
+        }
+    }
+
+    .community-title {
+        padding: 10px;
+        // color: #fff;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+    }
+

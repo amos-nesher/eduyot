@@ -1,0 +1,61 @@
+// NextExit Hebrew Font
+$font-path: "../assets/fonts";
+$nextexit-hebrew-font-path: $font-path !default;
+
+@font-face {
+  font-family: "NextExit Hebrew";
+  font-style: normal;
+  font-weight: 300;
+  src: local("NextExit Hebrew Light"), local("NextExitLight"), url("#{$nextexit-hebrew-font-path}/NextExitLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NextExit Hebrew";
+    font-style: normal;
+    font-weight: 400;
+    src: local("NextExit Hebrew Regular"), local("NextExitRegular"), url("#{$nextexit-hebrew-font-path}/NextExitRegular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "NextExit Hebrew";
+    font-style: normal;
+    font-weight: 500;
+    src: local("NextExit Hebrew Bold"), local("NextExitBold"), url("#{$nextexit-hebrew-font-path}/NextExitBold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "NextExit Hebrew";
+    font-style: normal;
+    font-weight: 600;
+    src: local("NextExit Hebrew Extra Bold"), local("NextExitExtraBold"), url("#{$nextexit-hebrew-font-path}/NextExitExtraBold.ttf") format("truetype");
+  }
+
+
+  /**
+  ----------------------------------------------
+  */
+
+
+.heb-font {
+    font-family: "NextExitRegular";
+}
+
+.heb-bold-font {
+    font-family: "NextExitBold";
+}
+
+.heb-extra-bold-font {
+    font-family: "NextExitExtraBold";
+}
+
+.heb-light-font {
+    font-family: "NextExitLight";
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-20 {
+  font-size: 20px;
+}

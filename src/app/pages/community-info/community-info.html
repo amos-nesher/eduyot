@@ -1,0 +1,33 @@
+
+<!-- <ion-header>
+
+  <div class="subpage-back-btn">
+    <ion-title class="subpage-title">חזור</ion-title>
+    <div class='community-title heb-bold-font'>
+      <div>{{title}}</div>
+      <div class='addition-info'>מידע נוסף</div>
+    </div>
+  </div>
+
+</ion-header> -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button 
+        class="font-16"
+        [text]="'חזור'" 
+        [icon]="'chevron-forward-outline'"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <div class='community-title '>
+    <div>{{title}}</div>
+    <div class='addition-info'>מידע נוסף</div>
+  </div>
+</ion-header>
+
+<ion-content class="ion-padding eduyot-bg eduyot-content relative">
+  <div class="content" [innerHTML]="infoHtml">
+  </div>
+</ion-content>

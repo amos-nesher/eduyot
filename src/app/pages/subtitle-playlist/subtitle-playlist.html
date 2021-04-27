@@ -1,0 +1,23 @@
+<ion-header [class.no-image]='!imageLink()'>
+  <img *ngIf="imageLink()" [src]="imageLink()" class="title-image" />
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button 
+        class="font-16"
+        [text]="'חזור ל' + community.name" 
+        [icon]="'chevron-forward-outline'"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <div class="community-title" [class.no-image]='!imageLink()'>{{subtitle.title}}</div>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <play-audio *ngFor="let playback of subtitle.playbacks" 
+    [playback]="playback"
+    [person]="getPerson(playback.personId)"
+    (showPerson)="gotoPerson($event)"
+    (play)="onPlay($event)">
+  </play-audio> 
+</ion-content>

@@ -1,0 +1,64 @@
+@import "../../../theme/variables";
+
+$page-title-height: 218px;
+
+ion-header {
+    height: $page-title-height;
+}
+        
+.title-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $page-title-height;
+}
+
+.community-title {
+    position: absolute;
+    bottom: 46px;
+    right: 51px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+    
+.community-counter {
+    position: absolute;
+    bottom: 16px;
+    right: 51px;
+    color: #fff;
+}
+  
+.addition-info {
+    position: absolute;
+    bottom: 16px;
+    left: 27px;
+    font-size: 20px;
+    color: #3999b9;
+}
+
+.info-icon {
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+}
+
+.subtitle-title {
+    height: 58px;
+    line-height: 58px;
+    background-color: #f0f1f4;
+    color: #000;
+    font-size: 20px;
+    padding-right: 28px;
+    margin-bottom: 20px;
+}
+
+.subtitle-image {
+    background-color: #f0f1f4;
+    padding: 15px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}  
