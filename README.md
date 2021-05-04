@@ -9,13 +9,18 @@ Provide summary of testemonies from Greece related to the Hollacost
 ### Prerequisites
 This project is based on Ionic framework which depend on NodeJS platform. 
 
-- NodeJS (8.9.4)
-- NPM (5.6.0)
-- Ionic (3.20)
+- NodeJS 
+- NPM 
+- Ionic
 
 Install Ionic
 ```
-npm install -g ionic@3.20
+npm install -g ionic
+```
+
+### for run on mobile device, make sure you have the 'native-run' installed globally
+```
+npm i -g native-run
 ```
 
 ### Clone the project from github
@@ -29,7 +34,7 @@ npm install
 
 ### Run project in local browser (development mode)
 ```
-ionic start
+ionic serve
 ```
 
 ### Build project for deploy on Android device
@@ -40,3 +45,20 @@ ionic cordova run android --device
 ### Reduce image size of each added image
 
 https://www.reduceimages.com/
+
+
+## Build Release APK
+keystore pass - 'eduyot'
+
+```
+ionic cordova build android --prod --release
+```
+### sign
+```
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore eduyot-release-key.keystore <ROOT>\eduyot\platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk alias_name
+```
+
+### zip align
+```
+zipalign -v 4 <ROOT>\eduyot\platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk <ROOT>\eduyot\platforms\android\app\build\outputs\apk\release\eduyot.apk
+```
