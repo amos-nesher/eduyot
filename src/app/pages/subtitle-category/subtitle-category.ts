@@ -20,10 +20,10 @@ export class SubtitleCategoryPage {
   public community: Community;
   public showDescription: boolean = false;
 
-  constructor(public navCtrl: NavController, 
-    private route: ActivatedRoute, private router: Router, 
+  constructor(public navCtrl: NavController,
+    private route: ActivatedRoute, private router: Router,
     private eduyotService: EduyotService) {
-    
+
     this.route.queryParams.subscribe(params => {
       if (this.router.getCurrentNavigation().extras.state) {
         this.community = this.router.getCurrentNavigation().extras.state.community;
@@ -31,8 +31,17 @@ export class SubtitleCategoryPage {
     });
   }
 
+  additionInfoStyle(): string {
+    if (this.community.additionInfoColor) {
+      return "color: "+this.community.additionInfoColor;
+    } else {
+      //return "color: #3999b9"
+      return "color: white"
+    }
+  }
+
   ionViewDidLoad() {
-  
+
   }
 
   getPerson(personId) {
@@ -62,7 +71,7 @@ export class SubtitleCategoryPage {
       //   community: this.community,
       //   subtitle: subtitle
       // });
-      this.navCtrl.navigateForward('/subtitle-playlist', 
+      this.navCtrl.navigateForward('/subtitle-playlist',
         {
           state: {
             community: this.community,
@@ -89,8 +98,8 @@ export class SubtitleCategoryPage {
     if (image) {
       return 'assets/imgs/' + image;
     }
-      
+
     return '';
   }
-  
+
 }

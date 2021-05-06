@@ -5,7 +5,7 @@ $page-title-height: 218px;
 ion-header {
     height: $page-title-height;
 }
-        
+
 .title-image {
     position: absolute;
     top: 0;
@@ -22,20 +22,19 @@ ion-header {
     font-weight: 600;
     color: #fff;
 }
-    
+
 .community-counter {
     position: absolute;
     bottom: 16px;
     right: 51px;
     color: #fff;
 }
-  
+
 .addition-info {
     position: absolute;
     bottom: 16px;
     left: 27px;
     font-size: 20px;
-    color: #3999b9;
 }
 
 .info-icon {
@@ -61,4 +60,4 @@ ion-header {
     width: 100%;
     height: auto;
     margin-bottom: -5px;
-}  
+}

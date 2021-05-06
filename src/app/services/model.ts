@@ -16,7 +16,7 @@ export interface Person {
 	aliya: string;
 	job: string;
 	image: string // Use base64
-	
+
 	playbackCount?: number;
 }
 
@@ -36,7 +36,8 @@ export interface Subtitle {
 export interface Community {
     name: string;
 	description: string; // The description for this community
-	titleImage: string; 
+	titleImage: string;
+  additionInfoColor?: string;
 	subtitles: Array<Subtitle>;
 	playbackCount?: number;
 	personCount?: number;
