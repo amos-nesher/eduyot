@@ -18,8 +18,8 @@
                 width: 43px;
                 height: 43px;
                 border-radius: 50%;
-            }  
-            
+            }
+
             .no-image {
                 width: 43px;
                 height: 43px;
@@ -33,7 +33,7 @@
             .no-image-icon {
                 font-size: 22px;
                 position: relative;
-                top: -3px;
+                top: -10%;
                 left: -2px;
             }
         }
@@ -44,7 +44,7 @@
             position: relative;
             top: 2px;
         }
-        
+
         .title {
             color: $eduyot-dark;
             font-size: 24px;
@@ -53,5 +53,5 @@
             top: -4px;
         }
     }
-    
+
 
