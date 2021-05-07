@@ -1,6 +1,9 @@
 import {Community} from "../model";
 import {SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON} from "./saloniky.description.data";
 import {YANINA_DESCRIPTION_DATA} from "./yanina.description.data";
+import {OSHVITZ_DESCRIPTION_DATA} from "./oshvitz.description.data";
+import {BIRKINAU_DESCRIPTION_DATA} from "./birkinau.description.data";
+import {BUNA_DESCRIPTION_DATA} from "./buna.description.data";
 import {KORFU_DESCRIPTION_DATA} from "./korfu.description.data";
 import {ATUNA_DESCRIPTION_DATA} from "./atuna.description.data";
 import {VOLOS_DESCRIPTION_DATA} from "./volos.description.data";
@@ -220,7 +223,7 @@ const YANINA: Community = {
 
 const OSHVITZ: Community = {
   name: 'אושוויץ',
-  description: YANINA_DESCRIPTION_DATA,
+  description: OSHVITZ_DESCRIPTION_DATA,
   titleImage: 'auschwitz-title.png',
   subtitles: [
     {
@@ -367,7 +370,7 @@ const ATUNA: Community = {
 
 const BIRKINAU: Community = {
   name: 'בירקנאו',
-  description: YANINA_DESCRIPTION_DATA,
+  description: BIRKINAU_DESCRIPTION_DATA,
   titleImage: 'auschwitz-title.png',
   subtitles: [
     {
@@ -644,7 +647,7 @@ const KORFU: Community = {
 
 const BUNA: Community = {
   name: 'בונה',
-  description: YANINA_DESCRIPTION_DATA,
+  description: BUNA_DESCRIPTION_DATA,
   titleImage: 'auschwitz-title.png',
   subtitles: [
     {
