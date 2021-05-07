@@ -327,6 +327,7 @@ const ATUNA: Community = {
     {
       title: 'בית הכנסת',
       image: 'atuna/synagogue.jpg',
+      backButtonColor: 'black',
       playbacks: [
         {
           personId: 'fortisbinyamin',
@@ -362,6 +363,7 @@ const ATUNA: Community = {
     {
       title: 'מחנה חיידרי',
       image: 'atuna/haidari.jpg',
+      backButtonColor: 'black',
       playbacks: [
       ]
     },

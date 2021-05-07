@@ -29,6 +29,7 @@ export interface Playback {
 export interface Subtitle {
 	title: string;
 	image: string;
+  backButtonColor?: string;
 	playbacks: Array<Playback>;
 	description?: string;
 }

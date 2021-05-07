@@ -3,9 +3,10 @@
 
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button 
+      <ion-back-button
         class="font-16"
-        [text]="'חזור ל' + community.name" 
+        [style]="backButtonColor()"
+        [text]="'חזור ל' + community.name"
         [icon]="'chevron-forward-outline'"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
@@ -14,10 +15,10 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <play-audio *ngFor="let playback of subtitle.playbacks" 
+  <play-audio *ngFor="let playback of subtitle.playbacks"
     [playback]="playback"
     [person]="getPerson(playback.personId)"
     (showPerson)="gotoPerson($event)"
     (play)="onPlay($event)">
-  </play-audio> 
+  </play-audio>
 </ion-content>

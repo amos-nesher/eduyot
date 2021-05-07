@@ -24,7 +24,7 @@ export class SubtitlePlaylistPage {
 
   constructor(public navCtrl: NavController, private route: ActivatedRoute, private router: Router,
     private eduyotService: EduyotService) {
-      
+
     this.route.queryParams.subscribe(params => {
       if (this.router.getCurrentNavigation().extras.state) {
         this.community = this.router.getCurrentNavigation().extras.state.community;
@@ -34,7 +34,15 @@ export class SubtitlePlaylistPage {
   }
 
   ionViewDidLoad() {
-  
+
+  }
+
+  backButtonColor(): string {
+    if (this.subtitle.backButtonColor) {
+      return '--color: '+ this.subtitle.backButtonColor
+    } else {
+      return '--color: white'
+    }
   }
 
   imageLink(): string {
