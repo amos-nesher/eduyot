@@ -10,7 +10,7 @@ ion-header {
         background-color: #000;
     }
 }
-    
+
 .title-image {
     position: absolute;
     top: 0;
@@ -19,11 +19,13 @@ ion-header {
     height: $page-title-height;
 }
 
+// second level of drill down
 .community-title {
     position: absolute;
     bottom: 46px;
     right: 51px;
     font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: 600;
     color: #fff;
 
