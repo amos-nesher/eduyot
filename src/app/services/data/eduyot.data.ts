@@ -109,6 +109,18 @@ const SALONIKY: Community = {
         }
       ]
     },
+
+    //xxxx
+    {
+      title: 'המגדל הלבן',
+      image: 'saloniki_white_tower.jpg',
+      playbacks: [
+        ]
+    },
+
+    //xxx
+
+
     {
       title: 'שכונת הברון הירש',
       image: "saloniky_baron_hirsh.jpg",
