@@ -58,7 +58,6 @@ export class SubtitlePlaylistPage {
   }
 
   gotoPerson(person: Person) {
-    // this.navCtrl.push(PersonPage, {person: person});
     this.navCtrl.navigateForward('/person', {state: {person}});
   }
 

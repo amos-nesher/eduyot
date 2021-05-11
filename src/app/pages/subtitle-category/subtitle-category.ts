@@ -49,28 +49,21 @@ export class SubtitleCategoryPage {
   }
 
   gotoPerson(person: Person) {
-    //this.navCtrl.push(PersonPage, {person: person});
     this.navCtrl.navigateForward('/person', {state: {person}});
   }
 
   gotoMoreInfoPage() {
-    //this.navCtrl.push(CommunityInfoPage, {community: this.community});
     this.navCtrl.navigateForward('/community-info', {state: {community: this.community}});
   }
 
   gotoSubtitleInfo(subtitle: Subtitle) {
     if (subtitle.description) {
-      //this.navCtrl.push(CommunityInfoPage, {subtitle: subtitle});
       this.navCtrl.navigateForward('/community-info', {state: {subtitle}});
     }
   }
 
   gotoSubtitle(subtitle: Subtitle) {
     if (this.community.categoryView) {
-      // this.navCtrl.push(SubtitlePlaylistPage, {
-      //   community: this.community,
-      //   subtitle: subtitle
-      // });
       this.navCtrl.navigateForward('/subtitle-playlist',
         {
           state: {
@@ -81,7 +74,6 @@ export class SubtitleCategoryPage {
       );
     }
     else if (subtitle.description) {
-      //this.navCtrl.push(CommunityInfoPage, {subtitle: subtitle});
       this.navCtrl.navigateForward('/community-info', {state: {subtitle}});
     }
   }

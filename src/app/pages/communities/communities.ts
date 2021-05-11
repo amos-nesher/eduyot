@@ -46,17 +46,14 @@ export class CommunitiesPage {
   openCommunity(community: Community) {
     if (community.subtitles.length > 0) {
       if (community.categoryView) {
-        //this.navCtrl.push(SubtitleCategoryPage, {community: community});
         this.navCtrl.navigateForward('/subtitle-category', {state: {community}});
       }
       else {
-        //this.navCtrl.push(PlaybackListPage, {community: community});
         this.navCtrl.navigateForward('/playback-list', {state: {community}});
       }
       
     }
     else {
-      //this.navCtrl.push(CommunityInfoPage, {community: community});
       this.navCtrl.navigateForward('/community-info', {state: {community}});
     }
     
@@ -74,7 +71,6 @@ export class CommunitiesPage {
   }
 
   gotoPerson(person: Person) {
-    // this.navCtrl.push(PersonPage, {person: person});
     this.navCtrl.navigateForward('/person', {state: {person}});
   }
 

@@ -34,7 +34,6 @@ export class AboutPage {
       this.appStateService.setShowAboutPage(false);
     }
 
-    // this.navCtrl.setRoot(CommunitiesPage);
     this.navCtrl.navigateRoot('/communities');
   }
 }
