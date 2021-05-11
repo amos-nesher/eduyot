@@ -71,4 +71,18 @@ export class SubtitlePlaylistPage {
       }
     }
   }
+
+  gotoSubtitleInfo() {
+    if (this.subtitle.description) {
+      this.navCtrl.navigateForward('/community-info', {state: {subtitle: this.subtitle}});
+    }
+  }
+
+  additionInfoStyle(): string {
+    if (this.community.additionInfoColor) {
+      return "color: "+this.community.additionInfoColor;
+    } else {
+      return "color: #fff"
+    }
+  }
 }
