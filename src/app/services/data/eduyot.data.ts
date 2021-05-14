@@ -1,7 +1,7 @@
 import {Community} from "../model";
 import {SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON, SALONIKY_EVYONIM, SALONIKY_MONSTIRELIS, SALONIKY_NEW_CEMETRY,
   SALONIKY_WHITE_TOWER, SALONIKY_BARON_HIRSH, SALONIKY_RAILWAY_STATION, SALONIKY_ANO_POLI,
-  SALONIKY_FREEDOM_CENTER} from "./saloniky.description.data";
+  SALONIKY_FREEDOM_CENTER,SALONIKY_MODIANO_MARKET,SALONIKY_YAD_LAZIKARON} from "./saloniky.description.data";
 import {YANINA_DESCRIPTION_DATA} from "./yanina.description.data";
 import {OSHVITZ_DESCRIPTION_DATA} from "./oshvitz.description.data";
 import {BIRKINAU_DESCRIPTION_DATA} from "./birkinau.description.data";
@@ -123,7 +123,6 @@ const SALONIKY: Community = {
         ]
     },
 
-
     {
       title: 'שכונת הברון הירש',
       image: "saloniky_baron_hirsh.jpg",
@@ -229,7 +228,24 @@ const SALONIKY: Community = {
           title: 'שבת השחורה'
         },
       ]
+    },
+
+    {
+      title: 'שוק מודיאנו',
+      image: null,
+      description: SALONIKY_MODIANO_MARKET,
+      playbacks: [
+      ]
+    },
+
+    {
+      title: 'בית הכנסת יד לזיכרון',
+      image: null,
+      description: SALONIKY_YAD_LAZIKARON,
+      playbacks: [
+      ]
     }
+
   ]
 }
 
