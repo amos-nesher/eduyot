@@ -1,11 +1,13 @@
 import {Community} from "../model";
-import {SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON} from "./saloniky.description.data";
+import {SALONIKY_DESCRIPTION_DATA, SALONIKY_MOSEON, SALONIKY_EVYONIM, SALONIKY_MONSTIRELIS, SALONIKY_NEW_CEMETRY,
+  SALONIKY_WHITE_TOWER, SALONIKY_BARON_HIRSH, SALONIKY_RAILWAY_STATION, SALONIKY_ANO_POLI,
+  SALONIKY_FREEDOM_CENTER} from "./saloniky.description.data";
 import {YANINA_DESCRIPTION_DATA} from "./yanina.description.data";
 import {OSHVITZ_DESCRIPTION_DATA} from "./oshvitz.description.data";
 import {BIRKINAU_DESCRIPTION_DATA} from "./birkinau.description.data";
 import {BUNA_DESCRIPTION_DATA} from "./buna.description.data";
-import {KORFU_DESCRIPTION_DATA} from "./korfu.description.data";
-import {ATUNA_DESCRIPTION_DATA} from "./atuna.description.data";
+import {KORFU_DESCRIPTION_DATA,KORFU_SYNAGOGUE,KORFU_JEWISH_GETTO,KORFU_OLD_FORTRESS} from "./korfu.description.data";
+import {ATUNA_DESCRIPTION_DATA,ATUNA_JEWISH_MUZIUM,ATUNA_SYNAGOGUE,ATUNA_MONUMENT,ATUNA_HAIDARI} from "./atuna.description.data";
 import {VOLOS_DESCRIPTION_DATA} from "./volos.description.data";
 
 const BEFORE_HA_KIBUSH = 'לפני הכיבוש';
@@ -43,6 +45,7 @@ const SALONIKY: Community = {
     {
       title: 'מתנות לאביונים',
       image: 'saloniky_matanot_laevyonim.jpg',
+      description: SALONIKY_EVYONIM,
       playbacks: [
         {
           personId: 'frida',
@@ -78,6 +81,7 @@ const SALONIKY: Community = {
     {
       title: 'בית הכנסת מונסטירליס',
       image: "saloniky_monastir_synagogue.jpg",
+      description: SALONIKY_MONSTIRELIS,
       playbacks: [
         {
           personId: 'yitzhakcohen',
@@ -93,6 +97,7 @@ const SALONIKY: Community = {
     {
       title: 'בית העלמין החדש',
       image: 'saloniky_new_cemetery.jpg',
+      description: SALONIKY_NEW_CEMETRY,
       playbacks: [
         {
           personId: 'mano',
@@ -110,20 +115,19 @@ const SALONIKY: Community = {
       ]
     },
 
-    //xxxx
     {
       title: 'המגדל הלבן',
       image: 'saloniki_white_tower.jpg',
+      description: SALONIKY_WHITE_TOWER,
       playbacks: [
         ]
     },
-
-    //xxx
 
 
     {
       title: 'שכונת הברון הירש',
       image: "saloniky_baron_hirsh.jpg",
+      description: SALONIKY_BARON_HIRSH,
       playbacks: [
         {
           personId: 'haimrefael',
@@ -164,6 +168,7 @@ const SALONIKY: Community = {
     {
       title: 'תחנת הרכבת',
       image: 'saloniky_train_station_baron_hirsh3.jpg',
+      description: SALONIKY_RAILWAY_STATION,
       playbacks: [
         {
           personId: 'frida',
@@ -196,6 +201,7 @@ const SALONIKY: Community = {
     {
       title: 'העיר העליונה Ano Poli',
       image: 'saloniky_yad_kula_view.jpg',
+      description: SALONIKY_ANO_POLI,
       playbacks: [
         {
           personId: 'yitzhakcohen',
@@ -207,6 +213,7 @@ const SALONIKY: Community = {
     {
       title: 'כיכר החרות',
       image: 'saloniky_freedon_square.jpg',
+      description: SALONIKY_FREEDOM_CENTER,
       playbacks: [
         {
           personId: 'haimrefael',
@@ -333,6 +340,7 @@ const ATUNA: Community = {
     {
       title: 'המוזיאון היהודי',
       image: 'atuna/muzium.jpg',
+      description: ATUNA_JEWISH_MUZIUM,
       playbacks: [
       ]
     },
@@ -340,6 +348,7 @@ const ATUNA: Community = {
       title: 'בית הכנסת',
       image: 'atuna/synagogue.jpg',
       backButtonColor: 'black',
+      description: ATUNA_SYNAGOGUE,
       playbacks: [
         {
           personId: 'fortisbinyamin',
@@ -357,6 +366,7 @@ const ATUNA: Community = {
     {
       title: 'אנדרטת השואה',
       image: 'atuna/monument.jpg',
+      description: ATUNA_MONUMENT,
       playbacks: [
         {
           personId: 'yaakovgabay',
@@ -376,6 +386,7 @@ const ATUNA: Community = {
       title: 'מחנה חיידרי',
       image: 'atuna/haidari.jpg',
       backButtonColor: 'black',
+      description: ATUNA_HAIDARI,
       playbacks: [
       ]
     },
@@ -527,6 +538,7 @@ const KORFU: Community = {
     {
       title: 'בית הכנסת',
       image: "korfu/korfu_synagogue.jpg",
+      description: KORFU_SYNAGOGUE,
       playbacks: [
         {
           personId: 'rivkabaleli',
@@ -570,6 +582,7 @@ const KORFU: Community = {
     {
       title: 'הרובע היהודי',
       image: 'korfu/korfu_jewish_getto.jpg',
+      description: KORFU_JEWISH_GETTO,
       playbacks: [
         {
           personId: 'esterrefael',
@@ -594,6 +607,7 @@ const KORFU: Community = {
     {
       title: 'מבצר פרוריו',
       image: 'korfu/korfu_old_fortress.jpg',
+      description: KORFU_OLD_FORTRESS,
       playbacks: [
         {
           personId: 'sardesaliki',
@@ -618,6 +632,7 @@ const KORFU: Community = {
     {
       title: 'מחנה חיידרי',
       image: 'korfu/haydari_camp.jpg',
+      description: ATUNA_HAIDARI,
       playbacks: [
         {
           personId: 'annagershwin',
