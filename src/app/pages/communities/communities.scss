@@ -51,7 +51,7 @@
         transition: max-height 400ms, padding-top 400ms;
 
         font-size: 20px;
-        background-color: #f0f1f4;
+//        background-color: #f0f1f4;
 
         padding-left: 20px;
         padding-right: 20px;
@@ -85,3 +85,6 @@
         font-weight: 500;
     }
 
+  .back-button {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }

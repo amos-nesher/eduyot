@@ -94,4 +94,11 @@ export class SubtitleCategoryPage {
     return '';
   }
 
+
+  backToMainButtonStyle() {
+    if (this.community.backButtonColor) {
+      return "color: "+this.community.backButtonColor;
+    }
+    return "color: white";
+  }
 }

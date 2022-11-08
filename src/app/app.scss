@@ -47,7 +47,8 @@ ion-title {
 }
 
 .eduyot-bg {
-    background-color: $eduyot-light;
+    background-color: green;
+    //background-color: $eduyot-light;
 }
 
 .subpage-back-btn {
@@ -97,7 +98,7 @@ ion-icon {
       width: 1em;
       height: 1em;
     }
-  
+
     &[class*="custom-info"] {
       mask-image: url(../assets/svg/info.svg);
     }
@@ -107,7 +108,7 @@ ion-icon {
     &[class*="custom-profile"] {
       mask-image: url(../assets/svg/profile.svg);
     }
-  
+
   }
 
   .font-20 {

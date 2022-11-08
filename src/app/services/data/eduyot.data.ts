@@ -6,6 +6,7 @@ import {YANINA_DESCRIPTION_DATA} from "./yanina.description.data";
 import {OSHVITZ_DESCRIPTION_DATA} from "./oshvitz.description.data";
 import {BIRKINAU_DESCRIPTION_DATA} from "./birkinau.description.data";
 import {BUNA_DESCRIPTION_DATA} from "./buna.description.data";
+import {CAMP_WARSHA_DESCRIPTION_DATA} from "./camp_warsha.description.data";
 import {KORFU_DESCRIPTION_DATA,KORFU_SYNAGOGUE,KORFU_JEWISH_GETTO,KORFU_OLD_FORTRESS} from "./korfu.description.data";
 import {ATUNA_DESCRIPTION_DATA,ATUNA_JEWISH_MUZIUM,ATUNA_SYNAGOGUE,ATUNA_MONUMENT,ATUNA_HAIDARI} from "./atuna.description.data";
 import {VOLOS_DESCRIPTION_DATA} from "./volos.description.data";
@@ -13,7 +14,7 @@ import {VOLOS_DESCRIPTION_DATA} from "./volos.description.data";
 const BEFORE_HA_KIBUSH = 'לפני הכיבוש';
 const IN_THE_KIBUSH = 'בזמן הכיבוש';
 const IN_THE_CAMPS = 'במחנות';
-const AFTER_RELEASE = 'אחרי השחרור';
+const AFTER_RELEASE = 'לאחר השחרור';
 
 const SALONIKY: Community = {
   name: 'סלוניקי',
@@ -124,6 +125,28 @@ const SALONIKY: Community = {
     },
 
     {
+      title: 'כיכר החרות',
+      image: 'saloniky_freedon_square.jpg',
+      description: SALONIKY_FREEDOM_CENTER,
+      playbacks: [
+        {
+          personId: 'haimrefael',
+          playbackFile: 'Refael5',
+          title: 'ימי הכיבוש'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael7',
+          title: 'שמועות על הקמת הגטו'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael8',
+          title: 'שבת השחורה'
+        },
+      ]
+    },
+
+
+    {
       title: 'שכונת הברון הירש',
       image: "saloniky_baron_hirsh.jpg",
       description: SALONIKY_BARON_HIRSH,
@@ -198,7 +221,7 @@ const SALONIKY: Community = {
       ]
     },
     {
-      title: 'העיר העליונה Ano Poli',
+      title: 'תצפית על העיר סלוניקי - אנופולי',
       image: 'saloniky_yad_kula_view.jpg',
       description: SALONIKY_ANO_POLI,
       playbacks: [
@@ -209,27 +232,6 @@ const SALONIKY: Community = {
         }
       ]
     },
-    {
-      title: 'כיכר החרות',
-      image: 'saloniky_freedon_square.jpg',
-      description: SALONIKY_FREEDOM_CENTER,
-      playbacks: [
-        {
-          personId: 'haimrefael',
-          playbackFile: 'Refael5',
-          title: 'ימי הכיבוש'
-        }, {
-          personId: 'haimrefael',
-          playbackFile: 'Refael7',
-          title: 'שמועות על הקמת הגטו'
-        }, {
-          personId: 'haimrefael',
-          playbackFile: 'Refael8',
-          title: 'שבת השחורה'
-        },
-      ]
-    },
-
     {
       title: 'שוק מודיאנו',
       image: null,
@@ -529,6 +531,7 @@ const VOLOS: Community = {
   name: 'וולוס',
   description: VOLOS_DESCRIPTION_DATA,
   titleImage: 'volos-title.jpg',
+  backButtonColor: 'black',
   subtitles: [
     {
       title: IN_THE_KIBUSH,
@@ -550,6 +553,7 @@ const KORFU: Community = {
   description: KORFU_DESCRIPTION_DATA,
   titleImage: 'corfu-title.jpg',
   categoryView: true,
+  backButtonColor: 'black',
   subtitles: [
     {
       title: 'בית הכנסת',
@@ -618,8 +622,6 @@ const KORFU: Community = {
       ]
     },
 
-
-
     {
       title: 'מבצר פרוריו',
       image: 'korfu/korfu_old_fortress.jpg',
@@ -643,11 +645,10 @@ const KORFU: Community = {
       ]
     },
 
-
-
     {
       title: 'מחנה חיידרי',
-      image: 'korfu/haydari_camp.jpg',
+      //image: 'korfu/haydari_camp.jpg',
+      image: 'korfu/korfu_monument.jpg',
       description: ATUNA_HAIDARI,
       playbacks: [
         {
@@ -660,7 +661,7 @@ const KORFU: Community = {
 
 
     {
-      title: IN_THE_CAMPS,
+      title: 'יהודי קורפו במחנות',
       image: null,
       playbacks: [
         {
@@ -691,7 +692,7 @@ const KORFU: Community = {
 }
 
 const BUNA: Community = {
-  name: 'בונה',
+  name: 'בונה - מונוביץ',
   description: BUNA_DESCRIPTION_DATA,
   titleImage: 'auschwitz-title.png',
   subtitles: [
@@ -710,6 +711,20 @@ const BUNA: Community = {
 }
 
 
+const CAMP_WARSHA: Community = {
+  name: 'גנשובקה וורשה',
+  description: CAMP_WARSHA_DESCRIPTION_DATA,
+  titleImage: 'auschwitz-title.png',
+  subtitles: [
+    {
+      title: IN_THE_CAMPS,
+      image: "yanina.jpg",
+      playbacks: []
+    }
+  ]
+}
+
+
 export const KEHILOT_DATA: Array<Community> = [
   ATUNA,
   SALONIKY,
@@ -721,5 +736,6 @@ export const KEHILOT_DATA: Array<Community> = [
 export const CAMPS_DATA: Array<Community> = [
   OSHVITZ,
   BIRKINAU,
-  BUNA
+  BUNA,
+  CAMP_WARSHA
 ];

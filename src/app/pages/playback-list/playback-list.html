@@ -1,20 +1,20 @@
-
+<!-- playback-list -->
 <ion-header>
   <img *ngIf="imageLink()" [src]="imageLink()" class="title-image" />
 
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button 
-        class="font-16"
-        [text]="'כל הקהילות'" 
+    <ion-buttons slot="start" style={{backToMainButtonStyle()}}>
+      <ion-back-button
+        class="font-16 back-to-main-button"
+        text="כל הקהילות"
         [icon]="'chevron-forward-outline'"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 
-  <div class="community-title ">{{community.name}}</div>
+  <div class="playback-community-title ">{{community.name}}</div>
   <community-counter [community]="community" class="community-counter"></community-counter>
-  <div class="addition-info" (click)="gotoMoreInfoPage()">
-      <ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon> 
+  <div class="playback-addition-info" (click)="gotoMoreInfoPage()">
+      <!--<ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon>-->
       מידע נוסף
   </div>
 </ion-header>
@@ -29,7 +29,7 @@
       <img [src]="subTitleImageLink(subtitle.image)" class="subtitle-image"/>
     </div> -->
 
-    <play-audio *ngFor="let playback of subtitle.playbacks" 
+    <play-audio *ngFor="let playback of subtitle.playbacks"
       [playback]="playback"
       [person]="getPerson(playback.personId)"
       (showPerson)="gotoPerson($event)"

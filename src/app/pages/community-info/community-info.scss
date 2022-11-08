@@ -5,7 +5,7 @@ ion-header {
     background-color: #000;
 }
 
-.community-title {
+.community-info-title {
     font-size: 32px;
     font-weight: 600;
     color: #fff;
@@ -14,6 +14,7 @@ ion-header {
     width: 100%;
     top: 56px;
     right: 52px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .addition-info {

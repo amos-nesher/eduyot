@@ -30,7 +30,8 @@ ion-title {
 }
 
 .eduyot-bg {
-    background-color: $eduyot-light;
+    background-color: red;
+    //background-color: $eduyot-light;
 }
 
 // .edu-page {
@@ -84,7 +85,7 @@ ion-icon {
       width: 1em;
       height: 1em;
     }
-  
+
     // &[class*="custom-info"] {
     //   mask-image: url(../assets/svg/info.svg);
     // }
@@ -94,7 +95,6 @@ ion-icon {
     // &[class*="custom-profile"] {
     //   mask-image: url(../assets/svg/profile.svg);
     // }
-  
+
   }
 
-  

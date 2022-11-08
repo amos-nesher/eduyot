@@ -1,8 +1,9 @@
+<!-- subtitle-category -->
 <ion-header>
   <img *ngIf="imageLink()" [src]="imageLink()" class="title-image" />
 
   <ion-toolbar>
-    <ion-buttons slot="start">
+    <ion-buttons slot="start"  style={{backToMainButtonStyle()}}>
       <ion-back-button
         class="font-16"
         [text]="'כל הקהילות'"
@@ -10,10 +11,10 @@
     </ion-buttons>
   </ion-toolbar>
 
-  <div class="community-title ">{{community.name}}</div>
+  <div class="subtitle-community-title ">{{community.name}}</div>
   <community-counter [community]="community" class="community-counter"></community-counter>
   <div [style]="additionInfoStyle()" class="addition-info" (click)="gotoMoreInfoPage()">
-      <ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon>
+      <!--<ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon>-->
       מידע נוסף
   </div>
 </ion-header>

@@ -69,7 +69,7 @@ export class PlaybackListPage {
     if (image) {
       return 'assets/imgs/' + image;
     }
-      
+
     return '';
   }
 
@@ -82,5 +82,11 @@ export class PlaybackListPage {
       }
     }
   }
-  
+
+  backToMainButtonStyle() {
+    if (this.community.backButtonColor) {
+      return "color: "+this.community.backButtonColor;
+    }
+    return "color: white";
+  }
 }
