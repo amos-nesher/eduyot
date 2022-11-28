@@ -103,7 +103,7 @@ const SALONIKY: Community = {
         {
           personId: 'mano',
           playbackFile: 'Mano5 הישרדות 41-43',
-          title: 'הישרדות 1941-43'
+          title: 'הישרדות 1941 - 1943'
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael3',
