@@ -28,10 +28,6 @@ const SALONIKY: Community = {
       image: "saloniky_jewish_musium.jpg",
       playbacks: [
         {
-          personId: 'nahman',
-          playbackFile: 'זכרונות מסלוניקי מרי נחמן',
-          title: 'ערב שבת וחגים'
-        }, {
           personId: 'mano',
           playbackFile: 'Mano2 רומנסות',
           title: 'רומאנסות'
@@ -85,6 +81,10 @@ const SALONIKY: Community = {
       description: SALONIKY_MONSTIRELIS,
       playbacks: [
         {
+          personId: 'nahman',
+          playbackFile: 'זכרונות מסלוניקי מרי נחמן',
+          title: 'ערב שבת וחגים'
+        }, {
           personId: 'yitzhakcohen',
           playbackFile: 'Cohen4 חגים',
           title: 'חגים ופיוטים'
