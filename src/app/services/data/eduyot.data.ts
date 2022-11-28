@@ -55,7 +55,7 @@ const SALONIKY: Community = {
         }, {
           personId: 'mano',
           playbackFile: 'Mano1 מתנות לאביונים',
-          title: 'מנו1'
+          title: 'מתנות לאביונים'
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael3',
