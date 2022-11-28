@@ -34,7 +34,7 @@ const SALONIKY: Community = {
         }, {
           personId: 'elyakim_bachar',
           playbackFile: 'Elyakim Bachar1',
-          title: 'אליקים בכר 1'
+          title: 'תנועות נוער ופרעות קמפבל'
         }
       ]
     },
