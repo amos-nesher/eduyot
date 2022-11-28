@@ -59,7 +59,7 @@ const SALONIKY: Community = {
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael3',
-          title: 'על הלימודים'
+          title: 'השינויים בעקבות עליית מטקסס'
         }, {
           personId: 'razon',
           playbackFile: 'Razon1',
