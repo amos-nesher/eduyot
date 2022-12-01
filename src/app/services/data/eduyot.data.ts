@@ -35,6 +35,10 @@ const SALONIKY: Community = {
           personId: 'elyakim_bachar',
           playbackFile: 'Elyakim Bachar1',
           title: 'תנועות נוער ופרעות קמפבל'
+        }, {
+          personId: 'haimrefael',
+          playbackFile: 'Refael3',
+          title: 'פרוץ המלחמה'
         }
       ]
     },
@@ -105,10 +109,6 @@ const SALONIKY: Community = {
           playbackFile: 'Mano5 הישרדות 41-43',
           title: 'הישרדות 1941 - 1943'
         }, {
-          personId: 'haimrefael',
-          playbackFile: 'Refael3',
-          title: 'פרוץ המלחמה'
-        }, {
           personId: 'razon',
           playbackFile: 'Razon2',
           title: 'קרבות אגרוף כדי לשרוד'
@@ -136,7 +136,7 @@ const SALONIKY: Community = {
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael7',
-          title: 'שמועות על הקמת הגטו'
+          title: 'שמועות על גירוש'
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael8',
@@ -154,12 +154,7 @@ const SALONIKY: Community = {
         {
           personId: 'haimrefael',
           playbackFile: 'REFAEL1',
-          title: 'חיסול גטו הברון הירש'
-        },
-        {
-          personId: 'renebibas',
-          playbackFile: 'Bivas1_rav_kurtz',
-          title: 'נאום הרב קורץ בבית הכנסת'
+          title: 'המעבר לגטו הברון הירש'
         },
         {
           personId: 'mano',
@@ -169,22 +164,27 @@ const SALONIKY: Community = {
         {
           personId: 'haimrefael',
           playbackFile: 'Refael6',
-          title: 'התנגדות'
+          title: 'התנגדות, יחסי יהודים - יוונים ונסיונות בריחה'
         },
         {
           personId: 'ovadiya',
           playbackFile: 'Ovadia7',
-          title: 'סגירת הגטו'
+          title: 'סגירת הגטו, התנגדות, צווים וצמצום החיים'
         },
         {
           personId: 'razon',
           playbackFile: 'Razon4',
-          title: 'על חסון'
+          title: 'החבורה של ויטל חסון'
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael10',
-          title: 'תאור הגטו'
-        }
+          title: 'החיים בגטו'
+        },
+        {
+          personId: 'frida',
+          playbackFile: 'saloniky_kobo_frida_train_station_baron_hirsh_news_on_deportation',
+          title: 'ידיעות על הגירוש'
+        },
       ]
     },
     {
@@ -193,15 +193,16 @@ const SALONIKY: Community = {
       description: SALONIKY_RAILWAY_STATION,
       playbacks: [
         {
-          personId: 'frida',
-          playbackFile: 'saloniky_kobo_frida_train_station_baron_hirsh_news_on_deportation',
-          title: 'ידיעות על הגירוש קובו פרידה'
-        },
-        {
           personId: 'mano',
           playbackFile: 'Mano6 נאום קורץ',
           title: 'נאום קורץ לפני הגרוש'
-        }, {
+        },
+        {
+          personId: 'renebibas',
+          playbackFile: 'Bivas1_rav_kurtz',
+          title: 'נאום הרב קורץ בבית הכנסת'
+        },
+        {
           personId: 'ovadiyabaruch',
           playbackFile: 'ovadia 8 -משלוחים',
           title: 'בתחנת הרכבת לפני הגרוש'
@@ -216,7 +217,7 @@ const SALONIKY: Community = {
         }, {
           personId: 'haimrefael',
           playbackFile: 'Refael9',
-          title: 'איסוף היהודים'
+          title: 'יציאת הטרנספורטים'
         }
       ]
     },
@@ -288,7 +289,7 @@ const OSHVITZ: Community = {
         {
           personId: 'ovadiyabaruch',
           playbackFile: 'OVADIA2',
-          title: 'קארנטנה- מחנה ההסגר'
+          title: 'קרטינה - מחנה ההסגר'
         },
 
         {
@@ -300,50 +301,15 @@ const OSHVITZ: Community = {
         {
           personId: 'ovadiyabaruch',
           playbackFile: 'OVADIA4',
-          title: 'בלוק 6 אושוויץ'
+          title: 'בלוק 6'
         },
 
         {
           personId: 'ovadiyabaruch',
           playbackFile: 'OVADIA_1',
-          title: 'לבדוק שלא כפול'
-        },
-
-        {
-          personId: 'haimrefael',
-          playbackFile: 'REFAEL2',
-          title: 'הגעה לרמפה בבירקנאו'
-        },
-
-        {
-          personId: 'haimrefael',
-          playbackFile: 'REFAEL4',
-          title: 'קומנדו קנדה'
-        },
-
-        {
-          personId: 'renebibas',
-          playbackFile: 'RENE BIVAS4',
-          title: 'ההפלה'
-        },
-
-        {
-          personId: 'renebibas',
-          playbackFile: 'RENE BIVAS5',
-          title: 'הכרה באובדן ומשמעות הקרמטוריום'
-        },
-
-        {
-          personId: 'renebibas',
-          playbackFile: 'RENE BIVAS6',
-          title: 'מספר על היד'
-        },
-
-        {
-          personId: 'yaakovgabay',
-          playbackFile: 'YAAKOV GABAI 1',
-          title: 'מבנה הקרמטוריום'
+          title: 'הנסיעה ברכבת והגעה למחנה'
         }
+
       ]
     }
   ]
@@ -521,6 +487,41 @@ const BIRKINAU: Community = {
           playbackFile: 'STROMZA ZAK1',
           title: 'בירקנאו מבחינה פילוסופית'
         },
+        {
+          personId: 'haimrefael',
+          playbackFile: 'REFAEL2',
+          title: 'בדרך את המחנה'
+        },
+
+        {
+          personId: 'haimrefael',
+          playbackFile: 'REFAEL4',
+          title: 'קומנדו קנדה'
+        },
+
+        {
+          personId: 'renebibas',
+          playbackFile: 'RENE BIVAS4',
+          title: 'ההפלה'
+        },
+
+        {
+          personId: 'renebibas',
+          playbackFile: 'RENE BIVAS5',
+          title: 'הכרה באובדן ומשמעות הקרמטוריום'
+        },
+
+        {
+          personId: 'renebibas',
+          playbackFile: 'RENE BIVAS6',
+          title: 'מספר על היד'
+        },
+
+        {
+          personId: 'yaakovgabay',
+          playbackFile: 'YAAKOV GABAI 1',
+          title: 'מבנה הקרמטוריום'
+        }
 
       ]
     }
