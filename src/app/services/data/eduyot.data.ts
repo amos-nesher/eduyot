@@ -372,6 +372,11 @@ const ATUNA: Community = {
       backButtonColor: 'black',
       description: ATUNA_HAIDARI,
       playbacks: [
+        {
+          personId: 'annagershwin',
+          playbackFile: 'אנה גרשווין - בכיבוש הגרמני _ הקורבן הראשון מקורפו_',
+          title: 'חיידרי'
+        }
       ]
     },
   ]
