@@ -395,19 +395,19 @@ const BIRKINAU: Community = {
         {
           personId: 'alizabaruch',
           playbackFile: 'ALIZA_2',
-          title: 'נסויים ההקרנות בבירקנאו'
+          title: 'ניסויים והקרנות בבירקנאו'
         },
 
         {
           personId: 'renebibas',
           playbackFile: 'BIVAS RENE_2',
-          title: 'מחראות '
+          title: 'בבלוק המגורים'
         },
 
         {
           personId: 'renebibas',
           playbackFile: 'BIVAS_1',
-          title: 'הכניסה לבלוק'
+          title: 'מחראות'
         },
 
         {
@@ -419,7 +419,7 @@ const BIRKINAU: Community = {
         {
           personId: 'esterinamaestro',
           playbackFile: 'ESTER MAESTRO_2',
-          title: 'יתרון השפה הגרמנית'
+          title: 'מנהיגות בקרב האסירות'
         },
 
         {
@@ -431,13 +431,13 @@ const BIRKINAU: Community = {
         {
           personId: 'esterrefael',
           playbackFile: 'ESTER REFAEL3',
-          title: 'סלקציה בבלוק'
+          title: 'הצלה ממוות בזכות תושייה'
         },
 
         {
           personId: 'esterrefael',
           playbackFile: 'ESTER REFAEL_1',
-          title: 'קרנטינה- מחנה ההסגר'
+          title: 'קרנטינה - מחנה ההסגר'
         },
 
         {
@@ -449,7 +449,7 @@ const BIRKINAU: Community = {
         {
           personId: 'frida',
           playbackFile: 'KOBO FRIDA1',
-          title: 'קנדה- מחסני המיון'
+          title: 'קנדה - מחסני המיון'
         },
 
         {
@@ -520,7 +520,7 @@ const BIRKINAU: Community = {
         {
           personId: 'yaakovgabay',
           playbackFile: 'YAAKOV GABAI 1',
-          title: 'מבנה הקרמטוריום'
+          title: 'הרצח בתאי הגזים'
         }
 
       ]

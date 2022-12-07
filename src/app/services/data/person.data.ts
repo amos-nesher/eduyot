@@ -144,7 +144,7 @@ export const PERSON_DATA: {[personId: string]: Person} = {
     },
 
     "haimrefael": {
-        first: 'יﬠקב חיים',
+        first: 'חיים',
         last: 'רפאל',
         born: '8.8.1924',
         born_country: 'יווו',
