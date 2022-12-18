@@ -484,7 +484,13 @@ const BIRKINAU: Community = {
         {
           personId: 'renebibas',
           playbackFile: 'RENE BIVAS3',
-          title: 'המכתב מסלומון- אהבה במחנה'
+          title: 'המכתב מסלומון - אהבה במחנה'
+        },
+
+        {
+          personId: 'renebibas',
+          playbackFile: 'RENE BIVAS3  - greek songs',
+          title: 'תקשורת בין אסירים באמצעות שירה ביוונית'
         },
 
         {
