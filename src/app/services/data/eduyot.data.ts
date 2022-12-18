@@ -308,6 +308,12 @@ const OSHVITZ: Community = {
           personId: 'ovadiyabaruch',
           playbackFile: 'OVADIA_1',
           title: 'הנסיעה ברכבת והגעה למחנה'
+        },
+
+        {
+          personId: 'itzhakstrumza',
+          playbackFile: 'STROMZA ZAK1',
+          title: 'הגיגים ברטרוספקטיבה'
         }
 
       ]
@@ -491,12 +497,6 @@ const BIRKINAU: Community = {
           personId: 'renebibas',
           playbackFile: 'RENE BIVAS3  - greek songs',
           title: 'תקשורת בין אסירים באמצעות שירה ביוונית'
-        },
-
-        {
-          personId: 'itzhakstrumza',
-          playbackFile: 'STROMZA ZAK1',
-          title: 'בירקנאו מבחינה פילוסופית'
         },
         {
           personId: 'haimrefael',
