@@ -409,7 +409,7 @@ export const SALONIKY_MODIANO_MARKET:string = `
 <br>והפך לחרדה .
 
 <p>'סאלוניק סיב'יליזאדו', <b>לוס קאנטיס פופולאריס די צדיק אי גאזוז</b>, שאלוניקי 1935
-
+<p>מתרגמת: רבקה הבסי
 `;
 
 export const SALONIKY_YAD_LAZIKARON:string = `

@@ -525,7 +525,7 @@ const BIRKINAU: Community = {
         {
           personId: 'renebibas',
           playbackFile: 'RENE BIVAS6',
-          title: 'מספר על היד'
+          title: 'הקליטה במחנה'
         },
 
         {
