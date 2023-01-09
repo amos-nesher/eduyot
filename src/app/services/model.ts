@@ -35,7 +35,7 @@ export interface Subtitle {
 }
 
 export interface Community {
-    name: string;
+  name: string;
 	description: string; // The description for this community
 	titleImage: string;
   additionInfoColor?: string;

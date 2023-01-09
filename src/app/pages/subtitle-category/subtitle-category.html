@@ -12,11 +12,8 @@
   </ion-toolbar>
 
   <div class="subtitle-community-title ">{{community.name}}</div>
-  <community-counter [community]="community" class="community-counter"></community-counter>
-  <div [style]="additionInfoStyle()" class="addition-info" (click)="gotoMoreInfoPage()">
-      <!--<ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon>-->
-      מידע נוסף
-  </div>
+  <community-counter [community]="community" (moreInfoRequested)="gotoMoreInfoPage()" class="community-counter">
+  </community-counter>
 </ion-header>
 
 <ion-content class="ion-padding" style="margin-top: 100px">

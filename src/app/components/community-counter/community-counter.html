@@ -1,4 +1,4 @@
-<div class='community-counter-container'>
+<div class='community-counter-container' (click)="askForMoreInfo()">
   <ion-icon src="assets/svg/profile.svg"></ion-icon>
   <span>{{community.personCount}}</span>
   עדים
@@ -6,4 +6,10 @@
   <ion-icon src="assets/svg/playback.svg"></ion-icon>
   <span>{{community.playbackCount}}</span>
   עדויות
+  <span class="space"></span>
+  <ion-icon src="assets/svg/info.svg" class="info-icon"></ion-icon>
+  <span [style]="additionInfoStyle()" class="addition-info">
+    מידע נוסף
+  </span>
+
 </div>
