@@ -165,7 +165,7 @@ export const SALONIKY_DESCRIPTION_DATA:string = `
 export const SALONIKY_MOSEON:string = `
 <b>כתובת:</b> Agiou Mina 13, Thessaloniki 546 24
 
-<p><b>טלפון:</b> +30 231 025 0406
+<p><b>טלפון:</b> <span dir="ltr">+30-231-025-0406</span>
 
 <p><a href="http://www.jmth.gr/en-gb">.קישור לאתר המוזיאון</a>
 
@@ -213,7 +213,7 @@ export const SALONIKY_MOSEON:string = `
 export const SALONIKY_EVYONIM:string = `כאן יהיה תיאור של מתנות לאביונים`;
 
 export const SALONIKY_MONSTIRELIS:string = `
-<h1>קהילת ביטולה- מונסטיר</h1>
+<h1>קהילת ביטולה - מונסטיר</h1>
 
 <p>העיר ביטוֹלָה, (במקדונית: Битола, בלאדינו - Monastir או (Manastır בדרומה של מקדוניה הצפונית היא העיר השנייה בגודלה שם, ראשונה לה עיר הבירה סקופיה. עם השתלטות האימפריה העותמאנית על האזור נשאל בשיבוש השם מיוונית והעיר כונתה מָאנָאסְטִיר. יהודי העיר השתמשו בשמה היווני או העותמאני. היהודים התגוררו ברובע מיוחד בעיר העתיקה בתוך שכונות חצר אשר כונו בלאדינו "קוֹרְטִיז'וֹס". המקובל שלמה מלכו כתב בה את ספריו והעבירם לדפוס בסלוניקי.
 
@@ -237,7 +237,10 @@ export const SALONIKY_NEW_CEMETRY:string = `
 `;
 
 export const SALONIKY_WHITE_TOWER:string = `
-<h3>LEFKOS PIRGOS</h3>
+<b>LEFKOS PIRGOS</b>
+
+<p><a href="https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%92%D7%93%D7%9C_%D7%94%D7%9C%D7%91%D7%9F_(%D7%A1%D7%9C%D7%95%D7%A0%D7%99%D7%A7%D7%99)">וויקיפדיה</a>
+
 <p>זהו סמלה של העיר סלוניקי, וממוקם על הטיילת שלחוף הים, מרחק קצר מכיכר אריסטוטלוס.
 
 <p>המגדל הוקם על ידי השלטון העותמאני במאה ה-13 כחלק ממבצר שנועד להגן על העיר מכיוון הים. במהלך השנים נהרס המבצר ונותר עומד על תילו רק המגדל. בתחילת המאה ה-19 שימש  המגדל כבית סוהר ובחצרו הוצאו להורג אסירים רבים, ולכן נקרא לעתים "מגדל הדמים".
@@ -296,6 +299,8 @@ Si la mar era de leche
 export const SALONIKY_BARON_HIRSH:string = `כאן יהיה תיאור של שכונת הברון הירש`;
 
 export const SALONIKY_RAILWAY_STATION:string = `
+<p><b>כתובת:</b> Νέα Δυτική Είσοδος 34, Thessaloniki 546 27
+
 <h3>הטרנספורטים</h3>
 
 <p>
@@ -413,10 +418,12 @@ export const SALONIKY_MODIANO_MARKET:string = `
 `;
 
 export const SALONIKY_YAD_LAZIKARON:string = `
+
+<p><b>כתובת:</b> Vasileos Irakleiou 26
+<p><b>טלפון:</b> <span dir="ltr">+30-2310-275701</span>
+
 <p>
-<b>כתובת:</b> רחוב ווסיליוס הרקליאו 24, בניין משרדי הקהילה היהודית.
-<p>
-<a href="https://www.saloniki.co.il/%D7%94%D7%90%D7%A8%D7%9B%D7%99%D7%95%D7%9F-%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99-%D7%91%D7%A1%D7%9C%D7%95%D7%A0%D7%99%D7%A7%D7%99/">.קישור לאתר ארכיון הקהילה היהודית בסלוניקי</a>
+<a href="https://www.lametayel.co.il/tips/02kl99">מידע באתר למטייל</a>
 
 <p>בית הכנסת הזה היה שייך למשפחת בורלא, וזו תרמה את המבנה לקהילה לאחר המלחמה. המבנה המקורי חרב ב-1979 ברעידת האדמה, והבניין שהוקם מעליו נבנה בשנת 1984, לכן זהו מבנה מודרני. עד להקמת המוזיאון  היהודי בסלוניקי הוא תפקד גם כמוזיאון קהילתי קטן.
 

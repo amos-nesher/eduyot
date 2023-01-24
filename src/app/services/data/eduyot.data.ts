@@ -188,7 +188,7 @@ const SALONIKY: Community = {
       ]
     },
     {
-      title: 'תחנת הרכבת',
+      title: 'תחנת הרכבת הישנה',
       image: 'saloniky_train_station_baron_hirsh3.jpg',
       description: SALONIKY_RAILWAY_STATION,
       playbacks: [
@@ -335,7 +335,7 @@ const ATUNA: Community = {
       ]
     },
     {
-      title: 'בית הכנסת',
+      title: 'בית הכנסת בית שלום',
       image: 'atuna/synagogue.jpg',
       backButtonColor: 'black',
       description: ATUNA_SYNAGOGUE,
