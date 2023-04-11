@@ -478,7 +478,7 @@ const BIRKINAU: Community = {
         {
           personId: 'ovadiyabaruch',
           playbackFile: 'OVADIA1',
-          title: 'שבעה ימים ברכבת'
+          title: 'הנסיעה מסלוניקי לאושוויץ'
         },
 
         {
