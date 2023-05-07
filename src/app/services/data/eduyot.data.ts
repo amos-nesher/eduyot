@@ -235,7 +235,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'שוק מודיאנו',
-      image: null,
+      image: 'saloniky_modiano_market.jpg',
       description: SALONIKY_MODIANO_MARKET,
       playbacks: [
       ]
