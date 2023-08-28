@@ -100,7 +100,7 @@ const SALONIKY: Community = {
       ]
     },
     {
-      title: 'בית העלמין החדש',
+      title: 'בתי העלמין בסלוניקי',
       image: 'saloniky_new_cemetery.jpg',
       description: SALONIKY_NEW_CEMETRY,
       playbacks: [
@@ -222,7 +222,7 @@ const SALONIKY: Community = {
       ]
     },
     {
-      title: 'תצפית על העיר סלוניקי - אנופולי',
+      title: 'תצפית על העיר - אנופולי',
       image: 'saloniky_yad_kula_view.jpg',
       description: SALONIKY_ANO_POLI,
       playbacks: [
@@ -262,7 +262,7 @@ const YANINA: Community = {
 const OSHVITZ: Community = {
   name: 'אושוויץ',
   description: OSHVITZ_DESCRIPTION_DATA,
-  titleImage: 'auschwitz-title.png',
+  titleImage: 'oshvitz-camp.jpg',
   subtitles: [
     {
       title: IN_THE_CAMPS,
@@ -391,7 +391,7 @@ const ATUNA: Community = {
 const BIRKINAU: Community = {
   name: 'בירקנאו',
   description: BIRKINAU_DESCRIPTION_DATA,
-  titleImage: 'auschwitz-title.png',
+  titleImage: 'birkinau-camp.jpg',
   subtitles: [
     {
       title: IN_THE_CAMPS,
@@ -669,37 +669,7 @@ const KORFU: Community = {
           title: 'הקורבן הראשון מקורפו'
         }
       ]
-    },
-
-
-    {
-      title: 'יהודי קורפו במחנות',
-      image: null,
-      playbacks: [
-        {
-          personId: 'sardesaliki',
-          playbackFile: 'אליקי סרדס- הגירוש למחנות _ מחנה חיידרי והגרוש לבירקנאו_',
-          title: 'מחנה חיידרי והגרוש לבירקנאו'
-        },
-        {
-          personId: 'annagershwin',
-          playbackFile: 'אנה גרשווין קורפו7',
-          title: 'פגישה עם אחותי במחנה'
-        },
-      ]
-    },
-    {
-      title: AFTER_RELEASE,
-      image: null,
-      playbacks: [
-        {
-          personId: 'annagershwin',
-          playbackFile: 'אנה גרשווין קורפו5',
-          title: 'מפגש עם כומר בבית לחם'
-        },
-      ]
-    },
-
+    }
   ]
 }
 
