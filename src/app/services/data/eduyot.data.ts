@@ -6,7 +6,7 @@ import {YANINA_DESCRIPTION_DATA} from "./yanina.description.data";
 import {OSHVITZ_DESCRIPTION_DATA} from "./oshvitz.description.data";
 import {BIRKINAU_DESCRIPTION_DATA} from "./birkinau.description.data";
 import {BUNA_DESCRIPTION_DATA} from "./buna.description.data";
-import {CAMP_WARSHA_DESCRIPTION_DATA} from "./camp_warsha.description.data";
+import {CAMP_GANSHUVKA_DESCRIPTION_DATA} from "./camp_warsha.description.data";
 import {KORFU_DESCRIPTION_DATA,KORFU_SYNAGOGUE,KORFU_JEWISH_GETTO,KORFU_OLD_FORTRESS} from "./korfu.description.data";
 import {ATUNA_DESCRIPTION_DATA,ATUNA_JEWISH_MUZIUM,ATUNA_SYNAGOGUE,ATUNA_MONUMENT,ATUNA_HAIDARI} from "./atuna.description.data";
 import {VOLOS_DESCRIPTION_DATA} from "./volos.description.data";
@@ -223,7 +223,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'תצפית על העיר - אנופולי',
-      image: 'saloniky_yad_kula_view.jpg',
+      image: 'saloniky_yad_kula_view2.jpg',
       description: SALONIKY_ANO_POLI,
       playbacks: [
         {
@@ -695,7 +695,7 @@ const BUNA: Community = {
 
 const CAMP_WARSHA: Community = {
   name: 'גנשובקה וורשה',
-  description: CAMP_WARSHA_DESCRIPTION_DATA,
+  description: CAMP_GANSHUVKA_DESCRIPTION_DATA,
   titleImage: 'auschwitz-title.png',
   subtitles: [
     {
