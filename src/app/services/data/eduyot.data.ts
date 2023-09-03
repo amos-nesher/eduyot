@@ -19,13 +19,13 @@ const AFTER_RELEASE = 'לאחר השחרור';
 const SALONIKY: Community = {
   name: 'סלוניקי',
   description: SALONIKY_DESCRIPTION_DATA,
-  titleImage: 'saloniki-title.png',
+  titleImage: 'saloniky/saloniki-title.png',
   categoryView: true,
   subtitles: [
     {
       title: 'המוזיאון היהודי',
       description: SALONIKY_MOSEON,
-      image: "saloniky_jewish_musium.jpg",
+      image: "saloniky/saloniky_jewish_musium.jpg",
       playbacks: [
         {
           personId: 'mano',
@@ -45,7 +45,7 @@ const SALONIKY: Community = {
 
     {
       title: 'מתנות לאביונים',
-      image: 'saloniky_matanot_laevyonim.jpg',
+      image: 'saloniky/saloniky_matanot_laevyonim.jpg',
       description: SALONIKY_EVYONIM,
       playbacks: [
         {
@@ -81,7 +81,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'בית הכנסת מונסטירליס',
-      image: "saloniky_monastir_synagogue.jpg",
+      image: "saloniky/saloniky_monastir_synagogue.jpg",
       description: SALONIKY_MONSTIRELIS,
       playbacks: [
         {
@@ -101,7 +101,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'בתי העלמין בסלוניקי',
-      image: 'saloniky_new_cemetery.jpg',
+      image: 'saloniky/saloniky_new_cemetery.jpg',
       description: SALONIKY_NEW_CEMETRY,
       playbacks: [
         {
@@ -118,7 +118,7 @@ const SALONIKY: Community = {
 
     {
       title: 'המגדל הלבן',
-      image: 'saloniki_white_tower.jpg',
+      image: 'saloniky/saloniki_white_tower.jpg',
       description: SALONIKY_WHITE_TOWER,
       playbacks: [
         ]
@@ -126,7 +126,7 @@ const SALONIKY: Community = {
 
     {
       title: 'כיכר החרות',
-      image: 'saloniky_freedon_square.jpg',
+      image: 'saloniky/saloniky_freedon_square.jpg',
       description: SALONIKY_FREEDOM_CENTER,
       playbacks: [
         {
@@ -148,7 +148,7 @@ const SALONIKY: Community = {
 
     {
       title: 'שכונת הברון הירש',
-      image: "saloniky_baron_hirsh.jpg",
+      image: "saloniky/saloniky_baron_hirsh.jpg",
       description: SALONIKY_BARON_HIRSH,
       playbacks: [
         {
@@ -189,7 +189,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'תחנת הרכבת הישנה',
-      image: 'saloniky_train_station_baron_hirsh3.jpg',
+      image: 'saloniky/saloniky_train_station_baron_hirsh3.jpg',
       description: SALONIKY_RAILWAY_STATION,
       playbacks: [
         {
@@ -223,7 +223,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'תצפית על העיר - אנופולי',
-      image: 'saloniky_yad_kula_view2.jpg',
+      image: 'saloniky/saloniky_yad_kula_view2.jpg',
       description: SALONIKY_ANO_POLI,
       playbacks: [
         {
@@ -235,7 +235,7 @@ const SALONIKY: Community = {
     },
     {
       title: 'שוק מודיאנו',
-      image: 'saloniky_modiano_market.jpg',
+      image: 'saloniky/saloniky_modiano_market.jpg',
       description: SALONIKY_MODIANO_MARKET,
       playbacks: [
       ]
@@ -243,7 +243,7 @@ const SALONIKY: Community = {
 
     {
       title: 'בית הכנסת יד לזיכרון',
-      image: null,
+      image: 'saloniky/saloniki_yad_lazikaron.JPG',
       description: SALONIKY_YAD_LAZIKARON,
       playbacks: [
       ]
