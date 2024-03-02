@@ -54,7 +54,6 @@ ion-header {
     color: #000;
     font-size: 20px;
     padding-right: 28px;
-    margin-bottom: 20px;
 }
 
 .subtitle-image {
@@ -64,4 +63,12 @@ ion-header {
     width: 100%;
     height: auto;
     margin-bottom: -5px;
+}
+
+.subtitle-category-content {
+  background-color: $eduyot-background-color;
+}
+
+.subtitle-category-rectangle {
+  border: 2px solid black;
 }

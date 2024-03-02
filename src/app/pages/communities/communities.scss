@@ -30,13 +30,14 @@
         position: relative;
         font-size: 20px;
         position: absolute;
-        bottom: 10%;
+        bottom: 5%;
         width: 100%;
     }
 
     ion-content.communities-content {
         padding: 0;
         margin: 0;
+		    background-color: $eduyot-background-color;
 
         div.scroll-content {
             padding: 0;

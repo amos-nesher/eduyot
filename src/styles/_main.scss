@@ -37,8 +37,7 @@ ion-title {
 }
 
 .eduyot-bg {
-    background-color: red;
-    //background-color: $eduyot-light;
+    background-color: $eduyot-background-color;
 }
 
 // .edu-page {
@@ -71,6 +70,7 @@ ion-content.eduyot-content {
     padding: 0;
     margin: 0;
     color: $eduyot-light;
+    background-color: $eduyot-background-color;
 
     div.scroll-content {
         padding: 0;
@@ -105,3 +105,6 @@ ion-icon {
 
   }
 
+background-content {
+  --background: #2fdf75;
+}
