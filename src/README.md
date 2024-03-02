@@ -3,7 +3,8 @@
 adb devices
 ```
 
-## Deploy app to device
+## Build app to device
+
 ```
 ionic cordova run android --device
 ```

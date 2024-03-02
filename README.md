@@ -33,13 +33,30 @@ npm install
 ```
 
 ### Run project in local browser (development mode)
+
 ```
+cd c:\eduyot\eduyot
 ionic serve
 ```
 
-### Build project for deploy on Android device
+### Build project for deploy on Android device in debug mode
+
+- rename platforms\android folder to _android
+- run below command
+- output is at c:\eduyot\eduyot\platforms\android\app\build\outputs\apk\debug\app-debug.apk
+
 ```
+cd c:\eduyot\eduyot
+ionic build
 ionic cordova run android --device
+```
+
+### Build release AAB
+
+This is bundle file for google store.
+
+```
+ionic cordova build android --prod --release
 ```
 
 ### Reduce image size of each added image
